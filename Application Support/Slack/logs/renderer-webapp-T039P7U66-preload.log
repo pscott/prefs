@@ -91,3 +91,198 @@
 {
   "version": "V1"
 }
+[11/07/18, 17:27:18:399] error: Nov-7 17:27:18.399 SOCKET-MANAGER (T039P7U66) Socket was closed because #1006: generic error
+[11/07/18, 17:27:19:563] error: Nov-7 17:27:19.562 SOCKET-MANAGER (T039P7U66) Closing socket because #4106: received an "error" message from socket
+[11/07/18, 17:27:19:566] info: Store: REFRESH_TEAMS
+{
+  "teamIds": [
+    "T039P7U66"
+  ]
+}
+[11/07/18, 17:27:19:567] info: Store: UPSERT_WEB_CONTENTS
+{
+  "id": 4,
+  "state": "page-will-navigate",
+  "teamId": "T039P7U66"
+}
+[11/07/18, 17:27:19:570] info: Window is unloading, window.desktop is no longer accessible
+[11/07/18, 17:27:20:372] info: ╔═══════════════════════════════════════════════════════════════════════╗
+[11/07/18, 17:27:20:373] info: ║      Slack 3.3.3, darwin 16.7.0 on x64 at 11/07/18, 17:27:20:369      ║
+[11/07/18, 17:27:20:373] info: ╚═══════════════════════════════════════════════════════════════════════╝
+[11/07/18, 17:27:20:484] info: Initializing local storage instance at path: /Users/pscott/Library/Application Support/Slack/local-settings.json
+[11/07/18, 17:27:20:834] info: cld3::loadModule: loading cld3 module
+[11/07/18, 17:27:20:853] info: cld3Loader::loadModule: running environment is NODE
+[11/07/18, 17:27:20:853] info: cld3Loader::loadModule: constructed module object for runtime
+[11/07/18, 17:27:21:135] info: cld3Loader::initializeRuntime: successfully initialized module
+[11/07/18, 17:27:21:135] info: cld3Loader::loadModule: initialized wasm binary Runtime
+[11/07/18, 17:27:21:141] info: SpellChecker:: updateSpellcheckerLanguage: Skip to set new language null, spellchecker is not available
+[11/07/18, 17:27:21:150] info: TouchBarIntegration: Initializing TouchBar classes
+[11/07/18, 17:27:21:153] info: Main window preload script finished
+{
+  "readyTime": 1036.805274
+}
+[11/07/18, 17:27:23:346] info: Store: UPSERT_WEB_CONTENTS
+{
+  "id": 4,
+  "state": "loaded",
+  "teamId": "T039P7U66"
+}
+[11/07/18, 17:27:24:585] info: Store: UPDATE_SESSION_STATUS
+{
+  "hasValidSession": false,
+  "teamId": "T039P7U66"
+}
+[11/07/18, 17:28:21:156] error: Nov-7 17:28:21.156 TICKLE-MS (T00) Skipping tickle because no user exists
+[11/07/18, 17:29:21:153] error: Nov-7 17:29:21.153 TICKLE-MS (T00) Skipping tickle because no user exists
+[11/07/18, 17:30:21:150] error: Nov-7 17:30:21.150 TICKLE-MS (T00) Skipping tickle because no user exists
+[11/07/18, 17:31:05:976] info: Window is unloading, window.desktop is no longer accessible
+[11/07/18, 17:31:06:976] info: Store: UPSERT_WEB_CONTENTS
+{
+  "id": 4,
+  "state": "page-will-navigate",
+  "teamId": "T039P7U66"
+}
+[11/07/18, 17:31:06:979] info: Window is unloading, window.desktop is no longer accessible
+[11/07/18, 17:31:07:200] info: Store: UPDATE_SESSION_STATUS
+{
+  "hasValidSession": true,
+  "teamId": "T039P7U66"
+}
+[11/07/18, 17:31:07:867] info: ╔═══════════════════════════════════════════════════════════════════════╗
+[11/07/18, 17:31:07:867] info: ║      Slack 3.3.3, darwin 16.7.0 on x64 at 11/07/18, 17:31:07:864      ║
+[11/07/18, 17:31:07:868] info: ╚═══════════════════════════════════════════════════════════════════════╝
+[11/07/18, 17:31:07:973] info: Initializing local storage instance at path: /Users/pscott/Library/Application Support/Slack/local-settings.json
+[11/07/18, 17:31:08:326] info: cld3::loadModule: loading cld3 module
+[11/07/18, 17:31:08:347] info: cld3Loader::loadModule: running environment is NODE
+[11/07/18, 17:31:08:347] info: cld3Loader::loadModule: constructed module object for runtime
+[11/07/18, 17:31:08:630] info: cld3Loader::initializeRuntime: successfully initialized module
+[11/07/18, 17:31:08:630] info: cld3Loader::loadModule: initialized wasm binary Runtime
+[11/07/18, 17:31:08:636] info: SpellChecker:: updateSpellcheckerLanguage: Skip to set new language null, spellchecker is not available
+[11/07/18, 17:31:08:646] info: TouchBarIntegration: Initializing TouchBar classes
+[11/07/18, 17:31:08:649] info: Main window preload script finished
+{
+  "readyTime": 1032.037906
+}
+[11/07/18, 17:31:08:665] info: Store: REFRESH_TEAMS
+{
+  "teamIds": [
+    "T039P7U66"
+  ]
+}
+[11/07/18, 17:31:08:667] info: Store: UPSERT_WEB_CONTENTS
+{
+  "id": 4,
+  "state": "loaded",
+  "teamId": "T039P7U66"
+}
+[11/07/18, 17:31:08:884] info: Store: UPDATE_SESSION_STATUS
+{
+  "hasValidSession": true,
+  "teamId": "T039P7U66"
+}
+[11/07/18, 17:31:09:481] info: ╔═══════════════════════════════════════════════════════════════════════╗
+[11/07/18, 17:31:09:481] info: ║      Slack 3.3.3, darwin 16.7.0 on x64 at 11/07/18, 17:31:09:478      ║
+[11/07/18, 17:31:09:481] info: ╚═══════════════════════════════════════════════════════════════════════╝
+[11/07/18, 17:31:09:583] info: Initializing local storage instance at path: /Users/pscott/Library/Application Support/Slack/local-settings.json
+[11/07/18, 17:31:09:908] info: cld3::loadModule: loading cld3 module
+[11/07/18, 17:31:09:928] info: cld3Loader::loadModule: running environment is NODE
+[11/07/18, 17:31:09:928] info: cld3Loader::loadModule: constructed module object for runtime
+[11/07/18, 17:31:10:202] info: cld3Loader::initializeRuntime: successfully initialized module
+[11/07/18, 17:31:10:202] info: cld3Loader::loadModule: initialized wasm binary Runtime
+[11/07/18, 17:31:10:208] info: SpellChecker:: updateSpellcheckerLanguage: Skip to set new language null, spellchecker is not available
+[11/07/18, 17:31:10:217] info: TouchBarIntegration: Initializing TouchBar classes
+[11/07/18, 17:31:10:220] info: Main window preload script finished
+{
+  "readyTime": 993.831219
+}
+[11/07/18, 17:31:12:315] info: Store: UPSERT_WEB_CONTENTS
+{
+  "id": 4,
+  "state": "loaded",
+  "teamId": "T039P7U66"
+}
+[11/07/18, 17:31:13:838] info: Store: UPDATE_SESSION_STATUS
+{
+  "hasValidSession": true,
+  "teamId": "T039P7U66"
+}
+[11/07/18, 17:31:13:975] info: Store: SELECT_CHANNEL C039P7U6E
+[11/07/18, 17:31:13:975] info: Store: UPDATE_TEAM_LOCALE
+{
+  "locale": "en-US",
+  "teamId": "T039P7U66"
+}
+[11/07/18, 17:31:13:977] info: Store: UPDATE_TEAM_THEME
+{
+  "teamId": "T039P7U66",
+  "theme": {
+    "active_item": "#4C9689",
+    "active_item_text": "#FFFFFF",
+    "active_presence": "#38978D",
+    "badge": "#EB4D5C",
+    "column_bg": "#4D394B",
+    "hover_item": "#3E313C",
+    "menu_bg": "#3E313C",
+    "text_color": "#FFFFFF"
+  }
+}
+[11/07/18, 17:31:14:164] info: Store: UPDATE_TEAM_ICONS
+{
+  "icons": {
+    "image_102": "https://avatars.slack-edge.com/2015-01-16/3430328729_21d38518d6bf3013d981_102.jpg",
+    "image_132": "https://avatars.slack-edge.com/2015-01-16/3430328729_21d38518d6bf3013d981_132.jpg",
+    "image_230": "https://avatars.slack-edge.com/2015-01-16/3430328729_21d38518d6bf3013d981_132.jpg",
+    "image_34": "https://avatars.slack-edge.com/2015-01-16/3430328729_21d38518d6bf3013d981_34.jpg",
+    "image_44": "https://avatars.slack-edge.com/2015-01-16/3430328729_21d38518d6bf3013d981_44.jpg",
+    "image_68": "https://avatars.slack-edge.com/2015-01-16/3430328729_21d38518d6bf3013d981_68.jpg",
+    "image_88": "https://avatars.slack-edge.com/2015-01-16/3430328729_21d38518d6bf3013d981_88.jpg",
+    "image_original": "https://avatars.slack-edge.com/2015-01-16/3430328729_21d38518d6bf3013d981_original.jpg"
+  },
+  "teamId": "T039P7U66"
+}
+[11/07/18, 17:31:14:383] info: postLoadTaskSetup: Desktop client fully loaded
+{
+  "loadedTime": 1125082.45468
+}
+[11/07/18, 17:31:14:619] info: Store: UPDATE_TEAM_LOCALE
+{
+  "locale": "en-US",
+  "teamId": "T039P7U66"
+}
+[11/07/18, 17:31:14:620] info: Store: UPSERT_WEB_CONTENTS
+{
+  "id": 4,
+  "state": "webapp-loaded",
+  "teamId": "T039P7U66"
+}
+[11/07/18, 17:31:14:621] info: Store: UPDATE_SETTINGS
+{
+  "sandboxSigninWindow": true
+}
+[11/07/18, 17:31:14:665] info: Store: STORE_ENTERPRISE_ID_PAIR
+{
+  "enterpriseId": null,
+  "teamId": "T039P7U66"
+}
+[11/07/18, 17:31:15:108] info: postLoadTaskSetup: Setup spellchecker
+{
+  "version": "V1"
+}
+[11/07/18, 18:05:54:383] info: Store: NEW_NOTIFICATION
+{
+  "authorName": "",
+  "avatarImage": "[REDACTED]",
+  "channel": "C7NBD3J5N",
+  "channelName": "[REDACTED]",
+  "content": "[REDACTED]",
+  "id": "qXGruOhEk4kJkQv",
+  "launchUri": "slack://channel?id=C7NBD3J5N&message=1541610352.126000&team=T039P7U66",
+  "msg": "[REDACTED]",
+  "ssbFilename": "knock_brush.mp3",
+  "subtitle": "",
+  "teamId": "T039P7U66",
+  "title": "[REDACTED]"
+}
+[11/07/18, 18:21:47:007] info: Store: SELECT_CHANNEL C7NBD3J5N
+[11/07/18, 18:21:52:478] info: Store: SELECT_CHANNEL DDXBKA36J
+[11/07/18, 18:22:00:161] info: Couldn't get hint text from messages in channel: Failed to fetch recent messages

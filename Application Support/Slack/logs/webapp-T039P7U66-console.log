@@ -205,3 +205,638 @@ info: Nov-7 17:26:52.006 [FOCUS-EVENT] Window focused
 info: Nov-7 17:26:52.054 [CHECK-UNREADS] (T039P7U66) Checking unreads after window became focused
 info: Nov-7 17:26:52.055 [CHECK-UNREADS] (T039P7U66) Not marking C039P7U6E because last_read >= latest && channel is read
 info: Nov-7 17:26:52.908 [FOCUS-EVENT] Window blurred
+info: Nov-7 17:27:18.398 [TIMING] sm_flow_unexpected_close_10|count: 1 (count) 
+error: Nov-7 17:27:18.399 SOCKET-MANAGER (T039P7U66) Socket was closed because #1006: generic error
+info: Nov-7 17:27:18.399 [TIMING] ws_cr_1006_10|count: 1 (count) 
+info: Nov-7 17:27:18.400 [SOCKET-MANAGER] (T039P7U66) Changing from connected to error
+info: Nov-7 17:27:18.400 [SOCKET-MANAGER] (T039P7U66) will stay in error state for up to 10000 ms
+info: 2018/11/7 17:27:18.401  Stacktrace: ↴
+ at e (https://a.slack-edge.com/bv1-6/rollup-core_required_ts.87cf13221603fd58e892.min.js:1:112077)
+at https://a.slack-edge.com/bv1-6/modern.vendor.07f7953466208b1aeefe.min.js:1:22933
+at e (https://a.slack-edge.com/bv1-6/modern.vendor.07f7953466208b1aeefe.min.js:1:863674)
+at e (https://a.slack-edge.com/bv1-6/modern.vendor.07f7953466208b1aeefe.min.js:1:865510)
+at o (https://a.slack-edge.com/bv1-6/modern.vendor.07f7953466208b1aeefe.min.js:1:246252)
+at e (https://a.slack-edge.com/bv1-6/modern.vendor.07f7953466208b1aeefe.min.js:1:866218)
+at e (https://a.slack-edge.com/bv1-6/modern.vendor.07f7953466208b1aeefe.min.js:1:858671)
+at e.<anonymous> (https://a.slack-edge.com/bv1-6/rollup-core_required_libs.73c978ea8f76b4817e0c.min.js:1:1002646)
+at e (https://a.slack-edge.com/bv1-6/modern.vendor.07f7953466208b1aeefe.min.js:1:4876415)
+at WebSocket._socket.onclose (https://a.slack-edge.com/bv1-6/modern.vendor.07f7953466208b1aeefe.min.js:1:4874921)
+info: Nov-7 17:27:18.401 [SOCKET-MANAGER] (T039P7U66) Changing from error to wait_for_rate_limit
+info: Nov-7 17:27:18.401 [SOCKET-MANAGER] (T039P7U66) will stay in wait_for_rate_limit state for up to 120000 ms
+info: Nov-7 17:27:18.402 [SOCKET-MANAGER] (T039P7U66) backing off: will wait for 959 ms
+info: Nov-7 17:27:18.402 [TIMING] sm_flow_wait_for_rate_limit|count: 959 (count) 
+info: Nov-7 17:27:18.403 [INFO] MSDisconnected: 
+info: Nov-7 17:27:18.405 [INFO] Hiding the reconnection banner because we are disconnected
+info: Nov-7 17:27:19.388 [SOCKET-MANAGER] (T039P7U66) Changing from wait_for_rate_limit to connect
+info: Nov-7 17:27:19.388 [SOCKET-MANAGER] (T039P7U66) will stay in connect state for up to 10000 ms
+info: Nov-7 17:27:19.388 [SOCKET-MANAGER] (T039P7U66) Changing from connect to checking_fast_reconnect
+info: Nov-7 17:27:19.388 [SOCKET-MANAGER] (T039P7U66) will stay in checking_fast_reconnect state for up to 60000 ms
+info: Nov-7 17:27:19.389 [TIMING] sm_flow_fast_reconnect_10|count: 1 (count) 
+info: Nov-7 17:27:19.389 [SOCKET-MANAGER] (T039P7U66) Changing from checking_fast_reconnect to fast_reconnecting
+info: Nov-7 17:27:19.389 [SOCKET-MANAGER] (T039P7U66) will stay in fast_reconnecting state for up to 20000 ms
+info: Nov-7 17:27:19.562 [SOCKET-MANAGER] (T039P7U66) received an error of type 401: invalid_auth
+info: Nov-7 17:27:19.562 [TIMING] ws_err_10|count: 1 (count) 
+info: Nov-7 17:27:19.562 [TIMING] ws_err_invalid_auth_10|count: 1 (count) 
+error: Nov-7 17:27:19.562 SOCKET-MANAGER (T039P7U66) Closing socket because #4106: received an "error" message from socket
+info: Nov-7 17:27:19.563 [TIMING] ws_cr_4106_10|count: 1 (count) 
+info: Nov-7 17:27:19.563 [SOCKET-MANAGER] (T039P7U66) Changing from fast_reconnecting to error
+info: Nov-7 17:27:19.563 [SOCKET-MANAGER] (T039P7U66) will stay in error state for up to 10000 ms
+info: 2018/11/7 17:27:19.564  Stacktrace: ↴
+ at e (https://a.slack-edge.com/bv1-6/rollup-core_required_ts.87cf13221603fd58e892.min.js:1:112077)
+at https://a.slack-edge.com/bv1-6/modern.vendor.07f7953466208b1aeefe.min.js:1:22933
+at e (https://a.slack-edge.com/bv1-6/modern.vendor.07f7953466208b1aeefe.min.js:1:863674)
+at e (https://a.slack-edge.com/bv1-6/modern.vendor.07f7953466208b1aeefe.min.js:1:865510)
+at e (https://a.slack-edge.com/bv1-6/modern.vendor.07f7953466208b1aeefe.min.js:1:859695)
+at e.<anonymous> (https://a.slack-edge.com/bv1-6/rollup-core_required_libs.73c978ea8f76b4817e0c.min.js:1:1002646)
+at e (https://a.slack-edge.com/bv1-6/modern.vendor.07f7953466208b1aeefe.min.js:1:4877219)
+at WebSocket._socket.onmessage (https://a.slack-edge.com/bv1-6/modern.vendor.07f7953466208b1aeefe.min.js:1:4874984)
+info: Nov-7 17:27:19.564 [SOCKET-MANAGER] (T039P7U66) Changing from error to wait_for_rate_limit
+info: Nov-7 17:27:19.564 [SOCKET-MANAGER] (T039P7U66) will stay in wait_for_rate_limit state for up to 120000 ms
+info: Nov-7 17:27:19.564 [SOCKET-MANAGER] (T039P7U66) backing off: will wait for 1491 ms
+info: Nov-7 17:27:19.564 [TIMING] sm_flow_wait_for_rate_limit|count: 1491 (count) 
+info: Nov-7 17:27:19.565 [RELOAD] "Reloading due to error invalid_auth"
+info: Nov-7 17:27:19.572 [INFO] client window unloaded!
+info: Nov-7 17:27:19.573 [WINDOW-UNLOADING] (T039P7U66) workspace handling window unloading event
+info: Nov-7 17:27:19.573 [TIMING] session_lifespan|timing: 866870.9950000001 seconds 
+info: Nov-7 17:27:19.573 [TIMING] session_lifespan|timing: 866871.1350000001 seconds 
+info: Nov-7 17:27:19.573 [TIMING] session_age|timing: 866871.2500000001 seconds (ephemeral)
+info: Nov-7 17:27:19.573 [TIMING] session_age|timing: 866871.5350000001 seconds (ephemeral)
+info: JQMIGRATE: Migrate is installed with logging active, version 3.0.0
+warn: Nov-7 17:27:23.072 error getActiveModelOb found no ob
+warn: Nov-7 17:27:23.072 TS.boot_data.channel_id: undefined
+warn: Nov-7 17:27:23.072 TS.boot_data.im_id: undefined
+warn: Nov-7 17:27:23.072 TS.boot_data.group_id: undefined
+warn: Nov-7 17:27:23.073 error getActiveModelOb found no ob
+warn: Nov-7 17:27:23.073 TS.boot_data.channel_id: undefined
+warn: Nov-7 17:27:23.073 TS.boot_data.im_id: undefined
+warn: Nov-7 17:27:23.073 TS.boot_data.group_id: undefined
+info: Nov-7 17:27:23.278 [BOOT] booted! pri:0 version:1541544023 start_ms:1541608041310 (1968ms ago)
+info: SoundManager 2: No Flash detected. Trying HTML5-only mode.
+info: SoundManager V2.97a.20170601 (HTML5-only mode)
+info: SoundManager 2 HTML5 support: mp3 = true, mp4 = true, ogg = true, opus = true, wav = true, flac = true
+info: SoundManager 2: Ready. ✓
+info: Nov-7 17:27:23.332 [TIMING] session_load_count_web|count: 1 (count) 
+info: Nov-7 17:27:23.332 [INFO] no TS.client on page:https://42born2code.slack.com/
+info: Nov-7 17:27:23.419 [INFO] running without a user
+error: Nov-7 17:28:21.156 TICKLE-MS (T00) Skipping tickle because no user exists
+error: Nov-7 17:29:21.153 TICKLE-MS (T00) Skipping tickle because no user exists
+error: Nov-7 17:30:21.150 TICKLE-MS (T00) Skipping tickle because no user exists
+info: Nov-7 17:30:58.268 [FOCUS-EVENT] Window focused
+info: Nov-7 17:31:05.977 [WINDOW-UNLOADING] (T00) workspace handling window unloading event
+info: Nov-7 17:31:06.980 [WINDOW-UNLOADING] (T00) workspace handling window unloading event
+info: JQMIGRATE: Migrate is installed with logging active, version 3.0.0
+info: Nov-7 17:31:11.966 [BOOT] booted! pri:0 version:1541544023 start_ms:1541608270511 (1455ms ago)
+info: Nov-7 17:31:11.966 [BOOT] Starting incremental boot (early)
+warn: Nov-7 17:31:12.062 error getActiveModelOb found no ob
+warn: Nov-7 17:31:12.062 TS.boot_data.channel_id: undefined
+warn: Nov-7 17:31:12.062 TS.boot_data.im_id: undefined
+warn: Nov-7 17:31:12.063 TS.boot_data.group_id: undefined
+warn: Nov-7 17:31:12.063 error getActiveModelOb found no ob
+warn: Nov-7 17:31:12.063 TS.boot_data.channel_id: undefined
+warn: Nov-7 17:31:12.063 TS.boot_data.im_id: undefined
+warn: Nov-7 17:31:12.063 TS.boot_data.group_id: undefined
+info: SoundManager 2: No Flash detected. Trying HTML5-only mode.
+info: SoundManager V2.97a.20170601 (HTML5-only mode)
+info: SoundManager 2 HTML5 support: mp3 = true, mp4 = true, ogg = true, opus = true, wav = true, flac = true
+info: SoundManager 2: Ready. ✓
+info: Nov-7 17:31:12.300 [TIMING] session_load_count_client|count: 2 (count) 
+info: Nov-7 17:31:12.306 [SOCKET-MANAGER] (T039P7U66) Changing from never_connected to prov_connect
+info: Nov-7 17:31:12.306 [SOCKET-MANAGER] (T039P7U66) will stay in prov_connect state for up to 10000 ms
+info: Nov-7 17:31:12.307 [TIMING] sm_flow_connect_prov_10|count: 1 (count) 
+info: Nov-7 17:31:12.307 [SOCKET-MANAGER] (T039P7U66) Changing from prov_connect to prov_connecting
+info: Nov-7 17:31:12.308 [SOCKET-MANAGER] (T039P7U66) will stay in prov_connecting state for up to 35000 ms
+info: Nov-7 17:31:12.599 [API-Q] (T039P7U66) 785d4439-1541608272.597 apps.actions.list called with reason: no_reason_provided
+info: Nov-7 17:31:12.599 [API-Q] (T039P7U66) 785d4439-1541608272.597 apps.actions.list is ENQUEUED
+info: Nov-7 17:31:12.600 [API-Q] (T039P7U66) 785d4439-1541608272.597 apps.actions.list is ACTIVE
+info: Nov-7 17:31:12.601 [TIMING] prq_time_to_visible|timing: 3932.52001953125ms 
+warn: Nov-7 17:31:12.772 updateTeamIcon was called, but missing an image to set
+info: Nov-7 17:31:12.949 [TIMING] client_content_visible_4|timing: 4280.18505859375ms 
+info: Nov-7 17:31:12.949 [BOOT] Finalizing incremental boot
+info: Nov-7 17:31:12.956 [METRICS] Starting timers for metrics collection
+info: Nov-7 17:31:12.957 [FLANNEL] (T039P7U66) received a user_counts_request call while we are not connected; deferring
+info: Nov-7 17:31:13.534 [SWITCH-TO-CHANNEL] (T039P7U66) Switching to C039P7U6E at end
+info: Nov-7 17:31:13.561 [API-Q] (T039P7U66) 785d4439-1541608273.560 promo.banner called with reason: no_reason_provided
+info: Nov-7 17:31:13.561 [API-Q] (T039P7U66) 785d4439-1541608273.560 promo.banner is ENQUEUED
+info: Nov-7 17:31:13.562 [API-Q] (T039P7U66) 785d4439-1541608273.560 promo.banner is ACTIVE
+info: Nov-7 17:31:13.570 [PERF] (T039P7U66) First meaningful paint: 4640ms
+info: Nov-7 17:31:13.570 [TIMING] ttfmp_legacy|timing: 4640ms 
+info: Nov-7 17:31:13.571 [TIMING] prq_time_to_usable|timing: 4902.5ms 
+info: Nov-7 17:31:13.854 [API-Q] (T039P7U66) 785d4439-1541608272.597 apps.actions.list is RESOLVED
+info: Nov-7 17:31:13.857 [TIMING] sm_flow_connected_prov_connected|count: 1 (count) 
+info: Nov-7 17:31:13.857 [SOCKET-MANAGER] (T039P7U66) Changing from prov_connecting to prov_connected
+info: Nov-7 17:31:13.857 [SOCKET-MANAGER] (T039P7U66) will stay in prov_connected state for up to 60000 ms
+info: Nov-7 17:31:13.860 [FLANNEL] (T039P7U66) connected! Continuing deferred user_counts_request call
+info: Nov-7 17:31:13.864 [INFO] Got start data from Socket Manager; hydrating it
+warn: Nov-7 17:31:13.866 activity is not scalar! it needs to be handled by upsertTeam specifically to test if it has changed! object
+warn: Nov-7 17:31:13.867 prefs is not scalar! it needs to be handled by upsertMember specifically to test if it has changed! object
+info: Nov-7 17:31:13.956 [BOOT] Completed incremental boot
+info: Nov-7 17:31:13.960 [API-Q] (T039P7U66) 785d4439-1541608273.960 i18n.translations.get called with reason: no_reason_provided
+info: Nov-7 17:31:13.960 [API-Q] (T039P7U66) 785d4439-1541608273.960 i18n.translations.get is ENQUEUED
+info: Nov-7 17:31:13.961 [API-Q] (T039P7U66) 785d4439-1541608273.960 i18n.translations.get is ACTIVE
+info: Nov-7 17:31:13.969 [API-Q] (T039P7U66) 785d4439-1541608273.968 emoji.list called with reason: no_reason_provided
+info: Nov-7 17:31:13.969 [API-Q] (T039P7U66) 785d4439-1541608273.968 emoji.list is ENQUEUED
+info: Nov-7 17:31:13.969 [API-Q] (T039P7U66) 785d4439-1541608273.968 emoji.list is ACTIVE
+info: Nov-7 17:31:13.979 [TIMING] ufm_teams_fetch|count: 1 (count) 
+info: Nov-7 17:31:13.979 [UNKNOWN-FETCH-MANAGER] (T039P7U66) requesting T039P7U66 (1)
+info: Nov-7 17:31:13.980 [UNKNOWN-FETCH-MANAGER] (T039P7U66) received T039P7U66 (1)
+info: Nov-7 17:31:13.987 [TIMING] ufm_members_fetch|count: 15 (count) 
+info: Nov-7 17:31:13.987 [UNKNOWN-FETCH-MANAGER] (T039P7U66) requesting UCUJ7C3QS,U1XKJ6A69,U5DCFQD24,U1XL92BGX,U0744UWAJ,U03S9FDJE,USLACKBOT,U5DBZ3P7X,U75T96J9E,UD36WRSGZ,UDVKWGQ69,UCUH21P7U,UCXT2QJK1,UCVFA1DPX,UCTQYCHDE (1)
+info: Nov-7 17:31:13.989 [TIMING] ufm_channels_fetch|count: 1 (count) 
+info: Nov-7 17:31:13.989 [UNKNOWN-FETCH-MANAGER] (T039P7U66) requesting C039P7U6E (1)
+info: Nov-7 17:31:13.991 [UNKNOWN-FETCH-MANAGER] (T039P7U66) received C039P7U6E (1)
+info: Nov-7 17:31:14.037 [API-Q] (T039P7U66) 785d4439-1541608273.560 promo.banner is RESOLVED
+info: Nov-7 17:31:14.165 [CHECK-UNREADS] (T039P7U66) Checking unreads after fully booted
+info: Nov-7 17:31:14.166 [CHECK-UNREADS] (T039P7U66) Not marking C039P7U6E, clearing ghost last_read
+info: Nov-7 17:31:14.170 [API-Q] (T039P7U66) 785d4439-1541608273.960 i18n.translations.get is RESOLVED
+info: Nov-7 17:31:14.186 [UNKNOWN-FETCH-MANAGER] (T039P7U66) received UCUJ7C3QS,U1XKJ6A69,U5DCFQD24,U1XL92BGX,U0744UWAJ,U03S9FDJE,USLACKBOT,U5DBZ3P7X,U75T96J9E,UD36WRSGZ,UDVKWGQ69,UCUH21P7U,UCXT2QJK1,UCVFA1DPX,UCTQYCHDE (1)
+info: Nov-7 17:31:14.198 [API-Q] (T039P7U66) 785d4439-1541608273.968 emoji.list is RESOLVED
+info: Nov-7 17:31:14.379 [BOOT] _maybeFinalizeOrOpenConnectionToMS will finalize SocketManager
+info: Nov-7 17:31:14.380 [TIMING] sm_flow_finalize_prov_10|count: 1 (count) 
+info: Nov-7 17:31:14.380 [SOCKET-MANAGER] (T039P7U66) Changing from prov_connected to prov_finalize
+info: Nov-7 17:31:14.380 [SOCKET-MANAGER] (T039P7U66) will stay in prov_finalize state for up to 10000 ms
+info: Nov-7 17:31:14.380 [SOCKET-MANAGER] (T039P7U66) Changing from prov_finalize to prov_finalizing
+info: Nov-7 17:31:14.380 [SOCKET-MANAGER] (T039P7U66) will stay in prov_finalizing state for up to 10000 ms
+info: Nov-7 17:31:14.381 [SOCKET-MANAGER] (T039P7U66) Changing from prov_finalizing to connected
+info: Nov-7 17:31:14.381 [SOCKET-MANAGER] (T039P7U66) will stay in connected state for up to Infinity ms
+info: Nov-7 17:31:14.381 [TIMING] sm_flow_finalize_prov_ok_10|count: 1 (count) 
+info: Nov-7 17:31:14.381 [BOOT] _maybeFinalizeOrOpenConnectionToMS did finalize SocketManager
+info: Nov-7 17:31:14.437 [BOOT] Finished first boot 2139 ms after DOM ready
+info: Nov-7 17:31:14.445 [API-Q] (T039P7U66) 785d4439-1541608274.444 help.issues.list called with reason: no_reason_provided
+info: Nov-7 17:31:14.445 [API-Q] (T039P7U66) 785d4439-1541608274.444 help.issues.list is ENQUEUED
+info: Nov-7 17:31:14.445 [API-Q] (T039P7U66) 785d4439-1541608274.444 help.issues.list is ACTIVE
+info: Nov-7 17:31:14.447 [API-Q] (T039P7U66) 785d4439-1541608274.447 dnd.teamInfo called with reason: no_reason_provided
+info: Nov-7 17:31:14.447 [API-Q] (T039P7U66) 785d4439-1541608274.447 dnd.teamInfo is ENQUEUED
+info: Nov-7 17:31:14.447 [API-Q] (T039P7U66) 785d4439-1541608274.447 dnd.teamInfo is ACTIVE
+info: Nov-7 17:31:14.449 [INFO] MSConnected: 
+info: Nov-7 17:31:14.450 [TIMING] client_load|timing: 4155.845ms 
+info: Nov-7 17:31:14.450 [TIMING] client_load_react_msgs|timing: 4155.9400000000005ms 
+info: Nov-7 17:31:14.450 [TIMING] client_total_load|timing: 5781.8349609375ms 
+info: Nov-7 17:31:14.450 [TIMING] pt_redirectStart|timing: 44ms 
+info: Nov-7 17:31:14.451 [TIMING] pt_redirectEnd|timing: 261ms 
+info: Nov-7 17:31:14.451 [TIMING] pt_fetchStart|timing: 261ms 
+info: Nov-7 17:31:14.451 [TIMING] pt_domainLookupStart|timing: 261ms 
+info: Nov-7 17:31:14.451 [TIMING] pt_domainLookupEnd|timing: 261ms 
+info: Nov-7 17:31:14.451 [TIMING] pt_connectStart|timing: 261ms 
+info: Nov-7 17:31:14.451 [TIMING] pt_connectEnd|timing: 261ms 
+info: Nov-7 17:31:14.451 [TIMING] pt_requestStart|timing: 261ms 
+info: Nov-7 17:31:14.451 [TIMING] pt_responseStart|timing: 433ms 
+info: Nov-7 17:31:14.451 [TIMING] pt_responseEnd|timing: 583ms 
+info: Nov-7 17:31:14.451 [TIMING] pt_domLoading|timing: 434ms 
+info: Nov-7 17:31:14.451 [TIMING] pt_domComplete|timing: 3627ms 
+info: Nov-7 17:31:14.451 [TIMING] pt_domContentLoadedEventStart|timing: 3585ms 
+info: Nov-7 17:31:14.451 [TIMING] pt_domContentLoadedEventEnd|timing: 3626ms 
+info: Nov-7 17:31:14.451 [TIMING] pt_domInteractive|timing: 3580ms 
+info: Nov-7 17:31:14.451 [TIMING] pt_section_redirect|timing: 217ms 
+info: Nov-7 17:31:14.452 [TIMING] pt_section_app_cache|timing: 0ms 
+info: Nov-7 17:31:14.452 [TIMING] pt_section_dns|timing: 0ms 
+info: Nov-7 17:31:14.452 [TIMING] pt_section_tcp|timing: 0ms 
+info: Nov-7 17:31:14.452 [TIMING] pt_section_request|timing: 172ms 
+info: Nov-7 17:31:14.452 [TIMING] pt_section_response|timing: 150ms 
+info: Nov-7 17:31:14.452 [TIMING] pt_section_processed|timing: 3193ms 
+info: Nov-7 17:31:14.452 [TIMING] pt_section_parsed|timing: 3146ms 
+info: Nov-7 17:31:14.452 [TIMING] pt_section_ready|timing: 47ms 
+info: Nov-7 17:31:14.452 [TIMING] pt_section_scripts_executed|timing: 41ms 
+info: Nov-7 17:31:14.452 [TIMING] inline_script_nodes|count: 22 (count) 
+info: Nov-7 17:31:14.453 [TIMING] inline_style_nodes|count: 7 (count) 
+info: Nov-7 17:31:14.453 [TIMING] external_script_nodes|count: 11 (count) 
+info: Nov-7 17:31:14.453 [TIMING] external_link_nodes|count: 8 (count) 
+info: Nov-7 17:31:14.491 [API-Q] (T039P7U66) 785d4439-1541608274.490 users.counts called with reason: users-counts-api/fetchUsersCounts
+info: Nov-7 17:31:14.491 [API-Q] (T039P7U66) 785d4439-1541608274.490 users.counts is ENQUEUED
+info: Nov-7 17:31:14.491 [API-Q] (T039P7U66) 785d4439-1541608274.490 users.counts is ACTIVE
+info: Nov-7 17:31:14.531 [HISTORY-FETCH] (T039P7U66) Fetching history for message pane: C039P7U6E oldest: 1541584650.167600 latest: null
+info: Nov-7 17:31:14.532 [API-Q] (T039P7U66) 785d4439-1541608274.532 conversations.history called with reason: message-pane/requestHistory
+info: Nov-7 17:31:14.532 [API-Q] (T039P7U66) 785d4439-1541608274.532 conversations.history is ENQUEUED
+info: Nov-7 17:31:14.533 [API-Q] (T039P7U66) 785d4439-1541608274.532 conversations.history is ACTIVE
+info: Nov-7 17:31:14.606 [API-Q] (T039P7U66) 785d4439-1541608274.606 dnd.teamInfo called with reason: no_reason_provided
+info: Nov-7 17:31:14.607 [API-Q] (T039P7U66) 785d4439-1541608274.606 dnd.teamInfo is ENQUEUED
+info: Nov-7 17:31:14.607 [API-Q] (T039P7U66) 785d4439-1541608274.606 dnd.teamInfo is ACTIVE
+info: Nov-7 17:31:14.622 [TIMING] longtask|timing: 119ms 
+info: Nov-7 17:31:14.623 [TIMING] ufm_members_fetch|count: 1 (count) 
+info: Nov-7 17:31:14.623 [UNKNOWN-FETCH-MANAGER] (T039P7U66) requesting U1XKPSVTK (1)
+info: Nov-7 17:31:14.626 [API-Q] (T039P7U66) 785d4439-1541608274.444 help.issues.list is RESOLVED
+info: Nov-7 17:31:14.628 [API-Q] (T039P7U66) 785d4439-1541608274.447 dnd.teamInfo is RESOLVED
+info: Nov-7 17:31:14.634 [MESSAGE-LIST] (T039P7U66) componentWillReceiveProps isLoading: true isLoadingOlder: null timestamps: 49
+info: Nov-7 17:31:14.674 [API-Q] (T039P7U66) 785d4439-1541608274.532 conversations.history is RESOLVED
+info: Nov-7 17:31:14.678 [UNREAD-COUNTS] (T039P7U66) Counting unreads in C039P7U6E because (1) timestamps added
+info: Nov-7 17:31:14.682 [UNKNOWN-FETCH-MANAGER] (T039P7U66) received U1XKPSVTK (1)
+info: Nov-7 17:31:14.685 [MESSAGE-LIST] (T039P7U66) componentWillReceiveProps isLoading: false isLoadingOlder: false timestamps: 49
+info: Nov-7 17:31:14.688 [CHECK-UNREADS] (T039P7U66) unreadLineVisible updated: false -> true
+info: Nov-7 17:31:14.941 [API-Q] (T039P7U66) 785d4439-1541608274.490 users.counts is RESOLVED
+info: Nov-7 17:31:14.956 [COUNTS] (T039P7U66) Completed counts processing
+info: Nov-7 17:31:15.016 [API-Q] (T039P7U66) 785d4439-1541608274.606 dnd.teamInfo is RESOLVED
+info: Nov-7 17:31:15.094 [CHECK-UNREADS] (T039P7U66) Checking unreads after unread line became visible
+info: Nov-7 17:31:15.095 [CHECK-UNREADS] (T039P7U66) Not marking C039P7U6E because last_read >= latest && channel is read
+info: Nov-7 17:31:17.744 [FOCUS-EVENT] Window blurred
+info: Nov-7 17:31:46.348 [TIMING] session_age|timing: 36055.425 seconds (ephemeral)
+info: Nov-7 17:31:46.350 [TIMING] session_age|timing: 36057.030000000006 seconds (ephemeral)
+info: Nov-7 17:33:11.745 [API-Q] (T039P7U66) 785d4439-1541608391.744 channels.suggestions called with reason: no_reason_provided
+info: Nov-7 17:33:11.745 [API-Q] (T039P7U66) 785d4439-1541608391.744 channels.suggestions is ENQUEUED
+info: Nov-7 17:33:11.745 [API-Q] (T039P7U66) 785d4439-1541608391.744 channels.suggestions is ACTIVE
+info: Nov-7 17:33:12.109 [API-Q] (T039P7U66) 785d4439-1541608391.744 channels.suggestions is RESOLVED
+info: Nov-7 17:34:23.898 [TIMING] ufm_members_fetch|count: 1 (count) 
+info: Nov-7 17:34:23.898 [UNKNOWN-FETCH-MANAGER] (T039P7U66) requesting U0BS9P2UE (1)
+info: Nov-7 17:34:24.106 [UNKNOWN-FETCH-MANAGER] (T039P7U66) received U0BS9P2UE (1)
+info: Nov-7 17:34:31.867 [TIMING] session_age|timing: 201582.20000000004 seconds (ephemeral)
+info: Nov-7 17:37:57.435 [TIMING] ufm_members_fetch|count: 1 (count) 
+info: Nov-7 17:37:57.435 [UNKNOWN-FETCH-MANAGER] (T039P7U66) requesting U2X0EQWF3 (1)
+info: Nov-7 17:37:58.334 [UNKNOWN-FETCH-MANAGER] (T039P7U66) received U2X0EQWF3 (1)
+info: Nov-7 17:38:23.173 [TIMING] session_age|timing: 432899.67500000005 seconds (ephemeral)
+info: Nov-7 17:39:02.854 [COUNTS] (T039P7U66) Updated unread_cnt for C3QG85SG6: 2
+info: Nov-7 17:39:03.111 [TIMING] ufm_members_fetch|count: 1 (count) 
+info: Nov-7 17:39:03.111 [UNKNOWN-FETCH-MANAGER] (T039P7U66) requesting U2A4KHZJB (1)
+info: Nov-7 17:39:04.512 [UNKNOWN-FETCH-MANAGER] (T039P7U66) received U2A4KHZJB (1)
+info: Nov-7 17:39:16.648 [COUNTS] (T039P7U66) Updated unread_cnt for C3QG85SG6: 3
+info: Nov-7 17:39:17.378 [TIMING] ufm_members_fetch|count: 1 (count) 
+info: Nov-7 17:39:17.378 [UNKNOWN-FETCH-MANAGER] (T039P7U66) requesting UD563LF2S (1)
+info: Nov-7 17:39:18.377 [UNKNOWN-FETCH-MANAGER] (T039P7U66) received UD563LF2S (1)
+info: Nov-7 17:39:23.502 [COUNTS] (T039P7U66) Updated unread_cnt for C3QG85SG6: 4
+info: Nov-7 17:39:29.263 [TIMING] session_age|timing: 498992.93000000005 seconds (ephemeral)
+info: Nov-7 17:39:32.031 [COUNTS] (T039P7U66) Updated unread_cnt for C3QG85SG6: 5
+info: Nov-7 17:39:55.640 [COUNTS] (T039P7U66) Updated unread_cnt for C3QG85SG6: 6
+info: Nov-7 17:40:46.806 [COUNTS] (T039P7U66) Updated unread_cnt for C3QG85SG6: 7
+info: Nov-7 17:41:06.128 [TIMING] ufm_members_fetch|count: 1 (count) 
+info: Nov-7 17:41:06.128 [UNKNOWN-FETCH-MANAGER] (T039P7U66) requesting UD4TYJV2T (1)
+info: Nov-7 17:41:07.477 [UNKNOWN-FETCH-MANAGER] (T039P7U66) received UD4TYJV2T (1)
+info: Nov-7 17:41:09.395 [TIMING] session_age|timing: 599129.71 seconds (ephemeral)
+info: Nov-7 17:42:06.135 [COUNTS] (T039P7U66) Updated unread_cnt for C3QG85SG6: 8
+info: Nov-7 17:42:07.486 [TIMING] ufm_members_fetch|count: 1 (count) 
+info: Nov-7 17:42:07.486 [UNKNOWN-FETCH-MANAGER] (T039P7U66) requesting U0FFR78N7 (1)
+info: Nov-7 17:42:08.063 [UNKNOWN-FETCH-MANAGER] (T039P7U66) received U0FFR78N7 (1)
+info: Nov-7 17:42:15.472 [TIMING] session_age|timing: 665209.45 seconds (ephemeral)
+info: Nov-7 17:42:22.774 [COUNTS] (T039P7U66) Updated unread_cnt for C3QG85SG6: 9
+info: Nov-7 17:42:33.306 [COUNTS] (T039P7U66) Updated unread_cnt for C3QG85SG6: 10
+info: Nov-7 17:42:38.722 [COUNTS] (T039P7U66) Updated unread_cnt for C3QG85SG6: 11
+info: Nov-7 17:42:41.482 [COUNTS] (T039P7U66) Updated unread_cnt for C3QG85SG6: 12
+info: Nov-7 17:42:46.824 [INFO] UDZ2P32NB joined the team
+info: Nov-7 17:42:46.899 [(T039P7U66)] UDZ2P32NB joined channel C7P0YTCTU
+warn: Nov-7 17:42:46.906 (T039P7U66) Notification (message) suppressed because:
+The message was a join or leave message
+info: Nov-7 17:42:46.991 [(T039P7U66)] UDZ2P32NB joined channel C7NB7PZ6U
+warn: Nov-7 17:42:46.996 (T039P7U66) Notification (message) suppressed because:
+The message was a join or leave message
+info: Nov-7 17:42:47.075 [(T039P7U66)] UDZ2P32NB joined channel C7PSZQK7G
+warn: Nov-7 17:42:47.086 (T039P7U66) Notification (message) suppressed because:
+The message was a join or leave message
+info: Nov-7 17:42:47.159 [(T039P7U66)] UDZ2P32NB joined channel C7P52T7U5
+warn: Nov-7 17:42:47.169 (T039P7U66) Notification (message) suppressed because:
+The message was a join or leave message
+info: Nov-7 17:42:47.240 [(T039P7U66)] UDZ2P32NB joined channel C7P536D5K
+warn: Nov-7 17:42:47.250 (T039P7U66) Notification (message) suppressed because:
+The message was a join or leave message
+info: Nov-7 17:42:47.345 [(T039P7U66)] UDZ2P32NB joined channel CAW4XU70T
+warn: Nov-7 17:42:47.357 (T039P7U66) Notification (message) suppressed because:
+The message was a join or leave message
+info: Nov-7 17:42:47.429 [(T039P7U66)] UDZ2P32NB joined channel C7NF60E0Z
+warn: Nov-7 17:42:47.452 (T039P7U66) Notification (message) suppressed because:
+The message was a join or leave message
+info: Nov-7 17:42:47.536 [(T039P7U66)] UDZ2P32NB joined channel C7P0Z4F3L
+warn: Nov-7 17:42:47.537 (T039P7U66) Notification (message) suppressed because:
+The message was a join or leave message
+info: Nov-7 17:42:47.612 [(T039P7U66)] UDZ2P32NB joined channel C7NBD3J5N
+warn: Nov-7 17:42:47.623 (T039P7U66) Notification (message) suppressed because:
+The message was a join or leave message
+info: Nov-7 17:42:47.690 [(T039P7U66)] UDZ2P32NB joined channel C04GT8U3Y
+warn: Nov-7 17:42:47.703 (T039P7U66) Notification (message) suppressed because:
+The message was a join or leave message
+info: Nov-7 17:42:47.779 [(T039P7U66)] UDZ2P32NB joined channel C3QG85SG6
+warn: Nov-7 17:42:47.788 (T039P7U66) Notification (message) suppressed because:
+The message was a join or leave message
+info: Nov-7 17:42:47.849 [(T039P7U66)] UDZ2P32NB joined channel C1LG33P8U
+warn: Nov-7 17:42:47.856 (T039P7U66) Notification (message) suppressed because:
+The message was a join or leave message
+info: Nov-7 17:42:47.923 [(T039P7U66)] UDZ2P32NB joined channel C0G07RYJD
+warn: Nov-7 17:42:47.935 (T039P7U66) Notification (message) suppressed because:
+The message was a join or leave message
+info: Nov-7 17:42:48.034 [(T039P7U66)] UDZ2P32NB joined channel C039P7U6E
+info: Nov-7 17:42:48.036 [TIMING] session_age|timing: 697775.105 seconds (ephemeral)
+info: Nov-7 17:42:49.394 [TIMING] ufm_members_fetch|count: 1 (count) 
+info: Nov-7 17:42:49.394 [UNKNOWN-FETCH-MANAGER] (T039P7U66) requesting U76GKJJ9Z (1)
+info: Nov-7 17:42:50.301 [UNKNOWN-FETCH-MANAGER] (T039P7U66) received U76GKJJ9Z (1)
+info: Nov-7 17:42:57.608 [COUNTS] (T039P7U66) Updated unread_cnt for C3QG85SG6: 13
+info: Nov-7 17:42:58.351 [TIMING] ufm_members_fetch|count: 1 (count) 
+info: Nov-7 17:42:58.351 [UNKNOWN-FETCH-MANAGER] (T039P7U66) requesting U76PH1UR3 (1)
+info: Nov-7 17:42:59.360 [UNKNOWN-FETCH-MANAGER] (T039P7U66) received U76PH1UR3 (1)
+info: Nov-7 17:42:59.925 [COUNTS] (T039P7U66) Updated unread_cnt for C3QG85SG6: 14
+info: Nov-7 17:43:21.230 [COUNTS] (T039P7U66) Updated unread_cnt for C3QG85SG6: 15
+info: Nov-7 17:43:21.234 [TIMING] session_age|timing: 730975.125 seconds (ephemeral)
+info: Nov-7 17:43:30.042 [COUNTS] (T039P7U66) Updated unread_cnt for C3QG85SG6: 16
+info: Nov-7 17:43:42.570 [COUNTS] (T039P7U66) Updated unread_cnt for C3QG85SG6: 17
+info: Nov-7 17:44:00.151 [COUNTS] (T039P7U66) Updated unread_cnt for C3QG85SG6: 18
+info: Nov-7 17:44:14.257 [COUNTS] (T039P7U66) Updated unread_cnt for C3QG85SG6: 19
+info: Nov-7 17:44:26.383 [COUNTS] (T039P7U66) Updated unread_cnt for C3QG85SG6: 20
+info: Nov-7 17:44:34.568 [COUNTS] (T039P7U66) Updated unread_cnt for C3QG85SG6: 21
+info: Nov-7 17:45:54.797 [COUNTS] (T039P7U66) Updated unread_cnt for C3QG85SG6: 22
+info: Nov-7 17:45:55.323 [TIMING] ufm_members_fetch|count: 1 (count) 
+info: Nov-7 17:45:55.323 [UNKNOWN-FETCH-MANAGER] (T039P7U66) requesting U03BJMS2V (1)
+info: Nov-7 17:45:56.323 [UNKNOWN-FETCH-MANAGER] (T039P7U66) received U03BJMS2V (1)
+info: Nov-7 17:46:06.305 [TIMING] session_age|timing: 896054.125 seconds (ephemeral)
+info: Nov-7 17:46:21.934 [COUNTS] (T039P7U66) Updated unread_cnt for C3QG85SG6: 23
+info: Nov-7 17:46:24.529 [COUNTS] (T039P7U66) Updated unread_cnt for C3QG85SG6: 24
+info: Nov-7 17:47:00.869 [COUNTS] (T039P7U66) Updated unread_cnt for C3QG85SG6: 25
+info: Nov-7 17:47:07.157 [COUNTS] (T039P7U66) Updated unread_cnt for C3QG85SG6: 26
+info: Nov-7 17:47:44.635 [COUNTS] (T039P7U66) Updated unread_cnt for C3QG85SG6: 27
+info: Nov-7 17:48:09.690 [COUNTS] (T039P7U66) Updated unread_cnt for C3QG85SG6: 28
+info: Nov-7 17:48:33.901 [COUNTS] (T039P7U66) Updated unread_cnt for C3QG85SG6: 29
+info: Nov-7 17:48:38.224 [COUNTS] (T039P7U66) Updated unread_cnt for C3QG85SG6: 30
+info: Nov-7 17:49:07.235 [TIMING] ufm_members_fetch|count: 1 (count) 
+info: Nov-7 17:49:07.235 [UNKNOWN-FETCH-MANAGER] (T039P7U66) requesting UDV7ALZG8 (1)
+info: Nov-7 17:49:08.390 [UNKNOWN-FETCH-MANAGER] (T039P7U66) received UDV7ALZG8 (1)
+info: Nov-7 17:49:13.217 [COUNTS] (T039P7U66) Updated unread_cnt for C3QG85SG6: 31
+info: Nov-7 17:49:18.858 [COUNTS] (T039P7U66) Updated unread_cnt for C3QG85SG6: 32
+info: Nov-7 17:49:24.095 [COUNTS] (T039P7U66) Updated unread_cnt for C3QG85SG6: 33
+info: Nov-7 17:49:25.451 [TIMING] session_age|timing: 1095209.91 seconds (ephemeral)
+info: Nov-7 17:49:45.345 [COUNTS] (T039P7U66) Updated unread_cnt for C3QG85SG6: 34
+info: Nov-7 17:49:50.114 [COUNTS] (T039P7U66) Updated unread_cnt for C3QG85SG6: 35
+info: Nov-7 17:49:52.297 [COUNTS] (T039P7U66) Updated unread_cnt for C3QG85SG6: 36
+info: Nov-7 17:49:56.450 [TIMING] rebuild_all_but_msgs_throttles|count: 2 (count) 
+info: Nov-7 17:49:58.472 [TIMING] session_age|timing: 1128232.3499999999 seconds (ephemeral)
+info: Nov-7 17:50:05.227 [COUNTS] (T039P7U66) Updated unread_cnt for C3QG85SG6: 37
+info: Nov-7 17:50:12.981 [COUNTS] (T039P7U66) Updated unread_cnt for C3QG85SG6: 38
+info: Nov-7 17:51:08.424 [COUNTS] (T039P7U66) Updated unread_cnt for C3QG85SG6: 39
+info: Nov-7 17:51:14.461 [COUNTS] (T039P7U66) Updated unread_cnt for C3QG85SG6: 40
+info: Nov-7 17:51:24.678 [COUNTS] (T039P7U66) Updated unread_cnt for C3QG85SG6: 41
+info: Nov-7 17:51:25.748 [COUNTS] (T039P7U66) Updated unread_cnt for C3QG85SG6: 42
+info: Nov-7 17:51:28.714 [COUNTS] (T039P7U66) Updated unread_cnt for C3QG85SG6: 43
+info: Nov-7 17:51:52.656 [COUNTS] (T039P7U66) Updated unread_cnt for C3QG85SG6: 44
+info: Nov-7 17:51:52.698 [COUNTS] (T039P7U66) Updated unread_cnt for C3QG85SG6: 45
+info: Nov-7 17:52:12.052 [COUNTS] (T039P7U66) Updated unread_cnt for C3QG85SG6: 46
+info: Nov-7 17:52:54.206 [COUNTS] (T039P7U66) Updated unread_cnt for C3QG85SG6: 47
+info: Nov-7 17:53:04.209 [COUNTS] (T039P7U66) Updated unread_cnt for C3QG85SG6: 48
+info: Nov-7 17:53:15.538 [COUNTS] (T039P7U66) Updated unread_cnt for C3QG85SG6: 49
+info: Nov-7 17:53:21.975 [COUNTS] (T039P7U66) Updated unread_cnt for C3QG85SG6: 50
+info: Nov-7 17:53:24.595 [COUNTS] (T039P7U66) Updated unread_cnt for C3QG85SG6: 51
+info: Nov-7 17:55:00.937 [COUNTS] (T039P7U66) Updated unread_cnt for C3QG85SG6: 52
+info: Nov-7 17:55:35.005 [COUNTS] (T039P7U66) Updated unread_cnt for C3QG85SG6: 53
+info: Nov-7 17:55:46.093 [COUNTS] (T039P7U66) Updated unread_cnt for C3QG85SG6: 54
+info: Nov-7 17:55:55.881 [COUNTS] (T039P7U66) Updated unread_cnt for C3QG85SG6: 55
+info: Nov-7 17:56:09.226 [COUNTS] (T039P7U66) Updated unread_cnt for C3QG85SG6: 56
+info: Nov-7 17:56:14.522 [COUNTS] (T039P7U66) Updated unread_cnt for C3QG85SG6: 57
+info: Nov-7 17:56:24.082 [COUNTS] (T039P7U66) Updated unread_cnt for C3QG85SG6: 58
+info: Nov-7 17:56:48.433 [COUNTS] (T039P7U66) Updated unread_cnt for C3QG85SG6: 59
+info: Nov-7 17:56:55.107 [COUNTS] (T039P7U66) Updated unread_cnt for C3QG85SG6: 60
+info: Nov-7 17:57:48.186 [TIMING] ufm_members_fetch|count: 1 (count) 
+info: Nov-7 17:57:48.186 [UNKNOWN-FETCH-MANAGER] (T039P7U66) requesting UCUKABBGQ (1)
+info: Nov-7 17:57:49.103 [UNKNOWN-FETCH-MANAGER] (T039P7U66) received UCUKABBGQ (1)
+info: Nov-7 17:58:04.776 [COUNTS] (T039P7U66) Updated unread_cnt for C3QG85SG6: 61
+info: Nov-7 17:58:05.357 [TIMING] ufm_members_fetch|count: 1 (count) 
+info: Nov-7 17:58:05.357 [UNKNOWN-FETCH-MANAGER] (T039P7U66) requesting U5LN2NZPE (1)
+info: Nov-7 17:58:06.284 [UNKNOWN-FETCH-MANAGER] (T039P7U66) received U5LN2NZPE (1)
+info: Nov-7 17:58:15.451 [TIMING] session_age|timing: 1625235.355 seconds (ephemeral)
+info: Nov-7 17:58:45.249 [COUNTS] (T039P7U66) Updated unread_cnt for C3QG85SG6: 62
+info: Nov-7 17:59:05.063 [COUNTS] (T039P7U66) Updated unread_cnt for C3QG85SG6: 63
+info: Nov-7 18:01:37.301 [COUNTS] (T039P7U66) Updated unread_cnt for C7P0Z4F3L: 2
+info: Nov-7 18:01:44.675 [COUNTS] (T039P7U66) Updated unread_cnt for C3QG85SG6: 64
+info: Nov-7 18:01:45.223 [TIMING] ufm_members_fetch|count: 1 (count) 
+info: Nov-7 18:01:45.223 [UNKNOWN-FETCH-MANAGER] (T039P7U66) requesting U6MKHP1JA (1)
+info: Nov-7 18:01:46.341 [UNKNOWN-FETCH-MANAGER] (T039P7U66) received U6MKHP1JA (1)
+info: Nov-7 18:02:06.256 [TIMING] session_age|timing: 1856052.06 seconds (ephemeral)
+info: Nov-7 18:02:47.977 [TIMING] ufm_members_fetch|count: 1 (count) 
+info: Nov-7 18:02:47.977 [UNKNOWN-FETCH-MANAGER] (T039P7U66) requesting UCUDN9M19 (1)
+info: Nov-7 18:02:49.473 [UNKNOWN-FETCH-MANAGER] (T039P7U66) received UCUDN9M19 (1)
+info: Nov-7 18:03:11.145 [TIMING] ufm_members_fetch|count: 1 (count) 
+info: Nov-7 18:03:11.145 [UNKNOWN-FETCH-MANAGER] (T039P7U66) requesting U7BRV9VV2 (1)
+info: Nov-7 18:03:12.384 [UNKNOWN-FETCH-MANAGER] (T039P7U66) received U7BRV9VV2 (1)
+info: Nov-7 18:03:12.385 [TIMING] session_age|timing: 1922184.1700000002 seconds (ephemeral)
+info: Nov-7 18:05:54.370 [ACTIVITY] maybeUpdateMentions called with user_requested: undefined
+info: Nov-7 18:05:54.370 [ACTIVITY] maybeUpdateMentions: waiting until next fetch
+info: Nov-7 18:05:54.374 [COUNTS] (T039P7U66) Updated unread_highlight_cnt for C7NBD3J5N: 1
+info: Nov-7 18:05:54.968 [TIMING] ufm_members_fetch|count: 1 (count) 
+info: Nov-7 18:05:54.968 [UNKNOWN-FETCH-MANAGER] (T039P7U66) requesting U2QTC9RJM (1)
+info: Nov-7 18:05:55.968 [UNKNOWN-FETCH-MANAGER] (T039P7U66) received U2QTC9RJM (1)
+info: Nov-7 18:05:57.968 [TIMING] session_age|timing: 2087775.195 seconds (ephemeral)
+info: Nov-7 18:05:57.968 [TIMING] session_age|timing: 2087775.4400000002 seconds (ephemeral)
+info: Nov-7 18:08:01.962 [TIMING] ufm_members_fetch|count: 1 (count) 
+info: Nov-7 18:08:01.962 [UNKNOWN-FETCH-MANAGER] (T039P7U66) requesting UCUN0351B (1)
+info: Nov-7 18:08:02.962 [UNKNOWN-FETCH-MANAGER] (T039P7U66) received UCUN0351B (1)
+info: Nov-7 18:08:10.387 [TIMING] session_age|timing: 2220200.1250000005 seconds (ephemeral)
+info: Nov-7 18:08:34.106 [TIMING] ufm_members_fetch|count: 1 (count) 
+info: Nov-7 18:08:34.106 [UNKNOWN-FETCH-MANAGER] (T039P7U66) requesting UCUDN8S6P (1)
+info: Nov-7 18:08:34.960 [UNKNOWN-FETCH-MANAGER] (T039P7U66) received UCUDN8S6P (1)
+info: Nov-7 18:08:43.369 [TIMING] session_age|timing: 2253183.735 seconds (ephemeral)
+info: Nov-7 18:10:33.494 [COUNTS] (T039P7U66) Updated unread_cnt for C7NBD3J5N: 2
+info: Nov-7 18:11:16.229 [COUNTS] (T039P7U66) Updated unread_cnt for C7NBD3J5N: 3
+info: Nov-7 18:11:56.341 [TIMING] ufm_members_fetch|count: 1 (count) 
+info: Nov-7 18:11:56.341 [UNKNOWN-FETCH-MANAGER] (T039P7U66) requesting UDX48QSH0 (1)
+info: Nov-7 18:11:57.241 [UNKNOWN-FETCH-MANAGER] (T039P7U66) received UDX48QSH0 (1)
+info: Nov-7 18:12:02.782 [TIMING] session_age|timing: 2452607.125 seconds (ephemeral)
+info: Nov-7 18:13:49.718 [COUNTS] (T039P7U66) Updated unread_cnt for C7NBD3J5N: 4
+info: Nov-7 18:14:27.653 [COUNTS] (T039P7U66) Updated unread_cnt for C0G07RYJD: 1
+info: Nov-7 18:14:27.943 [TIMING] ufm_members_fetch|count: 1 (count) 
+info: Nov-7 18:14:27.943 [UNKNOWN-FETCH-MANAGER] (T039P7U66) requesting UCUH334P4 (1)
+info: Nov-7 18:14:28.943 [UNKNOWN-FETCH-MANAGER] (T039P7U66) received UCUH334P4 (1)
+info: Nov-7 18:14:47.649 [TIMING] session_age|timing: 2617481.955 seconds (ephemeral)
+info: Nov-7 18:16:34.314 [COUNTS] (T039P7U66) Updated unread_cnt for C0G07RYJD: 2
+info: Nov-7 18:21:03.156 [COUNTS] (T039P7U66) Updated unread_cnt for C0G07RYJD: 3
+info: Nov-7 18:21:04.181 [TIMING] ufm_members_fetch|count: 1 (count) 
+info: Nov-7 18:21:04.181 [UNKNOWN-FETCH-MANAGER] (T039P7U66) requesting U2A250ME0 (1)
+info: Nov-7 18:21:05.291 [UNKNOWN-FETCH-MANAGER] (T039P7U66) received U2A250ME0 (1)
+info: Nov-7 18:21:23.637 [TIMING] session_age|timing: 3013489.1100000003 seconds (ephemeral)
+info: Nov-7 18:21:45.420 [FOCUS-EVENT] Window focused
+info: Nov-7 18:21:45.560 [CHECK-UNREADS] (T039P7U66) Checking unreads after window became focused
+info: Nov-7 18:21:45.560 [CHECK-UNREADS] (T039P7U66) Not marking C039P7U6E because last_read >= latest && channel is read
+info: Nov-7 18:21:46.902 [ACTION:CHANNEL-SIDEBAR] Selected C7NBD3J5N
+info: Nov-7 18:21:46.906 [SWITCH-TO-CHANNEL] (T039P7U66) Switching to C7NBD3J5N at last_read 1541355741.055700
+info: Nov-7 18:21:46.965 [MESSAGE-LIST] (T039P7U66) Switching channels: C7NBD3J5N timestamps: 0
+info: Nov-7 18:21:46.979 [MESSAGE-LIST] (T039P7U66) requestAround channelId: C7NBD3J5N isLoading: false timestamps: 0 reachedStart: false reachedEnd: false
+info: Nov-7 18:21:46.979 [HISTORY-FETCH] (T039P7U66) Fetching history for message pane: C7NBD3J5N oldest: 1541355741.055700 latest: 1541355741.055700
+info: Nov-7 18:21:46.980 [API-Q] (T039P7U66) 785d4439-1541611306.980 conversations.history called with reason: message-pane/requestHistory
+info: Nov-7 18:21:46.980 [API-Q] (T039P7U66) 785d4439-1541611306.980 conversations.history is ENQUEUED
+info: Nov-7 18:21:46.981 [API-Q] (T039P7U66) 785d4439-1541611306.980 conversations.history is ACTIVE
+info: Nov-7 18:21:46.984 [API-Q] (T039P7U66) 785d4439-1541611306.983 conversations.history called with reason: message-pane/requestHistory
+info: Nov-7 18:21:46.984 [API-Q] (T039P7U66) 785d4439-1541611306.983 conversations.history is ENQUEUED
+info: Nov-7 18:21:46.984 [API-Q] (T039P7U66) 785d4439-1541611306.983 conversations.history is ACTIVE
+info: Nov-7 18:21:46.985 [TIMING] channel_change_react_msgs|timing: 77.47999999998137ms 
+info: Nov-7 18:21:47.048 [TIMING] channel_change_not_stored|timing: 140.37000000011176ms (ephemeral)
+info: Nov-7 18:21:47.138 [API-Q] (T039P7U66) 785d4439-1541611306.980 conversations.history is RESOLVED
+info: Nov-7 18:21:47.147 [TIMING] ufm_members_fetch|count: 2 (count) 
+info: Nov-7 18:21:47.147 [UNKNOWN-FETCH-MANAGER] (T039P7U66) requesting U7784BSAY,U77KG62LX (1)
+info: Nov-7 18:21:47.158 [API-Q] (T039P7U66) 785d4439-1541611306.983 conversations.history is RESOLVED
+info: Nov-7 18:21:47.167 [UNREAD-COUNTS] (T039P7U66) Counting unreads in C7NBD3J5N because (83) timestamps added
+info: Nov-7 18:21:47.190 [API-Q] (T039P7U66) 785d4439-1541611307.190 highlights.list called with reason: no_reason_provided
+info: Nov-7 18:21:47.190 [API-Q] (T039P7U66) 785d4439-1541611307.190 highlights.list is ENQUEUED
+info: Nov-7 18:21:47.191 [API-Q] (T039P7U66) 785d4439-1541611307.190 highlights.list is ACTIVE
+info: Nov-7 18:21:47.191 [MESSAGE-LIST] (T039P7U66) componentWillReceiveProps isLoading: false isLoadingOlder: false timestamps: 48
+info: Nov-7 18:21:47.277 [HISTORY-FETCH] (T039P7U66) Fetching history for message pane: C7NBD3J5N oldest: 1541424090.069900 latest: null
+info: Nov-7 18:21:47.278 [API-Q] (T039P7U66) 785d4439-1541611307.278 conversations.history called with reason: message-pane/requestHistory
+info: Nov-7 18:21:47.279 [API-Q] (T039P7U66) 785d4439-1541611307.278 conversations.history is ENQUEUED
+info: Nov-7 18:21:47.279 [API-Q] (T039P7U66) 785d4439-1541611307.278 conversations.history is ACTIVE
+info: Nov-7 18:21:47.279 [CHECK-UNREADS] (T039P7U66) unreadLineVisible updated: false -> true
+info: Nov-7 18:21:47.280 [TIMING] channel_change_not_stored|timing: 371.87500000046566ms (ephemeral)
+info: Nov-7 18:21:47.289 [MESSAGE-LIST] (T039P7U66) componentWillReceiveProps isLoading: false isLoadingOlder: false timestamps: 48
+info: Nov-7 18:21:47.366 [API-Q] (T039P7U66) 785d4439-1541611307.190 highlights.list is RESOLVED
+info: Nov-7 18:21:47.368 [UNKNOWN-FETCH-MANAGER] (T039P7U66) received U7784BSAY,U77KG62LX (1)
+info: Nov-7 18:21:47.375 [TIMING] ufm_members_fetch|count: 49 (count) 
+info: Nov-7 18:21:47.375 [UNKNOWN-FETCH-MANAGER] (T039P7U66) requesting U1XQ9KQDT,U439F8CGP,U7EUZSQDV,U1XNBB6SD,UDWPMSVTQ,U0EHMR1T7,UDUMH5GV6,UDV9905CL,UDUN4EU56,UDWTYRCNS,UDVF752HZ,UDVJEDWE7,UDVGMG2AG,UD376RUJV,UDWQ8DQRM,UDX58P99U,UDWQGQFCP,UDX5GQMB8,UCXGE7FST,UDWQP1HPH,U76EUSPBM,U761RAFS5,UDVL7N4UT,UDVL99SMR,UDVV4VD3P,UDX5N5ANS,UDVJ9LDAQ,UDVLESRA7,UDWR5MAH5,UDX619ZD4,UDV62LBND,UCULBUH6Y,U7FHGURJ8,UD33Z6TH6,UDVMZ3BJP,UDV78JT1P,UDVR4US3U,UDVL8308L,UDX7NBTE2,UDV3TKT1N,U7ESHT0U8,UDV7T4WGH,UDVRPG3UJ,UDWT8DA79,UDV4KTYE4,UDVS9HEN6,U2ACGNRPH,UDTR0TZCZ,UDU9Q8LAU (1)
+info: Nov-7 18:21:47.404 [MESSAGE-LIST] (T039P7U66) componentWillReceiveProps isLoading: true isLoadingOlder: null timestamps: 48
+info: Nov-7 18:21:47.418 [CHECK-UNREADS] (T039P7U66) unreadLineVisible updated: true -> false
+info: Nov-7 18:21:47.449 [API-Q] (T039P7U66) 785d4439-1541611307.278 conversations.history is RESOLVED
+info: Nov-7 18:21:47.459 [UNREAD-COUNTS] (T039P7U66) Counting unreads in C7NBD3J5N because (42) timestamps added
+info: Nov-7 18:21:47.488 [API-Q] (T039P7U66) 785d4439-1541611307.488 highlights.list called with reason: no_reason_provided
+info: Nov-7 18:21:47.488 [API-Q] (T039P7U66) 785d4439-1541611307.488 highlights.list is ENQUEUED
+info: Nov-7 18:21:47.488 [API-Q] (T039P7U66) 785d4439-1541611307.488 highlights.list is ACTIVE
+info: Nov-7 18:21:47.489 [MESSAGE-LIST] (T039P7U66) componentWillReceiveProps isLoading: false isLoadingOlder: false timestamps: 65
+info: Nov-7 18:21:47.529 [CHECK-UNREADS] (T039P7U66) unreadLineVisible updated: false -> true
+info: Nov-7 18:21:47.562 [UNKNOWN-FETCH-MANAGER] (T039P7U66) received U1XQ9KQDT,U439F8CGP,U7EUZSQDV,U1XNBB6SD,UDWPMSVTQ,U0EHMR1T7,UDUMH5GV6,UDV9905CL,UDUN4EU56,UDWTYRCNS,UDVF752HZ,UDVJEDWE7,UDVGMG2AG,UD376RUJV,UDWQ8DQRM,UDX58P99U,UDWQGQFCP,UDX5GQMB8,UCXGE7FST,UDWQP1HPH,U76EUSPBM,U761RAFS5,UDVL7N4UT,UDVL99SMR,UDVV4VD3P,UDX5N5ANS,UDVJ9LDAQ,UDVLESRA7,UDWR5MAH5,UDX619ZD4,UDV62LBND,UCULBUH6Y,U7FHGURJ8,UD33Z6TH6,UDVMZ3BJP,UDV78JT1P,UDVR4US3U,UDVL8308L,UDX7NBTE2,UDV3TKT1N,U7ESHT0U8,UDV7T4WGH,UDVRPG3UJ,UDWT8DA79,UDV4KTYE4,UDVS9HEN6,U2ACGNRPH,UDTR0TZCZ,UDU9Q8LAU (1)
+info: Nov-7 18:21:47.573 [CHECK-UNREADS] (T039P7U66) Checking unreads after debounced channel change to C7NBD3J5N
+info: Nov-7 18:21:47.574 [CHECK-UNREADS] (T039P7U66) Marking C7NBD3J5N because unread line is visible
+info: Nov-7 18:21:47.577 [UNREAD-COUNTS] (T039P7U66) Counting unreads in C7NBD3J5N because last_read changed to 1541610830.130100
+info: Nov-7 18:21:47.577 [COUNTS] (T039P7U66) Updated unread_cnt for C7NBD3J5N: 0
+info: Nov-7 18:21:47.579 [COUNTS] (T039P7U66) Updated unread_highlight_cnt for C7NBD3J5N: 0
+info: Nov-7 18:21:47.590 [CHECK-UNREADS] (T039P7U66) unreadLineVisible updated: true -> false
+info: Nov-7 18:21:47.659 [TIMING] ufm_members_fetch|count: 20 (count) 
+info: Nov-7 18:21:47.659 [UNKNOWN-FETCH-MANAGER] (T039P7U66) requesting UD3MEK0AX,U2A4HFRFF,UDVSA8Y3C,UDVPCAYJX,UDVSD6YFL,UDV4QQ8Q0,UDWTYH21M,UDVPGLQ2X,UDVSPNNG2,UDVPVTSSX,UDVMY98QL,UDV5AVCPJ,UDW3H1U4D,UDVTADP5Y,UDWUVJY5D,UDW3VU0G5,UDVQJB3C3,UDVNNBCLC,UDWVAS3DM,UDVADTE7K (1)
+info: Nov-7 18:21:47.661 [API-Q] (T039P7U66) 785d4439-1541611307.488 highlights.list is RESOLVED
+info: Nov-7 18:21:47.741 [UNKNOWN-FETCH-MANAGER] (T039P7U66) received UD3MEK0AX,U2A4HFRFF,UDVSA8Y3C,UDVPCAYJX,UDVSD6YFL,UDV4QQ8Q0,UDWTYH21M,UDVPGLQ2X,UDVSPNNG2,UDVPVTSSX,UDVMY98QL,UDV5AVCPJ,UDW3H1U4D,UDVTADP5Y,UDWUVJY5D,UDW3VU0G5,UDVQJB3C3,UDVNNBCLC,UDWVAS3DM,UDVADTE7K (1)
+info: Nov-7 18:21:48.254 [ACTION:UNREAD-BANNER] Mark C7NBD3J5N read
+info: Nov-7 18:21:49.235 [API-Q] (T039P7U66) 785d4439-1541611309.235 highlights.list called with reason: no_reason_provided
+info: Nov-7 18:21:49.235 [API-Q] (T039P7U66) 785d4439-1541611309.235 highlights.list is ENQUEUED
+info: Nov-7 18:21:49.236 [API-Q] (T039P7U66) 785d4439-1541611309.235 highlights.list is ACTIVE
+info: Nov-7 18:21:49.275 [HISTORY-FETCH] (T039P7U66) Fetching history for message pane: C7NBD3J5N oldest: null latest: 1541608967.124300
+info: Nov-7 18:21:49.279 [API-Q] (T039P7U66) 785d4439-1541611309.279 conversations.history called with reason: message-pane/requestHistory
+info: Nov-7 18:21:49.279 [API-Q] (T039P7U66) 785d4439-1541611309.279 conversations.history is ENQUEUED
+info: Nov-7 18:21:49.280 [API-Q] (T039P7U66) 785d4439-1541611309.279 conversations.history is ACTIVE
+info: Nov-7 18:21:49.280 [CHECK-UNREADS] (T039P7U66) unreadLineVisible updated: false -> true
+info: Nov-7 18:21:49.284 [MESSAGE-LIST] (T039P7U66) componentWillReceiveProps isLoading: false isLoadingOlder: false timestamps: 5
+info: Nov-7 18:21:49.308 [MESSAGE-LIST] (T039P7U66) componentWillReceiveProps isLoading: true isLoadingOlder: true timestamps: 5
+info: Nov-7 18:21:49.313 [CHECK-UNREADS] (T039P7U66) unreadLineVisible updated: true -> false
+info: Nov-7 18:21:49.361 [API-Q] (T039P7U66) 785d4439-1541611309.235 highlights.list is RESOLVED
+info: Nov-7 18:21:49.429 [API-Q] (T039P7U66) 785d4439-1541611309.279 conversations.history is RESOLVED
+info: Nov-7 18:21:49.451 [API-Q] (T039P7U66) 785d4439-1541611309.451 highlights.list called with reason: no_reason_provided
+info: Nov-7 18:21:49.451 [API-Q] (T039P7U66) 785d4439-1541611309.451 highlights.list is ENQUEUED
+info: Nov-7 18:21:49.451 [API-Q] (T039P7U66) 785d4439-1541611309.451 highlights.list is ACTIVE
+info: Nov-7 18:21:49.452 [MESSAGE-LIST] (T039P7U66) componentWillReceiveProps isLoading: false isLoadingOlder: false timestamps: 34
+info: Nov-7 18:21:49.507 [CHECK-UNREADS] (T039P7U66) unreadLineVisible updated: false -> true
+info: Nov-7 18:21:49.584 [API-Q] (T039P7U66) 785d4439-1541611309.451 highlights.list is RESOLVED
+info: Nov-7 18:21:49.585 [TIMING] ufm_members_fetch|count: 20 (count) 
+info: Nov-7 18:21:49.585 [UNKNOWN-FETCH-MANAGER] (T039P7U66) requesting U76JMV6RJ,UDWGTH0DP,UDX7DCY9Y,UDWRT0EG0,U0BSWUBT6,UDXRELNKF,UDXHY425R,UDXLY9UKC,UDYNRD1QX,UDXHD502G,U1XM0TPQF,U2JDTQNQ4,UDXKVBN67,UDXHY2ETE,UDX3EBP3J,UCUP5R9C4,UCVJG1XSB,UD36U4XLH,U9ZHT94HW,UD41JT021 (1)
+info: Nov-7 18:21:49.639 [UNKNOWN-FETCH-MANAGER] (T039P7U66) received U76JMV6RJ,UDWGTH0DP,UDX7DCY9Y,UDWRT0EG0,U0BSWUBT6,UDXRELNKF,UDXHY425R,UDXLY9UKC,UDYNRD1QX,UDXHD502G,U1XM0TPQF,U2JDTQNQ4,UDXKVBN67,UDXHY2ETE,UDX3EBP3J,UCUP5R9C4,UCVJG1XSB,UD36U4XLH,U9ZHT94HW,UD41JT021 (1)
+info: Nov-7 18:21:49.928 [CHECK-UNREADS] (T039P7U66) Checking unreads after unread line became visible
+info: Nov-7 18:21:49.928 [CHECK-UNREADS] (T039P7U66) Not marking C7NBD3J5N because last_read >= latest && channel is read
+info: Nov-7 18:21:51.544 [API-Q] (T039P7U66) 785d4439-1541611311.544 conversations.mark called with reason: viewed
+info: Nov-7 18:21:51.544 [API-Q] (T039P7U66) 785d4439-1541611311.544 conversations.mark is ENQUEUED
+info: Nov-7 18:21:51.544 [API-Q] (T039P7U66) 785d4439-1541611311.544 conversations.mark is ACTIVE
+info: Nov-7 18:21:51.700 [API-Q] (T039P7U66) 785d4439-1541611311.544 conversations.mark is RESOLVED
+info: Nov-7 18:21:52.419 [ACTION:CHANNEL-SIDEBAR] Selected DDXBKA36J
+info: Nov-7 18:21:52.422 [SWITCH-TO-CHANNEL] (T039P7U66) Switching to DDXBKA36J at end
+info: Nov-7 18:21:52.456 [MESSAGE-LIST] (T039P7U66) Switching channels: DDXBKA36J timestamps: 0
+info: Nov-7 18:21:52.461 [MESSAGE-LIST] (T039P7U66) requestAround channelId: DDXBKA36J isLoading: false timestamps: 0 reachedStart: false reachedEnd: false
+info: Nov-7 18:21:52.461 [HISTORY-FETCH] (T039P7U66) Fetching history for message pane: DDXBKA36J oldest: null latest: null
+info: Nov-7 18:21:52.462 [API-Q] (T039P7U66) 785d4439-1541611312.462 conversations.history called with reason: message-pane/requestHistory
+info: Nov-7 18:21:52.462 [API-Q] (T039P7U66) 785d4439-1541611312.462 conversations.history is ENQUEUED
+info: Nov-7 18:21:52.462 [API-Q] (T039P7U66) 785d4439-1541611312.462 conversations.history is ACTIVE
+info: Nov-7 18:21:52.463 [TIMING] channel_change_react_msgs|timing: 39.484999999869615ms 
+info: Nov-7 18:21:52.482 [MESSAGE-LIST] (T039P7U66) componentWillReceiveProps isLoading: true isLoadingOlder: null timestamps: 0
+info: Nov-7 18:21:52.484 [TIMING] channel_change_not_stored|timing: 61.00999999977648ms (ephemeral)
+info: Nov-7 18:21:52.609 [API-Q] (T039P7U66) 785d4439-1541611312.462 conversations.history is RESOLVED
+info: Nov-7 18:21:52.614 [UNREAD-COUNTS] (T039P7U66) Counting unreads in DDXBKA36J because (3) timestamps added
+info: Nov-7 18:21:52.620 [MESSAGE-LIST] (T039P7U66) componentWillReceiveProps isLoading: false isLoadingOlder: false timestamps: 3
+info: Nov-7 18:21:52.796 [CHECK-UNREADS] (T039P7U66) unreadLineVisible updated: false -> true
+info: Nov-7 18:21:52.796 [TIMING] channel_change_not_stored|timing: 372.65500000026077ms (ephemeral)
+info: Nov-7 18:21:52.868 [FOCUS-EVENT] Window blurred
+info: Nov-7 18:21:53.265 [FOCUS-EVENT] Window focused
+info: Nov-7 18:21:53.358 [CHECK-UNREADS] (T039P7U66) Checking unreads after unread line became visible
+info: Nov-7 18:21:53.359 [CHECK-UNREADS] (T039P7U66) Not marking DDXBKA36J because last_read >= latest && channel is read
+info: Nov-7 18:21:53.374 [CHECK-UNREADS] (T039P7U66) Checking unreads after window became focused
+info: Nov-7 18:21:53.374 [CHECK-UNREADS] (T039P7U66) Not marking DDXBKA36J because last_read >= latest && channel is read
+info: Nov-7 18:21:53.624 [FOCUS-EVENT] Window blurred
+info: Nov-7 18:21:57.241 [TIMING] session_age|timing: 3047094.4250000003 seconds (ephemeral)
+info: Nov-7 18:22:15.890 [FOCUS-EVENT] Window focused
+info: Nov-7 18:22:16.006 [CHECK-UNREADS] (T039P7U66) Checking unreads after window became focused
+info: Nov-7 18:22:16.006 [CHECK-UNREADS] (T039P7U66) Not marking DDXBKA36J because last_read >= latest && channel is read
+info: Nov-7 18:22:17.301 [FOCUS-EVENT] Window blurred
+info: Nov-7 18:23:04.260 [(T039P7U66)] user_typing event from user (UD4SZKSA3) not in model; ignoring
+info: Nov-7 18:23:11.179 [(T039P7U66)] user_typing event from user (UD4SZKSA3) not in model; ignoring
+info: Nov-7 18:23:14.763 [(T039P7U66)] user_typing event from user (UD4SZKSA3) not in model; ignoring
+info: Nov-7 18:23:21.065 [(T039P7U66)] user_typing event from user (UD4SZKSA3) not in model; ignoring
+info: Nov-7 18:23:26.561 [(T039P7U66)] user_typing event from user (UD4SZKSA3) not in model; ignoring
+info: Nov-7 18:23:31.976 [(T039P7U66)] user_typing event from user (UD4SZKSA3) not in model; ignoring
+info: Nov-7 18:23:37.428 [(T039P7U66)] user_typing event from user (UD4SZKSA3) not in model; ignoring
+info: Nov-7 18:23:43.410 [(T039P7U66)] user_typing event from user (UD4SZKSA3) not in model; ignoring
+info: Nov-7 18:23:50.912 [COUNTS] (T039P7U66) Updated unread_cnt for C3QG85SG6: 65
+info: Nov-7 18:23:51.296 [(T039P7U66)] user_typing event from user (UD4SZKSA3) not in model; ignoring
+info: Nov-7 18:23:56.361 [(T039P7U66)] user_typing event from user (UD4SZKSA3) not in model; ignoring
+info: Nov-7 18:24:06.403 [FOCUS-EVENT] Window focused
+info: Nov-7 18:24:06.518 [CHECK-UNREADS] (T039P7U66) Checking unreads after window became focused
+info: Nov-7 18:24:06.519 [CHECK-UNREADS] (T039P7U66) Not marking DDXBKA36J because last_read >= latest && channel is read
+info: Nov-7 18:24:07.104 [FOCUS-EVENT] Window blurred
+info: Nov-7 18:24:09.457 [FOCUS-EVENT] Window focused
+info: Nov-7 18:24:09.582 [CHECK-UNREADS] (T039P7U66) Checking unreads after window became focused
+info: Nov-7 18:24:09.582 [CHECK-UNREADS] (T039P7U66) Not marking DDXBKA36J because last_read >= latest && channel is read
+info: Nov-7 18:24:11.480 [FOCUS-EVENT] Window blurred
+info: Nov-7 18:24:14.098 [(T039P7U66)] user_typing event from user (UD4SZKSA3) not in model; ignoring
+info: Nov-7 18:24:19.193 [(T039P7U66)] user_typing event from user (UD4SZKSA3) not in model; ignoring
+info: Nov-7 18:24:23.608 [(T039P7U66)] user_typing event from user (U1XKCT02U) not in model; ignoring
+info: Nov-7 18:24:27.933 [(T039P7U66)] user_typing event from user (U1XKCT02U) not in model; ignoring
+info: Nov-7 18:24:28.868 [(T039P7U66)] user_typing event from user (UD4SZKSA3) not in model; ignoring
+info: Nov-7 18:24:31.166 [(T039P7U66)] user_typing event from user (U1XKCT02U) not in model; ignoring
+info: Nov-7 18:24:32.878 [COUNTS] (T039P7U66) Updated unread_cnt for C04GT8U3Y: 2
+info: Nov-7 18:24:33.748 [TIMING] ufm_members_fetch|count: 1 (count) 
+info: Nov-7 18:24:33.748 [UNKNOWN-FETCH-MANAGER] (T039P7U66) requesting UD4SZKSA3 (1)
+info: Nov-7 18:24:33.915 [UNKNOWN-FETCH-MANAGER] (T039P7U66) received UD4SZKSA3 (1)
+info: Nov-7 18:24:34.255 [(T039P7U66)] user_typing event from user (U1XKCT02U) not in model; ignoring
+info: Nov-7 18:24:37.335 [(T039P7U66)] user_typing event from user (U1XKCT02U) not in model; ignoring
+info: Nov-7 18:24:40.414 [(T039P7U66)] user_typing event from user (U1XKCT02U) not in model; ignoring
+info: Nov-7 18:24:42.913 [TIMING] session_age|timing: 3212774.85 seconds (ephemeral)
+info: Nov-7 18:24:43.559 [(T039P7U66)] user_typing event from user (U1XKCT02U) not in model; ignoring
+info: Nov-7 18:24:46.850 [(T039P7U66)] user_typing event from user (U1XKCT02U) not in model; ignoring
+info: Nov-7 18:24:50.024 [(T039P7U66)] user_typing event from user (U1XKCT02U) not in model; ignoring
+info: Nov-7 18:25:10.005 [(T039P7U66)] user_typing event from user (U1XKCT02U) not in model; ignoring
+info: Nov-7 18:25:30.590 [(T039P7U66)] user_typing event from user (U1XKCT02U) not in model; ignoring
+info: Nov-7 18:25:34.139 [COUNTS] (T039P7U66) Updated unread_cnt for C3QG85SG6: 66
+info: Nov-7 18:25:34.957 [TIMING] ufm_members_fetch|count: 1 (count) 
+info: Nov-7 18:25:34.958 [UNKNOWN-FETCH-MANAGER] (T039P7U66) requesting U1XKCT02U (1)
+info: Nov-7 18:25:35.910 [UNKNOWN-FETCH-MANAGER] (T039P7U66) received U1XKCT02U (1)
+info: Nov-7 18:25:49.739 [TIMING] session_age|timing: 3279604.145 seconds (ephemeral)
+info: Nov-7 18:26:30.510 [(T039P7U66)] user_typing event from user (U0GQXP468) not in model; ignoring
+info: Nov-7 18:26:31.413 [(T039P7U66)] user_typing event from user (U1XQJMH7B) not in model; ignoring
+info: Nov-7 18:26:34.471 [(T039P7U66)] user_typing event from user (U1XQJMH7B) not in model; ignoring
+info: Nov-7 18:26:36.289 [(T039P7U66)] user_typing event from user (U0GQXP468) not in model; ignoring
+info: Nov-7 18:26:38.212 [(T039P7U66)] user_typing event from user (U1XQJMH7B) not in model; ignoring
+info: Nov-7 18:26:41.306 [(T039P7U66)] user_typing event from user (U1XQJMH7B) not in model; ignoring
+info: Nov-7 18:26:41.633 [(T039P7U66)] user_typing event from user (U0GQXP468) not in model; ignoring
+info: Nov-7 18:26:44.450 [(T039P7U66)] user_typing event from user (U1XQJMH7B) not in model; ignoring
+info: Nov-7 18:26:47.570 [(T039P7U66)] user_typing event from user (U1XQJMH7B) not in model; ignoring
+info: Nov-7 18:26:50.574 [(T039P7U66)] user_typing event from user (U1XQJMH7B) not in model; ignoring
+info: Nov-7 18:26:51.036 [(T039P7U66)] user_typing event from user (U0GQXP468) not in model; ignoring
+info: Nov-7 18:26:53.611 [(T039P7U66)] user_typing event from user (U1XQJMH7B) not in model; ignoring
+info: Nov-7 18:26:56.688 [(T039P7U66)] user_typing event from user (U1XQJMH7B) not in model; ignoring
+info: Nov-7 18:26:58.725 [(T039P7U66)] user_typing event from user (U0GQXP468) not in model; ignoring
+info: Nov-7 18:26:59.825 [(T039P7U66)] user_typing event from user (U1XQJMH7B) not in model; ignoring
+info: Nov-7 18:27:05.709 [(T039P7U66)] user_typing event from user (U0GQXP468) not in model; ignoring
+info: Nov-7 18:27:06.076 [COUNTS] (T039P7U66) Updated unread_cnt for C04GT8U3Y: 3
+info: Nov-7 18:27:06.945 [TIMING] ufm_members_fetch|count: 1 (count) 
+info: Nov-7 18:27:06.946 [UNKNOWN-FETCH-MANAGER] (T039P7U66) requesting U1XQJMH7B (1)
+info: Nov-7 18:27:08.335 [UNKNOWN-FETCH-MANAGER] (T039P7U66) received U1XQJMH7B (1)
+info: Nov-7 18:27:12.910 [(T039P7U66)] user_typing event from user (U0GQXP468) not in model; ignoring
+info: Nov-7 18:27:18.859 [(T039P7U66)] user_typing event from user (U0GQXP468) not in model; ignoring
+info: Nov-7 18:27:23.909 [(T039P7U66)] user_typing event from user (U0GQXP468) not in model; ignoring
+info: Nov-7 18:27:27.661 [TIMING] session_age|timing: 3377531.245 seconds (ephemeral)
+info: Nov-7 18:27:29.124 [(T039P7U66)] user_typing event from user (U0GQXP468) not in model; ignoring
+info: Nov-7 18:27:34.180 [(T039P7U66)] user_typing event from user (U0GQXP468) not in model; ignoring
+info: Nov-7 18:27:39.361 [(T039P7U66)] user_typing event from user (U0GQXP468) not in model; ignoring
+info: Nov-7 18:27:45.359 [(T039P7U66)] user_typing event from user (U0GQXP468) not in model; ignoring
+info: Nov-7 18:27:54.128 [(T039P7U66)] user_typing event from user (U0GQXP468) not in model; ignoring
+info: Nov-7 18:28:02.446 [(T039P7U66)] user_typing event from user (U0GQXP468) not in model; ignoring
+info: Nov-7 18:28:08.737 [(T039P7U66)] user_typing event from user (U0GQXP468) not in model; ignoring
+info: Nov-7 18:28:18.795 [COUNTS] (T039P7U66) Updated unread_cnt for C3QG85SG6: 67
+info: Nov-7 18:28:18.943 [TIMING] ufm_members_fetch|count: 1 (count) 
+info: Nov-7 18:28:18.943 [UNKNOWN-FETCH-MANAGER] (T039P7U66) requesting U0GQXP468 (1)
+info: Nov-7 18:28:20.361 [UNKNOWN-FETCH-MANAGER] (T039P7U66) received U0GQXP468 (1)
+info: Nov-7 18:28:34.127 [TIMING] session_age|timing: 3444000.055 seconds (ephemeral)
+info: Nov-7 18:28:42.186 [COUNTS] (T039P7U66) Updated unread_cnt for C7P0Z4F3L: 3
+info: Nov-7 18:29:16.942 [TIMING] ufm_members_fetch|count: 1 (count) 
+info: Nov-7 18:29:16.942 [UNKNOWN-FETCH-MANAGER] (T039P7U66) requesting UCVQ1PAT1 (1)
+info: Nov-7 18:29:18.358 [UNKNOWN-FETCH-MANAGER] (T039P7U66) received UCVQ1PAT1 (1)
+info: Nov-7 18:29:18.807 [(T039P7U66)] user_typing event from user (UD3JZSQNQ) not in model; ignoring
+info: Nov-7 18:29:40.004 [TIMING] session_age|timing: 3509880.825 seconds (ephemeral)
+info: Nov-7 18:32:28.079 [COUNTS] (T039P7U66) Updated unread_cnt for C7P0Z4F3L: 4
+info: Nov-7 18:33:34.688 [COUNTS] (T039P7U66) Updated unread_cnt for C0G07RYJD: 4
+info: Nov-7 18:33:34.982 [TIMING] ufm_members_fetch|count: 1 (count) 
+info: Nov-7 18:33:34.982 [UNKNOWN-FETCH-MANAGER] (T039P7U66) requesting U1XKVN0BC (1)
+info: Nov-7 18:33:36.307 [UNKNOWN-FETCH-MANAGER] (T039P7U66) received U1XKVN0BC (1)
+info: Nov-7 18:34:05.136 [TIMING] session_age|timing: 3775025 seconds (ephemeral)
+info: Nov-7 18:34:18.985 [(T039P7U66)] user_typing event from user (UD3LLF1B6) not in model; ignoring
+info: Nov-7 18:34:39.453 [FOCUS-EVENT] Window focused
+info: Nov-7 18:34:39.479 [CHECK-UNREADS] (T039P7U66) Checking unreads after window became focused
+info: Nov-7 18:34:39.479 [CHECK-UNREADS] (T039P7U66) Not marking DDXBKA36J because last_read >= latest && channel is read
+info: Nov-7 18:34:40.895 [FOCUS-EVENT] Window blurred
