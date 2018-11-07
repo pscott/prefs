@@ -161,3 +161,47 @@ info: Nov-7 17:12:57.525 [API-Q] (T039P7U66) 785d4439-1541607177.133 conversatio
 info: Nov-7 17:12:57.531 [UNREAD-COUNTS] (T039P7U66) Counting unreads in C039P7U6E because (1) timestamps added
 info: Nov-7 17:12:57.535 [MESSAGE-LIST] (T039P7U66) componentWillReceiveProps isLoading: false isLoadingOlder: false timestamps: 49
 info: Nov-7 17:12:57.539 [CHECK-UNREADS] (T039P7U66) unreadLineVisible updated: false -> true
+info: Nov-7 17:12:57.913 [CHECK-UNREADS] (T039P7U66) Checking unreads after unread line became visible
+info: Nov-7 17:12:57.914 [CHECK-UNREADS] (T039P7U66) Not marking C039P7U6E because attention not on chat (window_not_focused)
+info: Nov-7 17:12:58.043 [API-Q] (T039P7U66) 785d4439-1541607178.042 dnd.teamInfo called with reason: no_reason_provided
+info: Nov-7 17:12:58.043 [API-Q] (T039P7U66) 785d4439-1541607178.042 dnd.teamInfo is ENQUEUED
+info: Nov-7 17:12:58.043 [API-Q] (T039P7U66) 785d4439-1541607178.042 dnd.teamInfo is ACTIVE
+info: Nov-7 17:12:58.160 [API-Q] (T039P7U66) 785d4439-1541607178.042 dnd.teamInfo is RESOLVED
+info: Nov-7 17:13:08.797 [FOCUS-EVENT] Window focused
+info: Nov-7 17:13:08.923 [CHECK-UNREADS] (T039P7U66) Checking unreads after window became focused
+info: Nov-7 17:13:08.923 [CHECK-UNREADS] (T039P7U66) Not marking C039P7U6E because last_read >= latest && channel is read
+info: Nov-7 17:13:11.547 [FOCUS-EVENT] Window blurred
+info: Nov-7 17:13:28.392 [TIMING] session_age|timing: 35650.68 seconds (ephemeral)
+info: Nov-7 17:13:28.395 [TIMING] session_age|timing: 35653.920000000006 seconds (ephemeral)
+info: Nov-7 17:13:48.314 [API-Q] (T039P7U66) 785d4439-1541607228.314 channels.suggestions called with reason: no_reason_provided
+info: Nov-7 17:13:48.314 [API-Q] (T039P7U66) 785d4439-1541607228.314 channels.suggestions is ENQUEUED
+info: Nov-7 17:13:48.315 [API-Q] (T039P7U66) 785d4439-1541607228.314 channels.suggestions is ACTIVE
+info: Nov-7 17:13:48.698 [API-Q] (T039P7U66) 785d4439-1541607228.314 channels.suggestions is RESOLVED
+info: Nov-7 17:15:32.989 [COUNTS] (T039P7U66) Updated unread_cnt for C7NF60E0Z: 1
+info: Nov-7 17:15:35.526 [TIMING] ufm_members_fetch|count: 1 (count) 
+info: Nov-7 17:15:35.526 [UNKNOWN-FETCH-MANAGER] (T039P7U66) requesting U0FT7RK1A (1)
+info: Nov-7 17:15:36.406 [UNKNOWN-FETCH-MANAGER] (T039P7U66) received U0FT7RK1A (1)
+info: Nov-7 17:15:36.408 [TIMING] session_age|timing: 163672.415 seconds (ephemeral)
+info: Nov-7 17:16:20.583 [COUNTS] (T039P7U66) Updated unread_cnt for C7NF60E0Z: 2
+info: Nov-7 17:16:45.972 [COUNTS] (T039P7U66) Updated unread_cnt for C7NF60E0Z: 3
+info: Nov-7 17:16:46.425 [TIMING] ufm_members_fetch|count: 1 (count) 
+info: Nov-7 17:16:46.425 [UNKNOWN-FETCH-MANAGER] (T039P7U66) requesting U04GLEZRE (1)
+info: Nov-7 17:16:47.442 [UNKNOWN-FETCH-MANAGER] (T039P7U66) received U04GLEZRE (1)
+info: Nov-7 17:17:03.520 [COUNTS] (T039P7U66) Updated unread_cnt for C7NF60E0Z: 4
+info: Nov-7 17:17:07.423 [COUNTS] (T039P7U66) Updated unread_cnt for C7NF60E0Z: 5
+info: Nov-7 17:17:12.408 [TIMING] session_age|timing: 259677.91 seconds (ephemeral)
+info: Nov-7 17:17:17.544 [COUNTS] (T039P7U66) Updated unread_cnt for C7NF60E0Z: 6
+info: Nov-7 17:17:21.738 [COUNTS] (T039P7U66) Updated unread_cnt for C3QG85SG6: 2
+info: Nov-7 17:17:22.375 [TIMING] ufm_members_fetch|count: 1 (count) 
+info: Nov-7 17:17:22.375 [UNKNOWN-FETCH-MANAGER] (T039P7U66) requesting UD36TUNQ1 (1)
+info: Nov-7 17:17:23.426 [UNKNOWN-FETCH-MANAGER] (T039P7U66) received UD36TUNQ1 (1)
+info: Nov-7 17:17:40.807 [COUNTS] (T039P7U66) Updated unread_cnt for C7NF60E0Z: 7
+info: Nov-7 17:17:44.435 [TIMING] session_age|timing: 291705.70000000007 seconds (ephemeral)
+info: Nov-7 17:17:51.291 [COUNTS] (T039P7U66) Updated unread_cnt for C7NF60E0Z: 8
+info: Nov-7 17:18:06.886 [COUNTS] (T039P7U66) Updated unread_cnt for C7NF60E0Z: 9
+info: Nov-7 17:18:56.819 [COUNTS] (T039P7U66) Updated unread_cnt for C7NF60E0Z: 10
+info: Nov-7 17:19:50.742 [COUNTS] (T039P7U66) Updated unread_cnt for C7NF60E0Z: 11
+info: Nov-7 17:26:52.006 [FOCUS-EVENT] Window focused
+info: Nov-7 17:26:52.054 [CHECK-UNREADS] (T039P7U66) Checking unreads after window became focused
+info: Nov-7 17:26:52.055 [CHECK-UNREADS] (T039P7U66) Not marking C039P7U6E because last_read >= latest && channel is read
+info: Nov-7 17:26:52.908 [FOCUS-EVENT] Window blurred
