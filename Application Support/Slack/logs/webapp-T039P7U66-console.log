@@ -840,3 +840,652 @@ info: Nov-7 18:34:39.453 [FOCUS-EVENT] Window focused
 info: Nov-7 18:34:39.479 [CHECK-UNREADS] (T039P7U66) Checking unreads after window became focused
 info: Nov-7 18:34:39.479 [CHECK-UNREADS] (T039P7U66) Not marking DDXBKA36J because last_read >= latest && channel is read
 info: Nov-7 18:34:40.895 [FOCUS-EVENT] Window blurred
+info: Nov-7 18:35:37.748 [TIMING] sm_flow_unexpected_close_10|count: 1 (count) 
+error: Nov-7 18:35:37.748 SOCKET-MANAGER (T039P7U66) Socket was closed because #1006: generic error
+info: Nov-7 18:35:37.749 [TIMING] ws_cr_1006_10|count: 1 (count) 
+info: Nov-7 18:35:37.749 [SOCKET-MANAGER] (T039P7U66) Changing from connected to error
+info: Nov-7 18:35:37.749 [SOCKET-MANAGER] (T039P7U66) will stay in error state for up to 10000 ms
+info: 2018/11/7 18:35:37.751  Stacktrace: ↴
+ at e (https://a.slack-edge.com/bv1-6/rollup-core_required_ts.87cf13221603fd58e892.min.js:1:112077)
+at https://a.slack-edge.com/bv1-6/modern.vendor.07f7953466208b1aeefe.min.js:1:22933
+at e (https://a.slack-edge.com/bv1-6/modern.vendor.07f7953466208b1aeefe.min.js:1:863674)
+at e (https://a.slack-edge.com/bv1-6/modern.vendor.07f7953466208b1aeefe.min.js:1:865510)
+at o (https://a.slack-edge.com/bv1-6/modern.vendor.07f7953466208b1aeefe.min.js:1:246252)
+at e (https://a.slack-edge.com/bv1-6/modern.vendor.07f7953466208b1aeefe.min.js:1:866218)
+at e (https://a.slack-edge.com/bv1-6/modern.vendor.07f7953466208b1aeefe.min.js:1:858671)
+at e.<anonymous> (https://a.slack-edge.com/bv1-6/rollup-core_required_libs.73c978ea8f76b4817e0c.min.js:1:1002646)
+at e (https://a.slack-edge.com/bv1-6/modern.vendor.07f7953466208b1aeefe.min.js:1:4876415)
+at WebSocket._socket.onclose (https://a.slack-edge.com/bv1-6/modern.vendor.07f7953466208b1aeefe.min.js:1:4874921)
+info: Nov-7 18:35:37.751 [SOCKET-MANAGER] (T039P7U66) Changing from error to wait_for_rate_limit
+info: Nov-7 18:35:37.751 [SOCKET-MANAGER] (T039P7U66) will stay in wait_for_rate_limit state for up to 120000 ms
+info: Nov-7 18:35:37.751 [SOCKET-MANAGER] (T039P7U66) backing off: will wait for 321 ms
+info: Nov-7 18:35:37.751 [TIMING] sm_flow_wait_for_rate_limit|count: 321 (count) 
+info: Nov-7 18:35:37.753 [INFO] MSDisconnected: 
+info: Nov-7 18:35:37.754 [INFO] Hiding the reconnection banner because we are disconnected
+info: Nov-7 18:35:39.104 [SOCKET-MANAGER] (T039P7U66) Changing from wait_for_rate_limit to connect
+info: Nov-7 18:35:39.105 [SOCKET-MANAGER] (T039P7U66) will stay in connect state for up to 10000 ms
+info: Nov-7 18:35:39.106 [SOCKET-MANAGER] (T039P7U66) Changing from connect to checking_fast_reconnect
+info: Nov-7 18:35:39.106 [SOCKET-MANAGER] (T039P7U66) will stay in checking_fast_reconnect state for up to 60000 ms
+info: Nov-7 18:35:39.107 [TIMING] sm_flow_fast_reconnect_10|count: 1 (count) 
+info: Nov-7 18:35:39.107 [SOCKET-MANAGER] (T039P7U66) Changing from checking_fast_reconnect to fast_reconnecting
+info: Nov-7 18:35:39.107 [SOCKET-MANAGER] (T039P7U66) will stay in fast_reconnecting state for up to 20000 ms
+info: Nov-7 18:35:39.116 [FOCUS-EVENT] Window focused
+info: Nov-7 18:35:39.240 [CHECK-UNREADS] (T039P7U66) Checking unreads after window became focused
+info: Nov-7 18:35:39.240 [CHECK-UNREADS] (T039P7U66) Not marking DDXBKA36J because last_read >= latest && channel is read
+info: Nov-7 18:35:39.287 [SOCKET-MANAGER] (T039P7U66) received an error of type 401: invalid_auth
+info: Nov-7 18:35:39.287 [TIMING] ws_err_10|count: 1 (count) 
+info: Nov-7 18:35:39.287 [TIMING] ws_err_invalid_auth_10|count: 1 (count) 
+error: Nov-7 18:35:39.287 SOCKET-MANAGER (T039P7U66) Closing socket because #4106: received an "error" message from socket
+info: Nov-7 18:35:39.288 [TIMING] ws_cr_4106_10|count: 1 (count) 
+info: Nov-7 18:35:39.288 [SOCKET-MANAGER] (T039P7U66) Changing from fast_reconnecting to error
+info: Nov-7 18:35:39.288 [SOCKET-MANAGER] (T039P7U66) will stay in error state for up to 10000 ms
+info: 2018/11/7 18:35:39.289  Stacktrace: ↴
+ at e (https://a.slack-edge.com/bv1-6/rollup-core_required_ts.87cf13221603fd58e892.min.js:1:112077)
+at https://a.slack-edge.com/bv1-6/modern.vendor.07f7953466208b1aeefe.min.js:1:22933
+at e (https://a.slack-edge.com/bv1-6/modern.vendor.07f7953466208b1aeefe.min.js:1:863674)
+at e (https://a.slack-edge.com/bv1-6/modern.vendor.07f7953466208b1aeefe.min.js:1:865510)
+at e (https://a.slack-edge.com/bv1-6/modern.vendor.07f7953466208b1aeefe.min.js:1:859695)
+at e.<anonymous> (https://a.slack-edge.com/bv1-6/rollup-core_required_libs.73c978ea8f76b4817e0c.min.js:1:1002646)
+at e (https://a.slack-edge.com/bv1-6/modern.vendor.07f7953466208b1aeefe.min.js:1:4877219)
+at WebSocket._socket.onmessage (https://a.slack-edge.com/bv1-6/modern.vendor.07f7953466208b1aeefe.min.js:1:4874984)
+info: Nov-7 18:35:39.289 [SOCKET-MANAGER] (T039P7U66) Changing from error to wait_for_rate_limit
+info: Nov-7 18:35:39.289 [SOCKET-MANAGER] (T039P7U66) will stay in wait_for_rate_limit state for up to 120000 ms
+info: Nov-7 18:35:39.289 [SOCKET-MANAGER] (T039P7U66) backing off: will wait for 994 ms
+info: Nov-7 18:35:39.289 [TIMING] sm_flow_wait_for_rate_limit|count: 994 (count) 
+info: Nov-7 18:35:39.290 [RELOAD] "Reloading due to error invalid_auth"
+info: Nov-7 18:35:39.297 [INFO] client window unloaded!
+info: Nov-7 18:35:39.298 [WINDOW-UNLOADING] (T039P7U66) workspace handling window unloading event
+info: Nov-7 18:35:39.299 [TIMING] session_lifespan|timing: 3869192.585 seconds 
+info: Nov-7 18:35:39.299 [TIMING] session_lifespan|timing: 3869192.7350000003 seconds 
+info: Nov-7 18:35:39.299 [TIMING] session_lifespan|timing: 3869192.8250000007 seconds 
+info: Nov-7 18:35:39.299 [TIMING] session_age|timing: 3869192.9400000004 seconds (ephemeral)
+info: Nov-7 18:35:39.299 [TIMING] session_age|timing: 3869193.245 seconds (ephemeral)
+info: Nov-7 18:35:39.300 [TIMING] session_age|timing: 3869193.395 seconds (ephemeral)
+info: JQMIGRATE: Migrate is installed with logging active, version 3.0.0
+warn: Nov-7 18:35:42.603 error getActiveModelOb found no ob
+warn: Nov-7 18:35:42.603 TS.boot_data.channel_id: undefined
+warn: Nov-7 18:35:42.603 TS.boot_data.im_id: undefined
+warn: Nov-7 18:35:42.603 TS.boot_data.group_id: undefined
+warn: Nov-7 18:35:42.604 error getActiveModelOb found no ob
+warn: Nov-7 18:35:42.604 TS.boot_data.channel_id: undefined
+warn: Nov-7 18:35:42.604 TS.boot_data.im_id: undefined
+warn: Nov-7 18:35:42.604 TS.boot_data.group_id: undefined
+info: Nov-7 18:35:42.677 [BOOT] booted! pri:0 version:1541544023 start_ms:1541612141158 (1518ms ago)
+info: SoundManager 2: No Flash detected. Trying HTML5-only mode.
+info: SoundManager V2.97a.20170601 (HTML5-only mode)
+info: SoundManager 2 HTML5 support: mp3 = true, mp4 = true, ogg = true, opus = true, wav = true, flac = true
+info: SoundManager 2: Ready. ✓
+info: Nov-7 18:35:42.724 [TIMING] session_load_count_web|count: 2 (count) 
+info: Nov-7 18:35:42.724 [INFO] no TS.client on page:https://42born2code.slack.com/
+info: Nov-7 18:35:42.805 [INFO] running without a user
+info: Nov-7 18:35:48.717 [WINDOW-UNLOADING] (T00) workspace handling window unloading event
+info: Nov-7 18:35:49.685 [WINDOW-UNLOADING] (T00) workspace handling window unloading event
+info: JQMIGRATE: Migrate is installed with logging active, version 3.0.0
+info: Nov-7 18:35:54.535 [BOOT] booted! pri:0 version:1541544023 start_ms:1541612153147 (1388ms ago)
+info: Nov-7 18:35:54.536 [BOOT] Starting incremental boot (early)
+warn: Nov-7 18:35:54.635 error getActiveModelOb found no ob
+warn: Nov-7 18:35:54.635 TS.boot_data.channel_id: undefined
+warn: Nov-7 18:35:54.635 TS.boot_data.im_id: undefined
+warn: Nov-7 18:35:54.635 TS.boot_data.group_id: undefined
+warn: Nov-7 18:35:54.635 error getActiveModelOb found no ob
+warn: Nov-7 18:35:54.636 TS.boot_data.channel_id: undefined
+warn: Nov-7 18:35:54.636 TS.boot_data.im_id: undefined
+warn: Nov-7 18:35:54.636 TS.boot_data.group_id: undefined
+info: SoundManager 2: No Flash detected. Trying HTML5-only mode.
+info: SoundManager V2.97a.20170601 (HTML5-only mode)
+info: SoundManager 2 HTML5 support: mp3 = true, mp4 = true, ogg = true, opus = true, wav = true, flac = true
+info: SoundManager 2: Ready. ✓
+info: Nov-7 18:35:54.837 [TIMING] session_load_count_client|count: 3 (count) 
+info: Nov-7 18:35:54.843 [SOCKET-MANAGER] (T039P7U66) Changing from never_connected to prov_connect
+info: Nov-7 18:35:54.844 [SOCKET-MANAGER] (T039P7U66) will stay in prov_connect state for up to 10000 ms
+info: Nov-7 18:35:54.845 [TIMING] sm_flow_connect_prov_10|count: 1 (count) 
+info: Nov-7 18:35:54.845 [SOCKET-MANAGER] (T039P7U66) Changing from prov_connect to prov_connecting
+info: Nov-7 18:35:54.845 [SOCKET-MANAGER] (T039P7U66) will stay in prov_connecting state for up to 35000 ms
+info: Nov-7 18:35:54.982 [API-Q] (T039P7U66) 785d4439-1541612154.980 apps.actions.list called with reason: no_reason_provided
+info: Nov-7 18:35:54.982 [API-Q] (T039P7U66) 785d4439-1541612154.980 apps.actions.list is ENQUEUED
+info: Nov-7 18:35:54.983 [API-Q] (T039P7U66) 785d4439-1541612154.980 apps.actions.list is ACTIVE
+warn: Nov-7 18:35:55.160 updateTeamIcon was called, but missing an image to set
+info: Nov-7 18:35:55.330 [TIMING] client_content_visible_4|timing: 4189.655029296875ms 
+info: Nov-7 18:35:55.330 [BOOT] Finalizing incremental boot
+info: Nov-7 18:35:55.338 [METRICS] Starting timers for metrics collection
+info: Nov-7 18:35:55.339 [FLANNEL] (T039P7U66) received a user_counts_request call while we are not connected; deferring
+info: Nov-7 18:35:55.503 [SWITCH-TO-CHANNEL] (T039P7U66) Switching to DDXBKA36J at end
+info: Nov-7 18:35:55.536 [API-Q] (T039P7U66) 785d4439-1541612155.536 promo.banner called with reason: no_reason_provided
+info: Nov-7 18:35:55.536 [API-Q] (T039P7U66) 785d4439-1541612155.536 promo.banner is ENQUEUED
+info: Nov-7 18:35:55.537 [API-Q] (T039P7U66) 785d4439-1541612155.536 promo.banner is ACTIVE
+info: Nov-7 18:35:55.545 [PERF] (T039P7U66) First meaningful paint: 4011ms
+info: Nov-7 18:35:55.545 [TIMING] ttfmp_legacy|timing: 4011ms 
+info: Nov-7 18:35:55.656 [HISTORY-FETCH] (T039P7U66) Fetching history for message pane: DDXBKA36J oldest: null latest: 1541431581.000200
+info: Nov-7 18:35:55.657 [API-Q] (T039P7U66) 785d4439-1541612155.657 conversations.history called with reason: message-pane/requestHistory
+info: Nov-7 18:35:55.657 [API-Q] (T039P7U66) 785d4439-1541612155.657 conversations.history is ENQUEUED
+info: Nov-7 18:35:55.658 [API-Q] (T039P7U66) 785d4439-1541612155.657 conversations.history is ACTIVE
+info: Nov-7 18:35:55.672 [CHECK-UNREADS] (T039P7U66) unreadLineVisible updated: false -> true
+info: Nov-7 18:35:55.674 [MESSAGE-LIST] (T039P7U66) componentWillReceiveProps isLoading: false isLoadingOlder: false timestamps: 3
+info: Nov-7 18:35:55.691 [TIMING] sm_flow_connected_prov_connected|count: 1 (count) 
+info: Nov-7 18:35:55.691 [SOCKET-MANAGER] (T039P7U66) Changing from prov_connecting to prov_connected
+info: Nov-7 18:35:55.692 [SOCKET-MANAGER] (T039P7U66) will stay in prov_connected state for up to 60000 ms
+info: Nov-7 18:35:55.693 [FLANNEL] (T039P7U66) connected! Continuing deferred user_counts_request call
+info: Nov-7 18:35:55.694 [INFO] Got start data from Socket Manager; hydrating it
+warn: Nov-7 18:35:55.697 activity is not scalar! it needs to be handled by upsertTeam specifically to test if it has changed! object
+warn: Nov-7 18:35:55.698 prefs is not scalar! it needs to be handled by upsertMember specifically to test if it has changed! object
+info: Nov-7 18:35:55.732 [BOOT] Completed incremental boot
+info: Nov-7 18:35:55.737 [API-Q] (T039P7U66) 785d4439-1541612155.737 i18n.translations.get called with reason: no_reason_provided
+info: Nov-7 18:35:55.737 [API-Q] (T039P7U66) 785d4439-1541612155.737 i18n.translations.get is ENQUEUED
+info: Nov-7 18:35:55.738 [API-Q] (T039P7U66) 785d4439-1541612155.737 i18n.translations.get is ACTIVE
+info: Nov-7 18:35:55.746 [API-Q] (T039P7U66) 785d4439-1541612155.746 emoji.list called with reason: no_reason_provided
+info: Nov-7 18:35:55.746 [API-Q] (T039P7U66) 785d4439-1541612155.746 emoji.list is ENQUEUED
+info: Nov-7 18:35:55.747 [API-Q] (T039P7U66) 785d4439-1541612155.746 emoji.list is ACTIVE
+info: Nov-7 18:35:55.762 [API-Q] (T039P7U66) 785d4439-1541612154.980 apps.actions.list is RESOLVED
+info: Nov-7 18:35:55.767 [TIMING] ufm_teams_fetch|count: 1 (count) 
+info: Nov-7 18:35:55.767 [UNKNOWN-FETCH-MANAGER] (T039P7U66) requesting T039P7U66 (1)
+info: Nov-7 18:35:55.768 [UNKNOWN-FETCH-MANAGER] (T039P7U66) received T039P7U66 (1)
+info: Nov-7 18:35:55.776 [TIMING] ufm_members_fetch|count: 10 (count) 
+info: Nov-7 18:35:55.776 [UNKNOWN-FETCH-MANAGER] (T039P7U66) requesting UCUJ7C3QS,UDVKWGQ69,USLACKBOT,U5DBZ3P7X,U75T96J9E,UD36WRSGZ,UCUH21P7U,UCXT2QJK1,UCVFA1DPX,UCTQYCHDE (1)
+info: Nov-7 18:35:55.778 [TIMING] ufm_channels_fetch|count: 1 (count) 
+info: Nov-7 18:35:55.778 [UNKNOWN-FETCH-MANAGER] (T039P7U66) requesting DDXBKA36J (1)
+info: Nov-7 18:35:55.779 [UNKNOWN-FETCH-MANAGER] (T039P7U66) received DDXBKA36J (1)
+info: Nov-7 18:35:55.821 [API-Q] (T039P7U66) 785d4439-1541612155.536 promo.banner is RESOLVED
+info: Nov-7 18:35:55.849 [MESSAGE-LIST] (T039P7U66) componentWillReceiveProps isLoading: true isLoadingOlder: true timestamps: 3
+info: Nov-7 18:35:55.858 [CHECK-UNREADS] (T039P7U66) unreadLineVisible updated: true -> false
+info: Nov-7 18:35:55.953 [CHECK-UNREADS] (T039P7U66) Checking unreads after fully booted
+info: Nov-7 18:35:55.954 [CHECK-UNREADS] (T039P7U66) Not marking DDXBKA36J because attention not on chat (window_not_focused)
+info: Nov-7 18:35:55.956 [API-Q] (T039P7U66) 785d4439-1541612155.657 conversations.history is RESOLVED
+info: Nov-7 18:35:55.963 [API-Q] (T039P7U66) 785d4439-1541612155.737 i18n.translations.get is RESOLVED
+info: Nov-7 18:35:55.976 [MESSAGE-LIST] (T039P7U66) componentWillReceiveProps isLoading: false isLoadingOlder: false timestamps: 3
+info: Nov-7 18:35:56.046 [CHECK-UNREADS] (T039P7U66) unreadLineVisible updated: false -> true
+info: Nov-7 18:35:56.069 [UNKNOWN-FETCH-MANAGER] (T039P7U66) received UCUJ7C3QS,UDVKWGQ69,USLACKBOT,U5DBZ3P7X,U75T96J9E,UD36WRSGZ,UCUH21P7U,UCXT2QJK1,UCVFA1DPX,UCTQYCHDE (1)
+info: Nov-7 18:35:56.093 [IMPROVED_SEARCH] (T039P7U66) Close Search
+info: Nov-7 18:35:56.094 [IMPROVED_SEARCH] (T039P7U66) Search is closing without query: Clear search session immediately
+info: Nov-7 18:35:56.203 [API-Q] (T039P7U66) 785d4439-1541612155.746 emoji.list is RESOLVED
+info: Nov-7 18:35:56.326 [BOOT] _maybeFinalizeOrOpenConnectionToMS will finalize SocketManager
+info: Nov-7 18:35:56.326 [TIMING] sm_flow_finalize_prov_10|count: 1 (count) 
+info: Nov-7 18:35:56.326 [SOCKET-MANAGER] (T039P7U66) Changing from prov_connected to prov_finalize
+info: Nov-7 18:35:56.327 [SOCKET-MANAGER] (T039P7U66) will stay in prov_finalize state for up to 10000 ms
+info: Nov-7 18:35:56.327 [SOCKET-MANAGER] (T039P7U66) Changing from prov_finalize to prov_finalizing
+info: Nov-7 18:35:56.327 [SOCKET-MANAGER] (T039P7U66) will stay in prov_finalizing state for up to 10000 ms
+info: Nov-7 18:35:56.327 [SOCKET-MANAGER] (T039P7U66) Changing from prov_finalizing to connected
+info: Nov-7 18:35:56.327 [SOCKET-MANAGER] (T039P7U66) will stay in connected state for up to Infinity ms
+info: Nov-7 18:35:56.328 [TIMING] sm_flow_finalize_prov_ok_10|count: 1 (count) 
+info: Nov-7 18:35:56.328 [BOOT] _maybeFinalizeOrOpenConnectionToMS did finalize SocketManager
+info: Nov-7 18:35:56.375 [BOOT] Finished first boot 1540 ms after DOM ready
+info: Nov-7 18:35:56.381 [API-Q] (T039P7U66) 785d4439-1541612156.381 help.issues.list called with reason: no_reason_provided
+info: Nov-7 18:35:56.381 [API-Q] (T039P7U66) 785d4439-1541612156.381 help.issues.list is ENQUEUED
+info: Nov-7 18:35:56.382 [API-Q] (T039P7U66) 785d4439-1541612156.381 help.issues.list is ACTIVE
+info: Nov-7 18:35:56.384 [API-Q] (T039P7U66) 785d4439-1541612156.384 dnd.teamInfo called with reason: no_reason_provided
+info: Nov-7 18:35:56.384 [API-Q] (T039P7U66) 785d4439-1541612156.384 dnd.teamInfo is ENQUEUED
+info: Nov-7 18:35:56.384 [API-Q] (T039P7U66) 785d4439-1541612156.384 dnd.teamInfo is ACTIVE
+info: Nov-7 18:35:56.386 [INFO] MSConnected: 
+info: Nov-7 18:35:56.387 [TIMING] client_load|timing: 3454.23ms 
+info: Nov-7 18:35:56.387 [TIMING] client_load_react_msgs|timing: 3454.32ms 
+info: Nov-7 18:35:56.387 [TIMING] client_total_load|timing: 5246.550048828125ms 
+info: Nov-7 18:35:56.387 [TIMING] pt_redirectStart|timing: 48ms 
+info: Nov-7 18:35:56.387 [TIMING] pt_redirectEnd|timing: 394ms 
+info: Nov-7 18:35:56.387 [TIMING] pt_fetchStart|timing: 394ms 
+info: Nov-7 18:35:56.387 [TIMING] pt_domainLookupStart|timing: 394ms 
+info: Nov-7 18:35:56.387 [TIMING] pt_domainLookupEnd|timing: 394ms 
+info: Nov-7 18:35:56.387 [TIMING] pt_connectStart|timing: 394ms 
+info: Nov-7 18:35:56.387 [TIMING] pt_connectEnd|timing: 394ms 
+info: Nov-7 18:35:56.387 [TIMING] pt_requestStart|timing: 394ms 
+info: Nov-7 18:35:56.387 [TIMING] pt_responseStart|timing: 560ms 
+info: Nov-7 18:35:56.388 [TIMING] pt_responseEnd|timing: 710ms 
+info: Nov-7 18:35:56.388 [TIMING] pt_domLoading|timing: 561ms 
+info: Nov-7 18:35:56.388 [TIMING] pt_domComplete|timing: 3694ms 
+info: Nov-7 18:35:56.388 [TIMING] pt_domContentLoadedEventStart|timing: 3653ms 
+info: Nov-7 18:35:56.388 [TIMING] pt_domContentLoadedEventEnd|timing: 3689ms 
+info: Nov-7 18:35:56.388 [TIMING] pt_domInteractive|timing: 3648ms 
+info: Nov-7 18:35:56.388 [TIMING] pt_section_redirect|timing: 346ms 
+info: Nov-7 18:35:56.388 [TIMING] pt_section_app_cache|timing: 0ms 
+info: Nov-7 18:35:56.388 [TIMING] pt_section_dns|timing: 0ms 
+info: Nov-7 18:35:56.388 [TIMING] pt_section_tcp|timing: 0ms 
+info: Nov-7 18:35:56.388 [TIMING] pt_section_request|timing: 166ms 
+info: Nov-7 18:35:56.388 [TIMING] pt_section_response|timing: 150ms 
+info: Nov-7 18:35:56.388 [TIMING] pt_section_processed|timing: 3133ms 
+info: Nov-7 18:35:56.388 [TIMING] pt_section_parsed|timing: 3087ms 
+info: Nov-7 18:35:56.388 [TIMING] pt_section_ready|timing: 46ms 
+info: Nov-7 18:35:56.388 [TIMING] pt_section_scripts_executed|timing: 36ms 
+info: Nov-7 18:35:56.389 [TIMING] inline_script_nodes|count: 22 (count) 
+info: Nov-7 18:35:56.389 [TIMING] inline_style_nodes|count: 7 (count) 
+info: Nov-7 18:35:56.389 [TIMING] external_script_nodes|count: 11 (count) 
+info: Nov-7 18:35:56.389 [TIMING] external_link_nodes|count: 8 (count) 
+info: Nov-7 18:35:56.412 [API-Q] (T039P7U66) 785d4439-1541612156.412 users.counts called with reason: users-counts-api/fetchUsersCounts
+info: Nov-7 18:35:56.412 [API-Q] (T039P7U66) 785d4439-1541612156.412 users.counts is ENQUEUED
+info: Nov-7 18:35:56.413 [API-Q] (T039P7U66) 785d4439-1541612156.412 users.counts is ACTIVE
+info: Nov-7 18:35:56.422 [HISTORY-FETCH] (T039P7U66) Fetching history for message pane: DDXBKA36J oldest: 1541580395.000200 latest: null
+info: Nov-7 18:35:56.423 [API-Q] (T039P7U66) 785d4439-1541612156.423 conversations.history called with reason: message-pane/requestHistory
+info: Nov-7 18:35:56.423 [API-Q] (T039P7U66) 785d4439-1541612156.423 conversations.history is ENQUEUED
+info: Nov-7 18:35:56.423 [API-Q] (T039P7U66) 785d4439-1541612156.423 conversations.history is ACTIVE
+info: Nov-7 18:35:56.424 [CHECK-UNREADS] (T039P7U66) unreadLineVisible updated: true -> false
+info: Nov-7 18:35:56.446 [TIMING] ufm_members_fetch|count: 1 (count) 
+info: Nov-7 18:35:56.446 [UNKNOWN-FETCH-MANAGER] (T039P7U66) requesting U1XKPSVTK (1)
+info: Nov-7 18:35:56.479 [MESSAGE-LIST] (T039P7U66) componentWillReceiveProps isLoading: true isLoadingOlder: null timestamps: 3
+info: Nov-7 18:35:56.497 [UNKNOWN-FETCH-MANAGER] (T039P7U66) received U1XKPSVTK (1)
+info: Nov-7 18:35:56.500 [API-Q] (T039P7U66) 785d4439-1541612156.384 dnd.teamInfo is RESOLVED
+info: Nov-7 18:35:56.503 [API-Q] (T039P7U66) 785d4439-1541612156.381 help.issues.list is RESOLVED
+info: Nov-7 18:35:56.582 [API-Q] (T039P7U66) 785d4439-1541612156.412 users.counts is RESOLVED
+info: Nov-7 18:35:56.600 [COUNTS] (T039P7U66) Completed counts processing
+info: Nov-7 18:35:56.806 [API-Q] (T039P7U66) 785d4439-1541612156.423 conversations.history is RESOLVED
+info: Nov-7 18:35:56.809 [UNREAD-COUNTS] (T039P7U66) Counting unreads in DDXBKA36J because (1) timestamps added
+info: Nov-7 18:35:56.812 [MESSAGE-LIST] (T039P7U66) componentWillReceiveProps isLoading: false isLoadingOlder: false timestamps: 3
+info: Nov-7 18:35:56.813 [CHECK-UNREADS] (T039P7U66) unreadLineVisible updated: false -> true
+info: Nov-7 18:35:57.103 [TIMING] rebuild_all_throttles|count: 2 (count) 
+info: Nov-7 18:35:57.176 [CHECK-UNREADS] (T039P7U66) Checking unreads after unread line became visible
+info: Nov-7 18:35:57.176 [CHECK-UNREADS] (T039P7U66) Not marking DDXBKA36J because attention not on chat (window_not_focused)
+info: Nov-7 18:36:00.742 [FOCUS-EVENT] Window focused
+info: Nov-7 18:36:00.762 [CHECK-UNREADS] (T039P7U66) Checking unreads after window became focused
+info: Nov-7 18:36:00.763 [CHECK-UNREADS] (T039P7U66) Not marking DDXBKA36J because last_read >= latest && channel is read
+info: Nov-7 18:36:00.837 [ACTION:CHANNEL-SIDEBAR] Selected C3QG85SG6
+info: Nov-7 18:36:00.842 [SWITCH-TO-CHANNEL] (T039P7U66) Switching to C3QG85SG6 at last_read 1541605955.980100
+info: Nov-7 18:36:00.892 [MESSAGE-LIST] (T039P7U66) Switching channels: C3QG85SG6 timestamps: 0
+info: Nov-7 18:36:00.899 [MESSAGE-LIST] (T039P7U66) requestAround channelId: C3QG85SG6 isLoading: false timestamps: 0 reachedStart: false reachedEnd: false
+info: Nov-7 18:36:00.899 [HISTORY-FETCH] (T039P7U66) Fetching history for message pane: C3QG85SG6 oldest: 1541605955.980100 latest: 1541605955.980100
+info: Nov-7 18:36:00.900 [API-Q] (T039P7U66) 785d4439-1541612160.900 conversations.history called with reason: message-pane/requestHistory
+info: Nov-7 18:36:00.901 [API-Q] (T039P7U66) 785d4439-1541612160.900 conversations.history is ENQUEUED
+info: Nov-7 18:36:00.901 [API-Q] (T039P7U66) 785d4439-1541612160.900 conversations.history is ACTIVE
+info: Nov-7 18:36:00.902 [API-Q] (T039P7U66) 785d4439-1541612160.901 conversations.history called with reason: message-pane/requestHistory
+info: Nov-7 18:36:00.902 [API-Q] (T039P7U66) 785d4439-1541612160.901 conversations.history is ENQUEUED
+info: Nov-7 18:36:00.902 [API-Q] (T039P7U66) 785d4439-1541612160.901 conversations.history is ACTIVE
+info: Nov-7 18:36:00.903 [TIMING] channel_change_react_msgs|timing: 59.95000000000073ms 
+info: Nov-7 18:36:00.904 [MESSAGE-LIST] (T039P7U66) componentWillReceiveProps isLoading: false isLoadingOlder: false timestamps: 0
+info: Nov-7 18:36:00.923 [MESSAGE-LIST] (T039P7U66) componentWillReceiveProps isLoading: true isLoadingOlder: false timestamps: 0
+info: Nov-7 18:36:00.926 [TIMING] channel_change_not_stored|timing: 82.93499999999949ms (ephemeral)
+info: Nov-7 18:36:01.047 [API-Q] (T039P7U66) 785d4439-1541612160.900 conversations.history is RESOLVED
+info: Nov-7 18:36:01.055 [API-Q] (T039P7U66) 785d4439-1541612160.901 conversations.history is RESOLVED
+info: Nov-7 18:36:01.067 [UNREAD-COUNTS] (T039P7U66) Counting unreads in C3QG85SG6 because (83) timestamps added
+info: Nov-7 18:36:01.088 [API-Q] (T039P7U66) 785d4439-1541612161.088 highlights.list called with reason: no_reason_provided
+info: Nov-7 18:36:01.088 [API-Q] (T039P7U66) 785d4439-1541612161.088 highlights.list is ENQUEUED
+info: Nov-7 18:36:01.088 [API-Q] (T039P7U66) 785d4439-1541612161.088 highlights.list is ACTIVE
+info: Nov-7 18:36:01.089 [MESSAGE-LIST] (T039P7U66) componentWillReceiveProps isLoading: false isLoadingOlder: false timestamps: 83
+info: Nov-7 18:36:01.193 [CHECK-UNREADS] (T039P7U66) unreadLineVisible updated: false -> true
+info: Nov-7 18:36:01.194 [TIMING] channel_change_not_stored|timing: 351.0499999999993ms (ephemeral)
+info: Nov-7 18:36:01.277 [API-Q] (T039P7U66) 785d4439-1541612161.088 highlights.list is RESOLVED
+info: Nov-7 18:36:01.285 [TIMING] ufm_members_fetch|count: 18 (count) 
+info: Nov-7 18:36:01.285 [UNKNOWN-FETCH-MANAGER] (T039P7U66) requesting U2MPSETSL,UDV7ALZG8,UCUDN9M19,UD4TYJV2T,U24EK4MB7,UDV7T4WGH,U22JMAGKH,UD36TUNQ1,U7VG1AMLL,U0FT7RK1A,U2X0EQWF3,U2A4KHZJB,UD563LF2S,U76GKJJ9Z,U0FFR78N7,UDZ2P32NB,UDX48QSH0,U76PH1UR3 (1)
+info: Nov-7 18:36:01.287 [TIMING] ufm_channels_fetch|count: 1 (count) 
+info: Nov-7 18:36:01.287 [UNKNOWN-FETCH-MANAGER] (T039P7U66) requesting C5F7H6Y93 (1)
+info: Nov-7 18:36:01.366 [UNKNOWN-FETCH-MANAGER] (T039P7U66) received U2MPSETSL,UDV7ALZG8,UCUDN9M19,UD4TYJV2T,U24EK4MB7,UDV7T4WGH,U22JMAGKH,UD36TUNQ1,U7VG1AMLL,U0FT7RK1A,U2X0EQWF3,U2A4KHZJB,UD563LF2S,U76GKJJ9Z,U0FFR78N7,UDZ2P32NB,UDX48QSH0,U76PH1UR3 (1)
+info: Nov-7 18:36:01.371 [UNKNOWN-FETCH-MANAGER] (T039P7U66) received C5F7H6Y93 (1)
+info: Nov-7 18:36:01.484 [CHECK-UNREADS] (T039P7U66) Checking unreads after debounced channel change to C3QG85SG6
+info: Nov-7 18:36:01.485 [CHECK-UNREADS] (T039P7U66) Marking C3QG85SG6 because unread line is visible
+info: Nov-7 18:36:01.488 [UNREAD-COUNTS] (T039P7U66) Counting unreads in C3QG85SG6 because last_read changed to 1541611698.024100
+info: Nov-7 18:36:01.489 [UNREAD-COUNTS] (T039P7U66) Fetching history for unread counting: C3QG85SG6, waiting 0 ms
+info: Nov-7 18:36:01.534 [CHECK-UNREADS] (T039P7U66) unreadLineVisible updated: true -> false
+info: Nov-7 18:36:01.578 [HISTORY-FETCH] (T039P7U66) Fetching history for unread counting: C3QG85SG6
+info: Nov-7 18:36:01.579 [API-Q] (T039P7U66) 785d4439-1541612161.579 conversations.history called with reason: unread-counts/onLastReadUpdated
+info: Nov-7 18:36:01.579 [API-Q] (T039P7U66) 785d4439-1541612161.579 conversations.history is ENQUEUED
+info: Nov-7 18:36:01.579 [API-Q] (T039P7U66) 785d4439-1541612161.579 conversations.history is ACTIVE
+info: Nov-7 18:36:01.814 [API-Q] (T039P7U66) 785d4439-1541612161.579 conversations.history is RESOLVED
+info: Nov-7 18:36:01.822 [UNREAD-COUNTS] (T039P7U66) Counting unreads in C3QG85SG6 because (42) timestamps added
+info: Nov-7 18:36:01.822 [COUNTS] (T039P7U66) Updated unread_cnt for C3QG85SG6: 0
+info: Nov-7 18:36:01.845 [API-Q] (T039P7U66) 785d4439-1541612161.845 highlights.list called with reason: no_reason_provided
+info: Nov-7 18:36:01.845 [API-Q] (T039P7U66) 785d4439-1541612161.845 highlights.list is ENQUEUED
+info: Nov-7 18:36:01.845 [API-Q] (T039P7U66) 785d4439-1541612161.845 highlights.list is ACTIVE
+info: Nov-7 18:36:01.975 [API-Q] (T039P7U66) 785d4439-1541612161.845 highlights.list is RESOLVED
+info: Nov-7 18:36:02.012 [API-Q] (T039P7U66) 785d4439-1541612162.012 conversations.mark called with reason: viewed
+info: Nov-7 18:36:02.012 [API-Q] (T039P7U66) 785d4439-1541612162.012 conversations.mark is ENQUEUED
+info: Nov-7 18:36:02.013 [API-Q] (T039P7U66) 785d4439-1541612162.012 conversations.mark is ACTIVE
+info: Nov-7 18:36:02.205 [API-Q] (T039P7U66) 785d4439-1541612162.012 conversations.mark is RESOLVED
+info: Nov-7 18:36:03.503 [TIMING] ufm_members_fetch|count: 2 (count) 
+info: Nov-7 18:36:03.504 [UNKNOWN-FETCH-MANAGER] (T039P7U66) requesting U76TA82CS,UCUH0TKD0 (1)
+info: Nov-7 18:36:03.562 [UNKNOWN-FETCH-MANAGER] (T039P7U66) received U76TA82CS,UCUH0TKD0 (1)
+info: Nov-7 18:36:03.704 [TIMING] ufm_members_fetch|count: 3 (count) 
+info: Nov-7 18:36:03.705 [UNKNOWN-FETCH-MANAGER] (T039P7U66) requesting U0GQXP468,U03K2KYH8,U2A250ME0 (1)
+info: Nov-7 18:36:03.810 [UNKNOWN-FETCH-MANAGER] (T039P7U66) received U0GQXP468,U03K2KYH8,U2A250ME0 (1)
+info: Nov-7 18:36:03.930 [TIMING] ufm_members_fetch|count: 3 (count) 
+info: Nov-7 18:36:03.930 [UNKNOWN-FETCH-MANAGER] (T039P7U66) requesting U4TUNPT7E,UD376RUJV,UCTR13HEC (1)
+info: Nov-7 18:36:03.981 [UNKNOWN-FETCH-MANAGER] (T039P7U66) received U4TUNPT7E,UD376RUJV,UCTR13HEC (1)
+info: Nov-7 18:36:05.542 [TIMING] ufm_members_fetch|count: 1 (count) 
+info: Nov-7 18:36:05.542 [UNKNOWN-FETCH-MANAGER] (T039P7U66) requesting UD55P5N86 (1)
+info: Nov-7 18:36:05.606 [UNKNOWN-FETCH-MANAGER] (T039P7U66) received UD55P5N86 (1)
+info: Nov-7 18:36:05.744 [TIMING] ufm_members_fetch|count: 1 (count) 
+info: Nov-7 18:36:05.744 [UNKNOWN-FETCH-MANAGER] (T039P7U66) requesting U77CT6MGD (1)
+info: Nov-7 18:36:05.776 [UNKNOWN-FETCH-MANAGER] (T039P7U66) received U77CT6MGD (1)
+info: Nov-7 18:36:05.947 [TIMING] ufm_members_fetch|count: 1 (count) 
+info: Nov-7 18:36:05.947 [UNKNOWN-FETCH-MANAGER] (T039P7U66) requesting U0BSYB8M6 (1)
+info: Nov-7 18:36:05.970 [UNKNOWN-FETCH-MANAGER] (T039P7U66) received U0BSYB8M6 (1)
+info: Nov-7 18:36:07.343 [TIMING] ufm_members_fetch|count: 1 (count) 
+info: Nov-7 18:36:07.344 [UNKNOWN-FETCH-MANAGER] (T039P7U66) requesting UDX3EBP3J (1)
+info: Nov-7 18:36:07.368 [UNKNOWN-FETCH-MANAGER] (T039P7U66) received UDX3EBP3J (1)
+info: Nov-7 18:36:07.544 [TIMING] ufm_members_fetch|count: 1 (count) 
+info: Nov-7 18:36:07.544 [UNKNOWN-FETCH-MANAGER] (T039P7U66) requesting UCUMZTYUD (1)
+info: Nov-7 18:36:07.572 [UNKNOWN-FETCH-MANAGER] (T039P7U66) received UCUMZTYUD (1)
+info: Nov-7 18:36:07.745 [TIMING] ufm_members_fetch|count: 1 (count) 
+info: Nov-7 18:36:07.745 [UNKNOWN-FETCH-MANAGER] (T039P7U66) requesting UCUGX6TEX (1)
+info: Nov-7 18:36:07.772 [UNKNOWN-FETCH-MANAGER] (T039P7U66) received UCUGX6TEX (1)
+info: Nov-7 18:36:07.946 [TIMING] ufm_members_fetch|count: 2 (count) 
+info: Nov-7 18:36:07.946 [UNKNOWN-FETCH-MANAGER] (T039P7U66) requesting U77NN16KV,U1XQJMH7B (1)
+info: Nov-7 18:36:07.970 [UNKNOWN-FETCH-MANAGER] (T039P7U66) received U77NN16KV,U1XQJMH7B (1)
+info: Nov-7 18:36:08.150 [TIMING] ufm_members_fetch|count: 1 (count) 
+info: Nov-7 18:36:08.150 [UNKNOWN-FETCH-MANAGER] (T039P7U66) requesting UCUGXD3A6 (1)
+info: Nov-7 18:36:08.179 [UNKNOWN-FETCH-MANAGER] (T039P7U66) received UCUGXD3A6 (1)
+info: Nov-7 18:36:09.317 [HISTORY-FETCH] (T039P7U66) Fetching history for message pane: C3QG85SG6 oldest: null latest: 1541595042.939200
+info: Nov-7 18:36:09.318 [API-Q] (T039P7U66) 785d4439-1541612169.317 conversations.history called with reason: message-pane/requestHistory
+info: Nov-7 18:36:09.318 [API-Q] (T039P7U66) 785d4439-1541612169.317 conversations.history is ENQUEUED
+info: Nov-7 18:36:09.318 [API-Q] (T039P7U66) 785d4439-1541612169.317 conversations.history is ACTIVE
+info: Nov-7 18:36:09.469 [API-Q] (T039P7U66) 785d4439-1541612169.317 conversations.history is RESOLVED
+info: Nov-7 18:36:09.479 [TIMING] ufm_members_fetch|count: 1 (count) 
+info: Nov-7 18:36:09.479 [UNKNOWN-FETCH-MANAGER] (T039P7U66) requesting U1XM0TPQF (1)
+info: Nov-7 18:36:09.486 [MESSAGE-LIST] (T039P7U66) componentWillReceiveProps isLoading: false isLoadingOlder: false timestamps: 154
+info: Nov-7 18:36:09.522 [UNKNOWN-FETCH-MANAGER] (T039P7U66) received U1XM0TPQF (1)
+info: Nov-7 18:36:10.707 [TIMING] ufm_members_fetch|count: 3 (count) 
+info: Nov-7 18:36:10.707 [UNKNOWN-FETCH-MANAGER] (T039P7U66) requesting U0744UWAJ,U2A2A5L3A,U2JDTQNQ4 (1)
+info: Nov-7 18:36:10.748 [UNKNOWN-FETCH-MANAGER] (T039P7U66) received U0744UWAJ,U2A2A5L3A,U2JDTQNQ4 (1)
+info: Nov-7 18:36:12.863 [TIMING] ufm_members_fetch|count: 1 (count) 
+info: Nov-7 18:36:12.863 [UNKNOWN-FETCH-MANAGER] (T039P7U66) requesting U77HD6H7G (1)
+info: Nov-7 18:36:12.890 [UNKNOWN-FETCH-MANAGER] (T039P7U66) received U77HD6H7G (1)
+info: Nov-7 18:36:13.064 [TIMING] ufm_members_fetch|count: 3 (count) 
+info: Nov-7 18:36:13.064 [UNKNOWN-FETCH-MANAGER] (T039P7U66) requesting U1XHZKV35,UAEJ17EN5,U03BJMS2V (1)
+info: Nov-7 18:36:13.094 [UNKNOWN-FETCH-MANAGER] (T039P7U66) received U1XHZKV35,UAEJ17EN5,U03BJMS2V (1)
+info: Nov-7 18:36:13.964 [TIMING] ufm_members_fetch|count: 2 (count) 
+info: Nov-7 18:36:13.964 [UNKNOWN-FETCH-MANAGER] (T039P7U66) requesting UDXKVBN67,UDXHY2ETE (1)
+info: Nov-7 18:36:14.025 [UNKNOWN-FETCH-MANAGER] (T039P7U66) received UDXKVBN67,UDXHY2ETE (1)
+info: Nov-7 18:36:14.167 [TIMING] ufm_members_fetch|count: 2 (count) 
+info: Nov-7 18:36:14.167 [UNKNOWN-FETCH-MANAGER] (T039P7U66) requesting U7FHGURJ8,UD7900FAA (1)
+info: Nov-7 18:36:14.193 [UNKNOWN-FETCH-MANAGER] (T039P7U66) received U7FHGURJ8,UD7900FAA (1)
+info: Nov-7 18:36:14.497 [TIMING] ufm_members_fetch|count: 1 (count) 
+info: Nov-7 18:36:14.497 [UNKNOWN-FETCH-MANAGER] (T039P7U66) requesting UDK0F07R7 (1)
+info: Nov-7 18:36:14.525 [UNKNOWN-FETCH-MANAGER] (T039P7U66) received UDK0F07R7 (1)
+info: Nov-7 18:36:16.252 [TIMING] react_t_mount|timing: 15.31499999999869ms 
+info: Nov-7 18:36:19.198 [TIMING] react_t_mount|timing: 3.9200000000018917ms 
+info: Nov-7 18:36:21.996 [TIMING] session_age|timing: 29064.845 seconds (ephemeral)
+info: Nov-7 18:36:21.998 [TIMING] session_age|timing: 29066.645000000004 seconds (ephemeral)
+info: Nov-7 18:36:22.489 [TIMING] ufm_members_fetch|count: 1 (count) 
+info: Nov-7 18:36:22.489 [UNKNOWN-FETCH-MANAGER] (T039P7U66) requesting U5LN2NZPE (1)
+info: Nov-7 18:36:22.563 [UNKNOWN-FETCH-MANAGER] (T039P7U66) received U5LN2NZPE (1)
+info: Nov-7 18:36:22.564 [TIMING] ufm_channels_fetch|count: 1 (count) 
+info: Nov-7 18:36:22.564 [UNKNOWN-FETCH-MANAGER] (T039P7U66) requesting C8Y2AQR6D (1)
+info: Nov-7 18:36:22.662 [UNKNOWN-FETCH-MANAGER] (T039P7U66) received C8Y2AQR6D (1)
+info: Nov-7 18:36:22.700 [TIMING] ufm_members_fetch|count: 4 (count) 
+info: Nov-7 18:36:22.700 [UNKNOWN-FETCH-MANAGER] (T039P7U66) requesting U6MKHP1JA,U7BRV9VV2,UCUH334P4,U1XKCT02U (1)
+info: Nov-7 18:36:22.746 [UNKNOWN-FETCH-MANAGER] (T039P7U66) received U6MKHP1JA,U7BRV9VV2,UCUH334P4,U1XKCT02U (1)
+info: Nov-7 18:36:22.861 [CHECK-UNREADS] (T039P7U66) unreadLineVisible updated: false -> true
+info: Nov-7 18:36:23.212 [CHECK-UNREADS] (T039P7U66) Checking unreads after unread line became visible
+info: Nov-7 18:36:23.212 [CHECK-UNREADS] (T039P7U66) Not marking C3QG85SG6 because last_read >= latest && channel is read
+info: Nov-7 18:36:32.229 [FOCUS-EVENT] Window blurred
+info: Nov-7 18:36:49.371 [TIMING] session_age|timing: 56441.425 seconds (ephemeral)
+info: Nov-7 18:37:01.125 [FOCUS-EVENT] Window focused
+info: Nov-7 18:37:01.280 [CHECK-UNREADS] (T039P7U66) Checking unreads after window became focused
+info: Nov-7 18:37:01.280 [CHECK-UNREADS] (T039P7U66) Not marking C3QG85SG6 because last_read >= latest && channel is read
+info: Nov-7 18:37:05.445 [ACTIVITY] fetchMentions called with after_ts: undefined
+info: Nov-7 18:37:05.446 [API-Q] (T039P7U66) 785d4439-1541612225.445 activity.mentions called with reason: no_reason_provided
+info: Nov-7 18:37:05.446 [API-Q] (T039P7U66) 785d4439-1541612225.445 activity.mentions is ENQUEUED
+info: Nov-7 18:37:05.446 [API-Q] (T039P7U66) 785d4439-1541612225.445 activity.mentions is ACTIVE
+info: Nov-7 18:37:05.876 [API-Q] (T039P7U66) 785d4439-1541612225.445 activity.mentions is RESOLVED
+info: Nov-7 18:37:05.882 [ACTIVITY] onFetchMentions: 7/7 mentions added, total 7 mentions
+info: Nov-7 18:37:05.882 [ACTIVITY] Mentions finished fetching
+info: Nov-7 18:37:07.132 [TIMING] ufm_members_fetch|count: 9 (count) 
+info: Nov-7 18:37:07.132 [UNKNOWN-FETCH-MANAGER] (T039P7U66) requesting U77LCJ7B9,U77DZPR0E,U7B4CJ0SC,U76H8MN4S,U761MHTCH,UCUB0QKQC,U9ZHJ6N1E,U0DGCKSHK,U1XKVN0BC (1)
+info: Nov-7 18:37:07.170 [UNKNOWN-FETCH-MANAGER] (T039P7U66) received U77LCJ7B9,U77DZPR0E,U7B4CJ0SC,U76H8MN4S,U761MHTCH,UCUB0QKQC,U9ZHJ6N1E,U0DGCKSHK,U1XKVN0BC (1)
+info: Nov-7 18:37:07.196 [IMPROVED_SEARCH] (T039P7U66) Close Search
+info: Nov-7 18:37:07.197 [IMPROVED_SEARCH] (T039P7U66) Search is closing without query: Clear search session immediately
+info: Nov-7 18:37:15.309 [TIMING] session_age|timing: 82380.78500000002 seconds (ephemeral)
+info: Nov-7 18:37:17.474 [API-Q] (T039P7U66) 785d4439-1541612237.473 channels.suggestions called with reason: no_reason_provided
+info: Nov-7 18:37:17.474 [API-Q] (T039P7U66) 785d4439-1541612237.473 channels.suggestions is ENQUEUED
+info: Nov-7 18:37:17.474 [API-Q] (T039P7U66) 785d4439-1541612237.473 channels.suggestions is ACTIVE
+info: Nov-7 18:37:17.854 [API-Q] (T039P7U66) 785d4439-1541612237.473 channels.suggestions is RESOLVED
+info: Nov-7 18:37:26.761 [CHECK-UNREADS] (T039P7U66) unreadLineVisible updated: true -> false
+info: Nov-7 18:37:27.028 [CHECK-UNREADS] (T039P7U66) unreadLineVisible updated: false -> true
+info: Nov-7 18:37:27.380 [CHECK-UNREADS] (T039P7U66) Checking unreads after unread line became visible
+info: Nov-7 18:37:27.380 [CHECK-UNREADS] (T039P7U66) Not marking C3QG85SG6 because last_read >= latest && channel is read
+info: Nov-7 18:37:28.246 [CHECK-UNREADS] (T039P7U66) unreadLineVisible updated: true -> false
+info: Nov-7 18:37:31.279 [TIMING] react_t_mount|timing: 12.46500000001106ms 
+info: Nov-7 18:37:35.867 [TIMING] react_t_mount|timing: 13.924999999988358ms 
+info: Nov-7 18:37:41.967 [TIMING] session_age|timing: 109039.35 seconds (ephemeral)
+info: Nov-7 18:37:46.790 [INFO] Opening conversation 1541604071.968500 in C3QG85SG6
+info: Nov-7 18:37:46.821 [API-Q] (T039P7U66) 785d4439-1541612266.820 channels.replies called with reason: no_reason_provided
+info: Nov-7 18:37:46.821 [API-Q] (T039P7U66) 785d4439-1541612266.820 channels.replies is ENQUEUED
+info: Nov-7 18:37:46.821 [API-Q] (T039P7U66) 785d4439-1541612266.820 channels.replies is ACTIVE
+info: Nov-7 18:37:47.179 [API-Q] (T039P7U66) 785d4439-1541612266.820 channels.replies is RESOLVED
+info: Nov-7 18:37:47.185 [INFO] Rendering thread 1541604071.968500, 2 messages (has_more: false)
+info: Nov-7 18:37:47.263 [API-Q] (T039P7U66) 785d4439-1541612267.263 subscriptions.thread.get called with reason: no_reason_provided
+info: Nov-7 18:37:47.264 [API-Q] (T039P7U66) 785d4439-1541612267.263 subscriptions.thread.get is ENQUEUED
+info: Nov-7 18:37:47.264 [API-Q] (T039P7U66) 785d4439-1541612267.263 subscriptions.thread.get is ACTIVE
+info: Nov-7 18:37:47.619 [API-Q] (T039P7U66) 785d4439-1541612267.263 subscriptions.thread.get is RESOLVED
+info: Nov-7 18:37:53.780 [FOCUS-EVENT] Window blurred
+info: Nov-7 18:37:54.660 [FOCUS-EVENT] Window focused
+info: Nov-7 18:37:54.798 [TIMING] react_t_update|timing: 97.22000000001572ms 
+info: Nov-7 18:37:54.850 [CHECK-UNREADS] (T039P7U66) Checking unreads after window became focused
+info: Nov-7 18:37:54.850 [CHECK-UNREADS] (T039P7U66) Not marking C3QG85SG6 because last_read >= latest && channel is read
+info: Nov-7 18:37:59.533 [API-Q] (T039P7U66) 785d4439-1541612279.533 dnd.teamInfo called with reason: no_reason_provided
+info: Nov-7 18:37:59.533 [API-Q] (T039P7U66) 785d4439-1541612279.533 dnd.teamInfo is ENQUEUED
+info: Nov-7 18:37:59.534 [API-Q] (T039P7U66) 785d4439-1541612279.533 dnd.teamInfo is ACTIVE
+info: Nov-7 18:37:59.652 [API-Q] (T039P7U66) 785d4439-1541612279.533 dnd.teamInfo is RESOLVED
+info: Nov-7 18:38:01.690 [API-Q] (T039P7U66) 785d4439-1541612281.690 conversations.open called with reason: TS.ims.legacyStartImByMemberId
+info: Nov-7 18:38:01.690 [API-Q] (T039P7U66) 785d4439-1541612281.690 conversations.open is ENQUEUED
+info: Nov-7 18:38:01.691 [API-Q] (T039P7U66) 785d4439-1541612281.690 conversations.open is ACTIVE
+info: Nov-7 18:38:02.461 [SWITCH-TO-CHANNEL] (T039P7U66) Switching to DDXV9NMJP at end
+info: Nov-7 18:38:02.493 [MESSAGE-LIST] (T039P7U66) Switching channels: DDXV9NMJP timestamps: 0
+info: Nov-7 18:38:02.498 [MESSAGE-LIST] (T039P7U66) requestAround channelId: DDXV9NMJP isLoading: false timestamps: 0 reachedStart: false reachedEnd: false
+info: Nov-7 18:38:02.498 [HISTORY-FETCH] (T039P7U66) Fetching history for message pane: DDXV9NMJP oldest: null latest: null
+info: Nov-7 18:38:02.499 [API-Q] (T039P7U66) 785d4439-1541612282.499 conversations.history called with reason: message-pane/requestHistory
+info: Nov-7 18:38:02.499 [API-Q] (T039P7U66) 785d4439-1541612282.499 conversations.history is ENQUEUED
+info: Nov-7 18:38:02.499 [API-Q] (T039P7U66) 785d4439-1541612282.499 conversations.history is ACTIVE
+info: Nov-7 18:38:02.500 [TIMING] channel_change_react_msgs|timing: 37.40000000002328ms 
+info: Nov-7 18:38:02.525 [API-Q] (T039P7U66) 785d4439-1541612281.690 conversations.open is RESOLVED
+info: Nov-7 18:38:02.539 [MESSAGE-LIST] (T039P7U66) componentWillReceiveProps isLoading: true isLoadingOlder: null timestamps: 0
+info: Nov-7 18:38:02.541 [TIMING] channel_change_not_stored|timing: 78.84500000000116ms (ephemeral)
+info: Nov-7 18:38:02.658 [API-Q] (T039P7U66) 785d4439-1541612282.499 conversations.history is RESOLVED
+info: Nov-7 18:38:02.673 [MESSAGE-LIST] (T039P7U66) componentWillReceiveProps isLoading: false isLoadingOlder: false timestamps: 0
+info: Nov-7 18:38:02.679 [CHECK-UNREADS] (T039P7U66) unreadLineVisible updated: false -> true
+info: Nov-7 18:38:02.679 [TIMING] channel_change_not_stored|timing: 216.61000000001513ms (ephemeral)
+info: Nov-7 18:38:03.037 [CHECK-UNREADS] (T039P7U66) Checking unreads after unread line became visible
+info: Nov-7 18:38:03.037 [CHECK-UNREADS] (T039P7U66) Marking DDXV9NMJP because unread line is visible
+info: Nov-7 18:38:08.623 [TIMING] session_age|timing: 135696.625 seconds (ephemeral)
+info: Nov-7 18:38:27.742 [ACTION:MESSAGE] (T039P7U66) Sent a message of length 97 to DDXV9NMJP via HTTP, clientMsgId: 65c3efe8-3829-4f23-b689-351a04a7913a
+info: Nov-7 18:38:27.743 [ACTION:MESSAGE-Q] (T039P7U66) Enqueueing message with clientMsgId 65c3efe8-3829-4f23-b689-351a04a7913a, queue has 1 messages
+info: Nov-7 18:38:27.743 [ACTION:MESSAGE-Q] (T039P7U66) Sending message with clientMsgId 65c3efe8-3829-4f23-b689-351a04a7913a
+info: Nov-7 18:38:27.744 [API-Q] (T039P7U66) 785d4439-1541612307.743 chat.postMessage called with reason: webapp_message_send
+info: Nov-7 18:38:27.744 [API-Q] (T039P7U66) 785d4439-1541612307.743 chat.postMessage is ENQUEUED
+info: Nov-7 18:38:27.744 [API-Q] (T039P7U66) 785d4439-1541612307.743 chat.postMessage is ACTIVE
+info: Nov-7 18:38:27.744 [ACTION:MESSAGE-Q] (T039P7U66) Shifting queue, now has 0 messages
+info: Nov-7 18:38:27.747 [UNREAD-COUNTS] (T039P7U66) Counting unreads in DDXV9NMJP because (1) timestamps added
+info: Nov-7 18:38:27.747 [UNREAD-COUNTS] (T039P7U66) Checking unreads in DDXV9NMJP after a new message
+info: Nov-7 18:38:27.747 [CHECK-UNREADS] (T039P7U66) Marking DDXV9NMJP because unread line is visible
+warn: Nov-7 18:38:28.119 (T039P7U66) Notification (message) suppressed because:
+The window is focused and the notifying channel (DDXV9NMJP) is visible
+info: Nov-7 18:38:28.122 [ACTION:MESSAGE] (T039P7U66) Resolved a message with clientMsgId 65c3efe8-3829-4f23-b689-351a04a7913a in DDXV9NMJP
+info: Nov-7 18:38:28.124 [ACTION:MESSAGE-Q] (T039P7U66) Resolving active request with clientMsgId 65c3efe8-3829-4f23-b689-351a04a7913a
+info: Nov-7 18:38:28.125 [UNREAD-COUNTS] (T039P7U66) Counting unreads in DDXV9NMJP because (1) timestamps added
+info: Nov-7 18:38:28.125 [UNREAD-COUNTS] (T039P7U66) Checking unreads in DDXV9NMJP after a new message
+info: Nov-7 18:38:28.125 [CHECK-UNREADS] (T039P7U66) Marking DDXV9NMJP because unread line is visible
+info: Nov-7 18:38:28.127 [UNREAD-COUNTS] (T039P7U66) Counting unreads in DDXV9NMJP because last_read changed to 1541612308.000600
+info: Nov-7 18:38:28.155 [API-Q] (T039P7U66) 785d4439-1541612307.743 chat.postMessage is RESOLVED
+info: Nov-7 18:38:34.910 [ACTION:MESSAGE] (T039P7U66) Sent a message of length 34 to DDXV9NMJP via HTTP, clientMsgId: 55aa0b1a-3706-458c-86da-8ec250f2e8a6
+info: Nov-7 18:38:34.910 [ACTION:MESSAGE-Q] (T039P7U66) Enqueueing message with clientMsgId 55aa0b1a-3706-458c-86da-8ec250f2e8a6, queue has 1 messages
+info: Nov-7 18:38:34.910 [ACTION:MESSAGE-Q] (T039P7U66) Sending message with clientMsgId 55aa0b1a-3706-458c-86da-8ec250f2e8a6
+info: Nov-7 18:38:34.911 [API-Q] (T039P7U66) 785d4439-1541612314.911 chat.postMessage called with reason: webapp_message_send
+info: Nov-7 18:38:34.911 [API-Q] (T039P7U66) 785d4439-1541612314.911 chat.postMessage is ENQUEUED
+info: Nov-7 18:38:34.911 [API-Q] (T039P7U66) 785d4439-1541612314.911 chat.postMessage is ACTIVE
+info: Nov-7 18:38:34.912 [ACTION:MESSAGE-Q] (T039P7U66) Shifting queue, now has 0 messages
+info: Nov-7 18:38:34.913 [UNREAD-COUNTS] (T039P7U66) Counting unreads in DDXV9NMJP because (1) timestamps added
+info: Nov-7 18:38:34.914 [UNREAD-COUNTS] (T039P7U66) Checking unreads in DDXV9NMJP after a new message
+info: Nov-7 18:38:34.914 [CHECK-UNREADS] (T039P7U66) Not marking DDXV9NMJP because last_read >= latest && channel is read
+warn: Nov-7 18:38:35.264 (T039P7U66) Notification (message) suppressed because:
+The window is focused and the notifying channel (DDXV9NMJP) is visible
+info: Nov-7 18:38:35.266 [ACTION:MESSAGE] (T039P7U66) Resolved a message with clientMsgId 55aa0b1a-3706-458c-86da-8ec250f2e8a6 in DDXV9NMJP
+info: Nov-7 18:38:35.267 [ACTION:MESSAGE-Q] (T039P7U66) Resolving active request with clientMsgId 55aa0b1a-3706-458c-86da-8ec250f2e8a6
+info: Nov-7 18:38:35.268 [UNREAD-COUNTS] (T039P7U66) Counting unreads in DDXV9NMJP because (1) timestamps added
+info: Nov-7 18:38:35.268 [UNREAD-COUNTS] (T039P7U66) Checking unreads in DDXV9NMJP after a new message
+info: Nov-7 18:38:35.268 [CHECK-UNREADS] (T039P7U66) Marking DDXV9NMJP because unread line is visible
+info: Nov-7 18:38:35.270 [UNREAD-COUNTS] (T039P7U66) Counting unreads in DDXV9NMJP because last_read changed to 1541612315.000900
+info: Nov-7 18:38:35.286 [TIMING] session_age|timing: 162361.46000000002 seconds (ephemeral)
+info: Nov-7 18:38:35.301 [API-Q] (T039P7U66) 785d4439-1541612314.911 chat.postMessage is RESOLVED
+info: Nov-7 18:38:41.069 [FOCUS-EVENT] Window blurred
+info: Nov-7 18:38:53.544 [FOCUS-EVENT] Window focused
+info: Nov-7 18:38:53.663 [CHECK-UNREADS] (T039P7U66) Checking unreads after window became focused
+info: Nov-7 18:38:53.663 [CHECK-UNREADS] (T039P7U66) Not marking DDXV9NMJP because last_read >= latest && channel is read
+info: Nov-7 18:38:56.427 [ACTION:CHANNEL-SIDEBAR] Selected C3QG85SG6
+info: Nov-7 18:38:56.431 [SWITCH-TO-CHANNEL] (T039P7U66) Switching to C3QG85SG6 at scrollmark 1541604100.968800
+info: Nov-7 18:38:56.469 [MESSAGE-LIST] (T039P7U66) Switching channels: C3QG85SG6 timestamps: 154
+info: Nov-7 18:38:56.580 [TIMING] channel_change_react_msgs|timing: 148.14999999999418ms 
+info: Nov-7 18:38:58.085 [FOCUS-EVENT] Window blurred
+info: Nov-7 18:39:03.369 [TIMING] session_age|timing: 190445.41500000004 seconds (ephemeral)
+info: Nov-7 18:39:24.628 [COUNTS] (T039P7U66) Updated unread_cnt for DDXV9NMJP: 1
+info: Nov-7 18:39:29.165 [TIMING] session_age|timing: 216243.06000000003 seconds (ephemeral)
+info: Nov-7 18:39:30.246 [FOCUS-EVENT] Window focused
+info: Nov-7 18:39:30.455 [CHECK-UNREADS] (T039P7U66) Checking unreads after window became focused
+info: Nov-7 18:39:30.455 [CHECK-UNREADS] (T039P7U66) Not marking C3QG85SG6 because last_read >= latest && channel is read
+info: Nov-7 18:39:32.057 [ACTION:CHANNEL-SIDEBAR] Selected DDXV9NMJP
+info: Nov-7 18:39:32.059 [SWITCH-TO-CHANNEL] (T039P7U66) Switching to DDXV9NMJP at last_read 1541612315.000900
+info: Nov-7 18:39:32.097 [MESSAGE-LIST] (T039P7U66) Switching channels: DDXV9NMJP timestamps: 3
+info: Nov-7 18:39:32.126 [CHECK-UNREADS] (T039P7U66) unreadLineVisible updated: false -> true
+info: Nov-7 18:39:32.127 [TIMING] channel_change_react_msgs|timing: 66.59499999997206ms 
+info: Nov-7 18:39:32.162 [CHECK-UNREADS] (T039P7U66) unreadLineVisible updated: true -> false
+info: Nov-7 18:39:32.326 [CHECK-UNREADS] (T039P7U66) unreadLineVisible updated: false -> true
+info: Nov-7 18:39:32.587 [CHECK-UNREADS] (T039P7U66) Checking unreads after debounced channel change to DDXV9NMJP
+info: Nov-7 18:39:32.587 [CHECK-UNREADS] (T039P7U66) Marking DDXV9NMJP because unread line is visible
+info: Nov-7 18:39:32.589 [UNREAD-COUNTS] (T039P7U66) Counting unreads in DDXV9NMJP because last_read changed to 1541612364.001300
+info: Nov-7 18:39:32.589 [COUNTS] (T039P7U66) Updated unread_cnt for DDXV9NMJP: 0
+info: Nov-7 18:39:32.678 [CHECK-UNREADS] (T039P7U66) Checking unreads after unread line became visible
+info: Nov-7 18:39:32.678 [CHECK-UNREADS] (T039P7U66) Not marking DDXV9NMJP because last_read >= latest && channel is read
+info: Nov-7 18:39:33.235 [API-Q] (T039P7U66) 785d4439-1541612373.234 conversations.mark called with reason: viewed
+info: Nov-7 18:39:33.235 [API-Q] (T039P7U66) 785d4439-1541612373.234 conversations.mark is ENQUEUED
+info: Nov-7 18:39:33.235 [API-Q] (T039P7U66) 785d4439-1541612373.234 conversations.mark is ACTIVE
+info: Nov-7 18:39:33.629 [API-Q] (T039P7U66) 785d4439-1541612373.234 conversations.mark is RESOLVED
+warn: Nov-7 18:39:35.567 (T039P7U66) Notification (message) suppressed because:
+The window is focused and the notifying channel (DDXV9NMJP) is visible
+info: Nov-7 18:39:35.570 [UNREAD-COUNTS] (T039P7U66) Counting unreads in DDXV9NMJP because (1) timestamps added
+info: Nov-7 18:39:35.571 [COUNTS] (T039P7U66) Updated unread_cnt for DDXV9NMJP: 1
+info: Nov-7 18:39:35.573 [UNREAD-COUNTS] (T039P7U66) Checking unreads in DDXV9NMJP after a new message
+info: Nov-7 18:39:35.573 [CHECK-UNREADS] (T039P7U66) Marking DDXV9NMJP because unread line is visible
+info: Nov-7 18:39:35.575 [UNREAD-COUNTS] (T039P7U66) Counting unreads in DDXV9NMJP because last_read changed to 1541612375.001700
+info: Nov-7 18:39:35.575 [COUNTS] (T039P7U66) Updated unread_cnt for DDXV9NMJP: 0
+info: Nov-7 18:39:37.503 [API-Q] (T039P7U66) 785d4439-1541612377.502 conversations.mark called with reason: viewed
+info: Nov-7 18:39:37.503 [API-Q] (T039P7U66) 785d4439-1541612377.502 conversations.mark is ENQUEUED
+info: Nov-7 18:39:37.503 [API-Q] (T039P7U66) 785d4439-1541612377.502 conversations.mark is ACTIVE
+info: Nov-7 18:39:37.885 [API-Q] (T039P7U66) 785d4439-1541612377.502 conversations.mark is RESOLVED
+info: Nov-7 18:39:41.650 [FOCUS-EVENT] Window blurred
+info: Nov-7 18:39:45.089 [FOCUS-EVENT] Window focused
+info: Nov-7 18:39:45.199 [CHECK-UNREADS] (T039P7U66) Checking unreads after window became focused
+info: Nov-7 18:39:45.199 [CHECK-UNREADS] (T039P7U66) Not marking DDXV9NMJP because last_read >= latest && channel is read
+info: Nov-7 18:39:46.227 [CONTENTEDITABLE] MIME types in clipboard: "text/plain"
+info: Nov-7 18:39:46.244 [CONTENTEDITABLE] pasted into "msg_input"
+info: Nov-7 18:39:46.892 [ACTION:MESSAGE] (T039P7U66) Sent a message of length 997 to DDXV9NMJP via HTTP, clientMsgId: 832e4ed9-d7d5-4e23-b601-dfcd8c923294
+info: Nov-7 18:39:46.892 [ACTION:MESSAGE-Q] (T039P7U66) Enqueueing message with clientMsgId 832e4ed9-d7d5-4e23-b601-dfcd8c923294, queue has 1 messages
+info: Nov-7 18:39:46.892 [ACTION:MESSAGE-Q] (T039P7U66) Sending message with clientMsgId 832e4ed9-d7d5-4e23-b601-dfcd8c923294
+info: Nov-7 18:39:46.893 [API-Q] (T039P7U66) 785d4439-1541612386.892 chat.postMessage called with reason: webapp_message_send
+info: Nov-7 18:39:46.893 [API-Q] (T039P7U66) 785d4439-1541612386.892 chat.postMessage is ENQUEUED
+info: Nov-7 18:39:46.893 [API-Q] (T039P7U66) 785d4439-1541612386.892 chat.postMessage is ACTIVE
+info: Nov-7 18:39:46.893 [ACTION:MESSAGE-Q] (T039P7U66) Shifting queue, now has 0 messages
+info: Nov-7 18:39:46.895 [UNREAD-COUNTS] (T039P7U66) Counting unreads in DDXV9NMJP because (1) timestamps added
+info: Nov-7 18:39:46.895 [UNREAD-COUNTS] (T039P7U66) Checking unreads in DDXV9NMJP after a new message
+info: Nov-7 18:39:46.896 [CHECK-UNREADS] (T039P7U66) Not marking DDXV9NMJP because last_read >= latest && channel is read
+warn: Nov-7 18:39:47.257 (T039P7U66) Notification (message) suppressed because:
+The window is focused and the notifying channel (DDXV9NMJP) is visible
+info: Nov-7 18:39:47.259 [ACTION:MESSAGE] (T039P7U66) Resolved a message with clientMsgId 832e4ed9-d7d5-4e23-b601-dfcd8c923294 in DDXV9NMJP
+info: Nov-7 18:39:47.260 [ACTION:MESSAGE-Q] (T039P7U66) Resolving active request with clientMsgId 832e4ed9-d7d5-4e23-b601-dfcd8c923294
+info: Nov-7 18:39:47.261 [UNREAD-COUNTS] (T039P7U66) Counting unreads in DDXV9NMJP because (1) timestamps added
+info: Nov-7 18:39:47.261 [UNREAD-COUNTS] (T039P7U66) Checking unreads in DDXV9NMJP after a new message
+info: Nov-7 18:39:47.261 [CHECK-UNREADS] (T039P7U66) Marking DDXV9NMJP because unread line is visible
+info: Nov-7 18:39:47.263 [UNREAD-COUNTS] (T039P7U66) Counting unreads in DDXV9NMJP because last_read changed to 1541612387.002100
+info: Nov-7 18:39:47.289 [API-Q] (T039P7U66) 785d4439-1541612386.892 chat.postMessage is RESOLVED
+warn: Nov-7 18:39:47.437 (T039P7U66) Notification (message) suppressed because:
+The window is focused and the notifying channel (DDXV9NMJP) is visible
+info: Nov-7 18:39:47.439 [UNREAD-COUNTS] (T039P7U66) Counting unreads in DDXV9NMJP because (1) timestamps added
+info: Nov-7 18:39:47.440 [COUNTS] (T039P7U66) Updated unread_cnt for DDXV9NMJP: 1
+info: Nov-7 18:39:47.442 [UNREAD-COUNTS] (T039P7U66) Checking unreads in DDXV9NMJP after a new message
+info: Nov-7 18:39:47.442 [CHECK-UNREADS] (T039P7U66) Marking DDXV9NMJP because unread line is visible
+info: Nov-7 18:39:47.443 [UNREAD-COUNTS] (T039P7U66) Counting unreads in DDXV9NMJP because last_read changed to 1541612387.002200
+info: Nov-7 18:39:47.444 [COUNTS] (T039P7U66) Updated unread_cnt for DDXV9NMJP: 0
+info: Nov-7 18:39:52.138 [API-Q] (T039P7U66) 785d4439-1541612392.137 conversations.mark called with reason: viewed
+info: Nov-7 18:39:52.138 [API-Q] (T039P7U66) 785d4439-1541612392.137 conversations.mark is ENQUEUED
+info: Nov-7 18:39:52.138 [API-Q] (T039P7U66) 785d4439-1541612392.137 conversations.mark is ACTIVE
+info: Nov-7 18:39:52.297 [API-Q] (T039P7U66) 785d4439-1541612392.137 conversations.mark is RESOLVED
+info: Nov-7 18:39:55.249 [TIMING] session_age|timing: 242327.73500000002 seconds (ephemeral)
+info: Nov-7 18:39:55.249 [TIMING] session_age|timing: 242327.98500000004 seconds (ephemeral)
+info: Nov-7 18:39:56.890 [ACTION:MESSAGE] (T039P7U66) Sent a message of length 56 to DDXV9NMJP via HTTP, clientMsgId: b1f02e6d-44c8-4d54-8dc8-a2f070499bf4
+info: Nov-7 18:39:56.890 [ACTION:MESSAGE-Q] (T039P7U66) Enqueueing message with clientMsgId b1f02e6d-44c8-4d54-8dc8-a2f070499bf4, queue has 1 messages
+info: Nov-7 18:39:56.890 [ACTION:MESSAGE-Q] (T039P7U66) Sending message with clientMsgId b1f02e6d-44c8-4d54-8dc8-a2f070499bf4
+info: Nov-7 18:39:56.890 [API-Q] (T039P7U66) 785d4439-1541612396.890 chat.postMessage called with reason: webapp_message_send
+info: Nov-7 18:39:56.891 [API-Q] (T039P7U66) 785d4439-1541612396.890 chat.postMessage is ENQUEUED
+info: Nov-7 18:39:56.891 [API-Q] (T039P7U66) 785d4439-1541612396.890 chat.postMessage is ACTIVE
+info: Nov-7 18:39:56.891 [ACTION:MESSAGE-Q] (T039P7U66) Shifting queue, now has 0 messages
+info: Nov-7 18:39:56.893 [UNREAD-COUNTS] (T039P7U66) Counting unreads in DDXV9NMJP because (1) timestamps added
+info: Nov-7 18:39:56.893 [UNREAD-COUNTS] (T039P7U66) Checking unreads in DDXV9NMJP after a new message
+info: Nov-7 18:39:56.893 [CHECK-UNREADS] (T039P7U66) Not marking DDXV9NMJP because last_read >= latest && channel is read
+warn: Nov-7 18:39:57.024 (T039P7U66) Notification (message) suppressed because:
+The window is focused and the notifying channel (DDXV9NMJP) is visible
+info: Nov-7 18:39:57.027 [ACTION:MESSAGE] (T039P7U66) Resolved a message with clientMsgId b1f02e6d-44c8-4d54-8dc8-a2f070499bf4 in DDXV9NMJP
+info: Nov-7 18:39:57.029 [ACTION:MESSAGE-Q] (T039P7U66) Resolving active request with clientMsgId b1f02e6d-44c8-4d54-8dc8-a2f070499bf4
+info: Nov-7 18:39:57.030 [UNREAD-COUNTS] (T039P7U66) Counting unreads in DDXV9NMJP because (1) timestamps added
+info: Nov-7 18:39:57.030 [UNREAD-COUNTS] (T039P7U66) Checking unreads in DDXV9NMJP after a new message
+info: Nov-7 18:39:57.031 [CHECK-UNREADS] (T039P7U66) Marking DDXV9NMJP because unread line is visible
+info: Nov-7 18:39:57.032 [UNREAD-COUNTS] (T039P7U66) Counting unreads in DDXV9NMJP because message removed
+info: Nov-7 18:39:57.033 [UNREAD-COUNTS] (T039P7U66) Counting unreads in DDXV9NMJP because last_read changed to 1541612396.002700
+info: Nov-7 18:39:57.064 [API-Q] (T039P7U66) 785d4439-1541612396.890 chat.postMessage is RESOLVED
+warn: Nov-7 18:40:00.415 (T039P7U66) Notification (message) suppressed because:
+The window is focused and the notifying channel (DDXV9NMJP) is visible
+info: Nov-7 18:40:00.417 [UNREAD-COUNTS] (T039P7U66) Counting unreads in DDXV9NMJP because (1) timestamps added
+info: Nov-7 18:40:00.418 [COUNTS] (T039P7U66) Updated unread_cnt for DDXV9NMJP: 1
+info: Nov-7 18:40:00.420 [UNREAD-COUNTS] (T039P7U66) Checking unreads in DDXV9NMJP after a new message
+info: Nov-7 18:40:00.420 [CHECK-UNREADS] (T039P7U66) Marking DDXV9NMJP because unread line is visible
+info: Nov-7 18:40:00.422 [UNREAD-COUNTS] (T039P7U66) Counting unreads in DDXV9NMJP because last_read changed to 1541612400.002800
+info: Nov-7 18:40:00.422 [COUNTS] (T039P7U66) Updated unread_cnt for DDXV9NMJP: 0
+info: Nov-7 18:40:04.737 [API-Q] (T039P7U66) 785d4439-1541612404.736 conversations.mark called with reason: viewed
+info: Nov-7 18:40:04.737 [API-Q] (T039P7U66) 785d4439-1541612404.736 conversations.mark is ENQUEUED
+info: Nov-7 18:40:04.737 [API-Q] (T039P7U66) 785d4439-1541612404.736 conversations.mark is ACTIVE
+info: Nov-7 18:40:04.897 [API-Q] (T039P7U66) 785d4439-1541612404.736 conversations.mark is RESOLVED
+warn: Nov-7 18:40:12.421 (T039P7U66) Notification (message) suppressed because:
+The window is focused and the notifying channel (DDXV9NMJP) is visible
+info: Nov-7 18:40:12.424 [UNREAD-COUNTS] (T039P7U66) Counting unreads in DDXV9NMJP because (1) timestamps added
+info: Nov-7 18:40:12.425 [COUNTS] (T039P7U66) Updated unread_cnt for DDXV9NMJP: 1
+info: Nov-7 18:40:12.427 [UNREAD-COUNTS] (T039P7U66) Checking unreads in DDXV9NMJP after a new message
+info: Nov-7 18:40:12.427 [CHECK-UNREADS] (T039P7U66) Marking DDXV9NMJP because unread line is visible
+info: Nov-7 18:40:12.429 [UNREAD-COUNTS] (T039P7U66) Counting unreads in DDXV9NMJP because last_read changed to 1541612412.003100
+info: Nov-7 18:40:12.429 [COUNTS] (T039P7U66) Updated unread_cnt for DDXV9NMJP: 0
+info: Nov-7 18:40:17.052 [API-Q] (T039P7U66) 785d4439-1541612417.052 conversations.mark called with reason: viewed
+info: Nov-7 18:40:17.052 [API-Q] (T039P7U66) 785d4439-1541612417.052 conversations.mark is ENQUEUED
+info: Nov-7 18:40:17.053 [API-Q] (T039P7U66) 785d4439-1541612417.052 conversations.mark is ACTIVE
+info: Nov-7 18:40:17.219 [API-Q] (T039P7U66) 785d4439-1541612417.052 conversations.mark is RESOLVED
+warn: Nov-7 18:40:20.190 (T039P7U66) Notification (message) suppressed because:
+The window is focused and the notifying channel (DDXV9NMJP) is visible
+info: Nov-7 18:40:20.193 [UNREAD-COUNTS] (T039P7U66) Counting unreads in DDXV9NMJP because (1) timestamps added
+info: Nov-7 18:40:20.193 [COUNTS] (T039P7U66) Updated unread_cnt for DDXV9NMJP: 1
+info: Nov-7 18:40:20.195 [UNREAD-COUNTS] (T039P7U66) Checking unreads in DDXV9NMJP after a new message
+info: Nov-7 18:40:20.196 [CHECK-UNREADS] (T039P7U66) Marking DDXV9NMJP because unread line is visible
+info: Nov-7 18:40:20.197 [UNREAD-COUNTS] (T039P7U66) Counting unreads in DDXV9NMJP because last_read changed to 1541612420.003700
+info: Nov-7 18:40:20.198 [COUNTS] (T039P7U66) Updated unread_cnt for DDXV9NMJP: 0
+info: Nov-7 18:40:21.906 [TIMING] session_age|timing: 268986.44499999995 seconds (ephemeral)
+info: Nov-7 18:40:24.619 [API-Q] (T039P7U66) 785d4439-1541612424.619 conversations.mark called with reason: viewed
+info: Nov-7 18:40:24.619 [API-Q] (T039P7U66) 785d4439-1541612424.619 conversations.mark is ENQUEUED
+info: Nov-7 18:40:24.619 [API-Q] (T039P7U66) 785d4439-1541612424.619 conversations.mark is ACTIVE
+info: Nov-7 18:40:24.772 [API-Q] (T039P7U66) 785d4439-1541612424.619 conversations.mark is RESOLVED
+info: Nov-7 18:40:26.917 [ACTION:MESSAGE] (T039P7U66) Sent a message of length 2 to DDXV9NMJP via HTTP, clientMsgId: 119a59cd-aa6d-41da-8928-053d8522b700
+info: Nov-7 18:40:26.917 [ACTION:MESSAGE-Q] (T039P7U66) Enqueueing message with clientMsgId 119a59cd-aa6d-41da-8928-053d8522b700, queue has 1 messages
+info: Nov-7 18:40:26.917 [ACTION:MESSAGE-Q] (T039P7U66) Sending message with clientMsgId 119a59cd-aa6d-41da-8928-053d8522b700
+info: Nov-7 18:40:26.918 [API-Q] (T039P7U66) 785d4439-1541612426.917 chat.postMessage called with reason: webapp_message_send
+info: Nov-7 18:40:26.918 [API-Q] (T039P7U66) 785d4439-1541612426.917 chat.postMessage is ENQUEUED
+info: Nov-7 18:40:26.918 [API-Q] (T039P7U66) 785d4439-1541612426.917 chat.postMessage is ACTIVE
+info: Nov-7 18:40:26.918 [ACTION:MESSAGE-Q] (T039P7U66) Shifting queue, now has 0 messages
+info: Nov-7 18:40:26.920 [UNREAD-COUNTS] (T039P7U66) Counting unreads in DDXV9NMJP because (1) timestamps added
+info: Nov-7 18:40:26.920 [UNREAD-COUNTS] (T039P7U66) Checking unreads in DDXV9NMJP after a new message
+info: Nov-7 18:40:26.921 [CHECK-UNREADS] (T039P7U66) Not marking DDXV9NMJP because last_read >= latest && channel is read
+warn: Nov-7 18:40:27.060 (T039P7U66) Notification (message) suppressed because:
+The window is focused and the notifying channel (DDXV9NMJP) is visible
+info: Nov-7 18:40:27.062 [ACTION:MESSAGE] (T039P7U66) Resolved a message with clientMsgId 119a59cd-aa6d-41da-8928-053d8522b700 in DDXV9NMJP
+info: Nov-7 18:40:27.063 [ACTION:MESSAGE-Q] (T039P7U66) Resolving active request with clientMsgId 119a59cd-aa6d-41da-8928-053d8522b700
+info: Nov-7 18:40:27.064 [UNREAD-COUNTS] (T039P7U66) Counting unreads in DDXV9NMJP because (1) timestamps added
+info: Nov-7 18:40:27.065 [UNREAD-COUNTS] (T039P7U66) Checking unreads in DDXV9NMJP after a new message
+info: Nov-7 18:40:27.065 [CHECK-UNREADS] (T039P7U66) Marking DDXV9NMJP because unread line is visible
+info: Nov-7 18:40:27.067 [UNREAD-COUNTS] (T039P7U66) Counting unreads in DDXV9NMJP because last_read changed to 1541612427.004000
+info: Nov-7 18:40:27.092 [API-Q] (T039P7U66) 785d4439-1541612426.917 chat.postMessage is RESOLVED
+info: Nov-7 18:40:33.415 [ACTION:MESSAGE] (T039P7U66) Sent a message of length 52 to DDXV9NMJP via HTTP, clientMsgId: 9b29180e-e8bf-466a-bfc9-60b7d7e43394
+info: Nov-7 18:40:33.415 [ACTION:MESSAGE-Q] (T039P7U66) Enqueueing message with clientMsgId 9b29180e-e8bf-466a-bfc9-60b7d7e43394, queue has 1 messages
+info: Nov-7 18:40:33.415 [ACTION:MESSAGE-Q] (T039P7U66) Sending message with clientMsgId 9b29180e-e8bf-466a-bfc9-60b7d7e43394
+info: Nov-7 18:40:33.416 [API-Q] (T039P7U66) 785d4439-1541612433.416 chat.postMessage called with reason: webapp_message_send
+info: Nov-7 18:40:33.416 [API-Q] (T039P7U66) 785d4439-1541612433.416 chat.postMessage is ENQUEUED
+info: Nov-7 18:40:33.417 [API-Q] (T039P7U66) 785d4439-1541612433.416 chat.postMessage is ACTIVE
+info: Nov-7 18:40:33.417 [ACTION:MESSAGE-Q] (T039P7U66) Shifting queue, now has 0 messages
+info: Nov-7 18:40:33.419 [UNREAD-COUNTS] (T039P7U66) Counting unreads in DDXV9NMJP because (1) timestamps added
+info: Nov-7 18:40:33.419 [UNREAD-COUNTS] (T039P7U66) Checking unreads in DDXV9NMJP after a new message
+info: Nov-7 18:40:33.419 [CHECK-UNREADS] (T039P7U66) Not marking DDXV9NMJP because last_read >= latest && channel is read
+warn: Nov-7 18:40:33.552 (T039P7U66) Notification (message) suppressed because:
+The window is focused and the notifying channel (DDXV9NMJP) is visible
+info: Nov-7 18:40:33.554 [ACTION:MESSAGE] (T039P7U66) Resolved a message with clientMsgId 9b29180e-e8bf-466a-bfc9-60b7d7e43394 in DDXV9NMJP
+info: Nov-7 18:40:33.554 [ACTION:MESSAGE-Q] (T039P7U66) Resolving active request with clientMsgId 9b29180e-e8bf-466a-bfc9-60b7d7e43394
+info: Nov-7 18:40:33.555 [UNREAD-COUNTS] (T039P7U66) Counting unreads in DDXV9NMJP because (1) timestamps added
+info: Nov-7 18:40:33.556 [UNREAD-COUNTS] (T039P7U66) Checking unreads in DDXV9NMJP after a new message
+info: Nov-7 18:40:33.556 [CHECK-UNREADS] (T039P7U66) Marking DDXV9NMJP because unread line is visible
+info: Nov-7 18:40:33.557 [UNREAD-COUNTS] (T039P7U66) Counting unreads in DDXV9NMJP because message removed
+info: Nov-7 18:40:33.558 [UNREAD-COUNTS] (T039P7U66) Counting unreads in DDXV9NMJP because last_read changed to 1541612433.004200
+info: Nov-7 18:40:33.586 [API-Q] (T039P7U66) 785d4439-1541612433.416 chat.postMessage is RESOLVED
+info: Nov-7 18:40:34.621 [FOCUS-EVENT] Window blurred
