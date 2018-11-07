@@ -1,0 +1,93 @@
+[11/07/18, 17:12:51:886] info: ╔═══════════════════════════════════════════════════════════════════════╗
+[11/07/18, 17:12:51:886] info: ║      Slack 3.3.3, darwin 16.7.0 on x64 at 11/07/18, 17:12:51:883      ║
+[11/07/18, 17:12:51:886] info: ╚═══════════════════════════════════════════════════════════════════════╝
+[11/07/18, 17:12:51:999] info: Initializing local storage instance at path: /Users/pscott/Library/Application Support/Slack/local-settings.json
+[11/07/18, 17:12:52:344] info: cld3::loadModule: loading cld3 module
+[11/07/18, 17:12:52:364] info: cld3Loader::loadModule: running environment is NODE
+[11/07/18, 17:12:52:364] info: cld3Loader::loadModule: constructed module object for runtime
+[11/07/18, 17:12:52:645] info: cld3Loader::initializeRuntime: successfully initialized module
+[11/07/18, 17:12:52:645] info: cld3Loader::loadModule: initialized wasm binary Runtime
+[11/07/18, 17:12:52:651] info: SpellChecker:: updateSpellcheckerLanguage: Skip to set new language null, spellchecker is not available
+[11/07/18, 17:12:52:662] info: TouchBarIntegration: Initializing TouchBar classes
+[11/07/18, 17:12:52:666] info: Main window preload script finished
+{
+  "readyTime": 1028.183788
+}
+[11/07/18, 17:12:55:509] info: Store: UPSERT_WEB_CONTENTS
+{
+  "id": 4,
+  "state": "loaded",
+  "teamId": "T039P7U66"
+}
+[11/07/18, 17:12:55:546] info: Store: UPDATE_SESSION_STATUS
+{
+  "hasValidSession": true,
+  "teamId": "T039P7U66"
+}
+[11/07/18, 17:12:56:418] info: Store: SELECT_CHANNEL C039P7U6E
+[11/07/18, 17:12:56:419] info: Store: UPDATE_TEAM_LOCALE
+{
+  "locale": "en-US",
+  "teamId": "T039P7U66"
+}
+[11/07/18, 17:12:56:419] info: Store: UPDATE_SETTINGS
+{
+  "locale": "en-US"
+}
+[11/07/18, 17:12:56:426] info: Store: UPDATE_TEAM_THEME
+{
+  "teamId": "T039P7U66",
+  "theme": {
+    "active_item": "#4C9689",
+    "active_item_text": "#FFFFFF",
+    "active_presence": "#38978D",
+    "badge": "#EB4D5C",
+    "column_bg": "#4D394B",
+    "hover_item": "#3E313C",
+    "menu_bg": "#3E313C",
+    "text_color": "#FFFFFF"
+  }
+}
+[11/07/18, 17:12:56:578] info: Store: UPDATE_TEAM_ICONS
+{
+  "icons": {
+    "image_102": "https://avatars.slack-edge.com/2015-01-16/3430328729_21d38518d6bf3013d981_102.jpg",
+    "image_132": "https://avatars.slack-edge.com/2015-01-16/3430328729_21d38518d6bf3013d981_132.jpg",
+    "image_230": "https://avatars.slack-edge.com/2015-01-16/3430328729_21d38518d6bf3013d981_132.jpg",
+    "image_34": "https://avatars.slack-edge.com/2015-01-16/3430328729_21d38518d6bf3013d981_34.jpg",
+    "image_44": "https://avatars.slack-edge.com/2015-01-16/3430328729_21d38518d6bf3013d981_44.jpg",
+    "image_68": "https://avatars.slack-edge.com/2015-01-16/3430328729_21d38518d6bf3013d981_68.jpg",
+    "image_88": "https://avatars.slack-edge.com/2015-01-16/3430328729_21d38518d6bf3013d981_88.jpg",
+    "image_original": "https://avatars.slack-edge.com/2015-01-16/3430328729_21d38518d6bf3013d981_original.jpg"
+  },
+  "teamId": "T039P7U66"
+}
+[11/07/18, 17:12:57:229] info: Store: UPDATE_TEAM_LOCALE
+{
+  "locale": "en-US",
+  "teamId": "T039P7U66"
+}
+[11/07/18, 17:12:57:230] info: Store: UPSERT_WEB_CONTENTS
+{
+  "id": 4,
+  "state": "webapp-loaded",
+  "teamId": "T039P7U66"
+}
+[11/07/18, 17:12:57:235] info: Store: UPDATE_SETTINGS
+{
+  "sandboxSigninWindow": true
+}
+[11/07/18, 17:12:57:322] info: Store: STORE_ENTERPRISE_ID_PAIR
+{
+  "enterpriseId": null,
+  "teamId": "T039P7U66"
+}
+[11/07/18, 17:12:57:322] info: Store: STORE_API_TOKEN
+{
+  "teamId": "T039P7U66",
+  "token": "xoxs-⋯"
+}
+[11/07/18, 17:12:57:376] info: postLoadTaskSetup: Setup spellchecker
+{
+  "version": "V1"
+}

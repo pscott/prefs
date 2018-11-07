@@ -1,0 +1,163 @@
+info: ╔═══════════════════════════════════════════════════════════════════════╗
+info: ║      Slack 3.3.3, darwin 16.7.0 on x64 at 11/07/18, 17:12:51:069      ║
+info: ╚═══════════════════════════════════════════════════════════════════════╝
+info: JQMIGRATE: Migrate is installed with logging active, version 3.0.0
+info: Nov-7 17:12:54.672 [BOOT] booted! pri:0 version:1541544023 start_ms:1541607173014 (1657ms ago)
+info: Nov-7 17:12:54.672 [BOOT] Starting incremental boot (early)
+warn: Nov-7 17:12:54.798 error getActiveModelOb found no ob
+warn: Nov-7 17:12:54.798 TS.boot_data.channel_id: undefined
+warn: Nov-7 17:12:54.798 TS.boot_data.im_id: undefined
+warn: Nov-7 17:12:54.798 TS.boot_data.group_id: undefined
+warn: Nov-7 17:12:54.799 error getActiveModelOb found no ob
+warn: Nov-7 17:12:54.799 TS.boot_data.channel_id: undefined
+warn: Nov-7 17:12:54.799 TS.boot_data.im_id: undefined
+warn: Nov-7 17:12:54.799 TS.boot_data.group_id: undefined
+info: SoundManager 2: No Flash detected. Trying HTML5-only mode.
+info: SoundManager V2.97a.20170601 (HTML5-only mode)
+info: SoundManager 2 HTML5 support: mp3 = true, mp4 = true, ogg = true, opus = true, wav = true, flac = true
+info: SoundManager 2: Ready. ✓
+info: Nov-7 17:12:55.161 [TIMING] session_load_count_client|count: 1 (count) 
+info: Nov-7 17:12:55.167 [SOCKET-MANAGER] (T039P7U66) Changing from never_connected to prov_connect
+info: Nov-7 17:12:55.168 [SOCKET-MANAGER] (T039P7U66) will stay in prov_connect state for up to 10000 ms
+info: Nov-7 17:12:55.169 [TIMING] sm_flow_connect_prov_10|count: 1 (count) 
+info: Nov-7 17:12:55.169 [SOCKET-MANAGER] (T039P7U66) Changing from prov_connect to prov_connecting
+info: Nov-7 17:12:55.169 [SOCKET-MANAGER] (T039P7U66) will stay in prov_connecting state for up to 35000 ms
+info: Nov-7 17:12:55.314 [API-Q] (T039P7U66) 785d4439-1541607175.312 apps.actions.list called with reason: no_reason_provided
+info: Nov-7 17:12:55.314 [API-Q] (T039P7U66) 785d4439-1541607175.312 apps.actions.list is ENQUEUED
+info: Nov-7 17:12:55.316 [API-Q] (T039P7U66) 785d4439-1541607175.312 apps.actions.list is ACTIVE
+info: Nov-7 17:12:55.494 [API-Q] (T039P7U66) 785d4439-1541607175.493 apps.list called with reason: no_reason_provided
+info: Nov-7 17:12:55.494 [API-Q] (T039P7U66) 785d4439-1541607175.493 apps.list is ENQUEUED
+info: Nov-7 17:12:55.495 [API-Q] (T039P7U66) 785d4439-1541607175.493 apps.list is ACTIVE
+info: Nov-7 17:12:55.496 [API-Q] (T039P7U66) 785d4439-1541607175.496 commands.list called with reason: no_reason_provided
+info: Nov-7 17:12:55.496 [API-Q] (T039P7U66) 785d4439-1541607175.496 commands.list is ENQUEUED
+info: Nov-7 17:12:55.497 [API-Q] (T039P7U66) 785d4439-1541607175.496 commands.list is ACTIVE
+info: Nov-7 17:12:55.498 [API-Q] (T039P7U66) 785d4439-1541607175.497 i18n.translations.get called with reason: no_reason_provided
+info: Nov-7 17:12:55.498 [API-Q] (T039P7U66) 785d4439-1541607175.497 i18n.translations.get is ENQUEUED
+info: Nov-7 17:12:55.498 [API-Q] (T039P7U66) 785d4439-1541607175.497 i18n.translations.get is ACTIVE
+warn: Nov-7 17:12:55.499 updateTeamIcon was called, but missing an image to set
+info: Nov-7 17:12:55.506 [API-Q] (T039P7U66) 785d4439-1541607175.505 emoji.list called with reason: no_reason_provided
+info: Nov-7 17:12:55.506 [API-Q] (T039P7U66) 785d4439-1541607175.505 emoji.list is ENQUEUED
+info: Nov-7 17:12:55.506 [API-Q] (T039P7U66) 785d4439-1541607175.505 emoji.list is ACTIVE
+info: Nov-7 17:12:55.547 [API-Q] (T039P7U66) 785d4439-1541607175.312 apps.actions.list is RESOLVED
+info: Nov-7 17:12:55.550 [TIMING] ufm_teams_fetch|count: 1 (count) 
+info: Nov-7 17:12:55.550 [UNKNOWN-FETCH-MANAGER] (T039P7U66) requesting T039P7U66 (1)
+info: Nov-7 17:12:55.551 [UNKNOWN-FETCH-MANAGER] (T039P7U66) received T039P7U66 (1)
+info: Nov-7 17:12:55.563 [FLANNEL] (T039P7U66) received a user_subscribe_request call while we are not connected; deferring
+info: Nov-7 17:12:55.564 [TIMING] ufm_members_fetch|count: 1 (count) 
+info: Nov-7 17:12:55.564 [UNKNOWN-FETCH-MANAGER] (T039P7U66) requesting UCUJ7C3QS (1)
+info: Nov-7 17:12:55.565 [UNKNOWN-FETCH-MANAGER] (T039P7U66) received UCUJ7C3QS (1)
+info: Nov-7 17:12:55.566 [TIMING] ufm_channels_fetch|count: 1 (count) 
+info: Nov-7 17:12:55.566 [UNKNOWN-FETCH-MANAGER] (T039P7U66) requesting C039P7U6E (1)
+info: Nov-7 17:12:55.568 [UNKNOWN-FETCH-MANAGER] (T039P7U66) received C039P7U6E (1)
+info: Nov-7 17:12:55.634 [API-Q] (T039P7U66) 785d4439-1541607175.497 i18n.translations.get is RESOLVED
+info: Nov-7 17:12:55.647 [API-Q] (T039P7U66) 785d4439-1541607175.505 emoji.list is RESOLVED
+info: Nov-7 17:12:55.876 [TIMING] client_content_visible_4|timing: 4746.875ms 
+info: Nov-7 17:12:55.876 [BOOT] Finalizing incremental boot
+info: Nov-7 17:12:55.885 [METRICS] Starting timers for metrics collection
+info: Nov-7 17:12:55.885 [FLANNEL] (T039P7U66) received a user_counts_request call while we are not connected; deferring
+info: Nov-7 17:12:56.053 [SWITCH-TO-CHANNEL] (T039P7U66) Switching to C039P7U6E at end
+info: Nov-7 17:12:56.061 [API-Q] (T039P7U66) 785d4439-1541607175.493 apps.list is RESOLVED
+info: Nov-7 17:12:56.078 [API-Q] (T039P7U66) 785d4439-1541607176.077 promo.banner called with reason: no_reason_provided
+info: Nov-7 17:12:56.078 [API-Q] (T039P7U66) 785d4439-1541607176.077 promo.banner is ENQUEUED
+info: Nov-7 17:12:56.078 [API-Q] (T039P7U66) 785d4439-1541607176.077 promo.banner is ACTIVE
+info: Nov-7 17:12:56.088 [PERF] (T039P7U66) First meaningful paint: 4788ms
+info: Nov-7 17:12:56.088 [TIMING] ttfmp_legacy|timing: 4788ms 
+info: Nov-7 17:12:56.355 [TIMING] sm_flow_connected_prov_connected|count: 1 (count) 
+info: Nov-7 17:12:56.356 [SOCKET-MANAGER] (T039P7U66) Changing from prov_connecting to prov_connected
+info: Nov-7 17:12:56.356 [SOCKET-MANAGER] (T039P7U66) will stay in prov_connected state for up to 60000 ms
+info: Nov-7 17:12:56.357 [FLANNEL] (T039P7U66) connected! Continuing deferred user_subscribe_request call
+info: Nov-7 17:12:56.358 [FLANNEL] (T039P7U66) connected! Continuing deferred user_counts_request call
+info: Nov-7 17:12:56.359 [INFO] Got start data from Socket Manager; hydrating it
+warn: Nov-7 17:12:56.361 activity is not scalar! it needs to be handled by upsertTeam specifically to test if it has changed! object
+warn: Nov-7 17:12:56.362 prefs is not scalar! it needs to be handled by upsertMember specifically to test if it has changed! object
+info: Nov-7 17:12:56.401 [BOOT] Completed incremental boot
+info: Nov-7 17:12:56.405 [API-Q] (T039P7U66) 785d4439-1541607176.404 commands.list called with reason: no_reason_provided
+info: Nov-7 17:12:56.405 [API-Q] (T039P7U66) 785d4439-1541607176.404 commands.list is ENQUEUED
+info: Nov-7 17:12:56.405 [API-Q] (T039P7U66) 785d4439-1541607176.404 commands.list is ACTIVE
+info: Nov-7 17:12:56.414 [API-Q] (T039P7U66) 785d4439-1541607176.413 emoji.list called with reason: no_reason_provided
+info: Nov-7 17:12:56.414 [API-Q] (T039P7U66) 785d4439-1541607176.413 emoji.list is ENQUEUED
+info: Nov-7 17:12:56.414 [API-Q] (T039P7U66) 785d4439-1541607176.413 emoji.list is ACTIVE
+info: Nov-7 17:12:56.416 [API-Q] (T039P7U66) 785d4439-1541607175.496 commands.list is RESOLVED
+info: Nov-7 17:12:56.429 [API-Q] (T039P7U66) 785d4439-1541607176.077 promo.banner is RESOLVED
+info: Nov-7 17:12:56.438 [TIMING] ufm_members_fetch|count: 14 (count) 
+info: Nov-7 17:12:56.438 [UNKNOWN-FETCH-MANAGER] (T039P7U66) requesting U1XKJ6A69,U5DCFQD24,U1XL92BGX,U0744UWAJ,U03S9FDJE,USLACKBOT,U5DBZ3P7X,U75T96J9E,UD36WRSGZ,UDVKWGQ69,UCUH21P7U,UCXT2QJK1,UCVFA1DPX,UCTQYCHDE (1)
+info: Nov-7 17:12:56.587 [CHECK-UNREADS] (T039P7U66) Checking unreads after fully booted
+info: Nov-7 17:12:56.587 [CHECK-UNREADS] (T039P7U66) Not marking C039P7U6E because attention not on chat (window_not_focused)
+info: Nov-7 17:12:56.596 [API-Q] (T039P7U66) 785d4439-1541607176.404 commands.list is RESOLVED
+info: Nov-7 17:12:56.790 [UNKNOWN-FETCH-MANAGER] (T039P7U66) received U1XKJ6A69,U5DCFQD24,U1XL92BGX,U0744UWAJ,U03S9FDJE,USLACKBOT,U5DBZ3P7X,U75T96J9E,UD36WRSGZ,UDVKWGQ69,UCUH21P7U,UCXT2QJK1,UCVFA1DPX,UCTQYCHDE (1)
+info: Nov-7 17:12:56.799 [API-Q] (T039P7U66) 785d4439-1541607176.799 apps.list called with reason: no_reason_provided
+info: Nov-7 17:12:56.799 [API-Q] (T039P7U66) 785d4439-1541607176.799 apps.list is ENQUEUED
+info: Nov-7 17:12:56.800 [API-Q] (T039P7U66) 785d4439-1541607176.799 apps.list is ACTIVE
+info: Nov-7 17:12:56.803 [API-Q] (T039P7U66) 785d4439-1541607176.413 emoji.list is RESOLVED
+info: Nov-7 17:12:56.977 [BOOT] _maybeFinalizeOrOpenConnectionToMS will finalize SocketManager
+info: Nov-7 17:12:56.977 [TIMING] sm_flow_finalize_prov_10|count: 1 (count) 
+info: Nov-7 17:12:56.977 [SOCKET-MANAGER] (T039P7U66) Changing from prov_connected to prov_finalize
+info: Nov-7 17:12:56.977 [SOCKET-MANAGER] (T039P7U66) will stay in prov_finalize state for up to 10000 ms
+info: Nov-7 17:12:56.978 [SOCKET-MANAGER] (T039P7U66) Changing from prov_finalize to prov_finalizing
+info: Nov-7 17:12:56.978 [SOCKET-MANAGER] (T039P7U66) will stay in prov_finalizing state for up to 10000 ms
+info: Nov-7 17:12:56.978 [SOCKET-MANAGER] (T039P7U66) Changing from prov_finalizing to connected
+info: Nov-7 17:12:56.978 [SOCKET-MANAGER] (T039P7U66) will stay in connected state for up to Infinity ms
+info: Nov-7 17:12:56.979 [TIMING] sm_flow_finalize_prov_ok_10|count: 1 (count) 
+info: Nov-7 17:12:56.979 [BOOT] _maybeFinalizeOrOpenConnectionToMS did finalize SocketManager
+info: Nov-7 17:12:57.038 [BOOT] Finished first boot 1879 ms after DOM ready
+info: Nov-7 17:12:57.045 [API-Q] (T039P7U66) 785d4439-1541607177.044 help.issues.list called with reason: no_reason_provided
+info: Nov-7 17:12:57.045 [API-Q] (T039P7U66) 785d4439-1541607177.044 help.issues.list is ENQUEUED
+info: Nov-7 17:12:57.045 [API-Q] (T039P7U66) 785d4439-1541607177.044 help.issues.list is ACTIVE
+info: Nov-7 17:12:57.047 [API-Q] (T039P7U66) 785d4439-1541607177.047 dnd.teamInfo called with reason: no_reason_provided
+info: Nov-7 17:12:57.047 [API-Q] (T039P7U66) 785d4439-1541607177.047 dnd.teamInfo is ENQUEUED
+info: Nov-7 17:12:57.047 [API-Q] (T039P7U66) 785d4439-1541607177.047 dnd.teamInfo is ACTIVE
+info: Nov-7 17:12:57.049 [INFO] MSConnected: 
+info: Nov-7 17:12:57.050 [TIMING] client_load|timing: 4307.0599999999995ms 
+info: Nov-7 17:12:57.050 [TIMING] client_load_react_msgs|timing: 4307.160000000002ms 
+info: Nov-7 17:12:57.050 [TIMING] client_total_load|timing: 5921.179931640625ms 
+info: Nov-7 17:12:57.050 [TIMING] pt_redirectStart|timing: 41ms 
+info: Nov-7 17:12:57.050 [TIMING] pt_redirectEnd|timing: 171ms 
+info: Nov-7 17:12:57.050 [TIMING] pt_fetchStart|timing: 171ms 
+info: Nov-7 17:12:57.051 [TIMING] pt_domainLookupStart|timing: 171ms 
+info: Nov-7 17:12:57.051 [TIMING] pt_domainLookupEnd|timing: 171ms 
+info: Nov-7 17:12:57.051 [TIMING] pt_connectStart|timing: 171ms 
+info: Nov-7 17:12:57.051 [TIMING] pt_connectEnd|timing: 171ms 
+info: Nov-7 17:12:57.051 [TIMING] pt_requestStart|timing: 172ms 
+info: Nov-7 17:12:57.051 [TIMING] pt_responseStart|timing: 362ms 
+info: Nov-7 17:12:57.051 [TIMING] pt_responseEnd|timing: 438ms 
+info: Nov-7 17:12:57.051 [TIMING] pt_domLoading|timing: 364ms 
+info: Nov-7 17:12:57.051 [TIMING] pt_domComplete|timing: 4028ms 
+info: Nov-7 17:12:57.051 [TIMING] pt_domContentLoadedEventStart|timing: 3997ms 
+info: Nov-7 17:12:57.051 [TIMING] pt_domContentLoadedEventEnd|timing: 4028ms 
+info: Nov-7 17:12:57.051 [TIMING] pt_domInteractive|timing: 3977ms 
+info: Nov-7 17:12:57.051 [TIMING] pt_section_redirect|timing: 130ms 
+info: Nov-7 17:12:57.051 [TIMING] pt_section_app_cache|timing: 0ms 
+info: Nov-7 17:12:57.051 [TIMING] pt_section_dns|timing: 0ms 
+info: Nov-7 17:12:57.052 [TIMING] pt_section_tcp|timing: 0ms 
+info: Nov-7 17:12:57.052 [TIMING] pt_section_request|timing: 190ms 
+info: Nov-7 17:12:57.052 [TIMING] pt_section_response|timing: 76ms 
+info: Nov-7 17:12:57.052 [TIMING] pt_section_processed|timing: 3664ms 
+info: Nov-7 17:12:57.052 [TIMING] pt_section_parsed|timing: 3613ms 
+info: Nov-7 17:12:57.052 [TIMING] pt_section_ready|timing: 51ms 
+info: Nov-7 17:12:57.052 [TIMING] pt_section_scripts_executed|timing: 31ms 
+info: Nov-7 17:12:57.052 [TIMING] inline_script_nodes|count: 22 (count) 
+info: Nov-7 17:12:57.052 [TIMING] inline_style_nodes|count: 7 (count) 
+info: Nov-7 17:12:57.052 [TIMING] external_script_nodes|count: 11 (count) 
+info: Nov-7 17:12:57.053 [TIMING] external_link_nodes|count: 8 (count) 
+info: Nov-7 17:12:57.083 [API-Q] (T039P7U66) 785d4439-1541607177.083 users.counts called with reason: users-counts-api/fetchUsersCounts
+info: Nov-7 17:12:57.083 [API-Q] (T039P7U66) 785d4439-1541607177.083 users.counts is ENQUEUED
+info: Nov-7 17:12:57.084 [API-Q] (T039P7U66) 785d4439-1541607177.083 users.counts is ACTIVE
+info: Nov-7 17:12:57.094 [CHECK-UNREADS] (T039P7U66) unreadLineVisible updated: false -> true
+info: Nov-7 17:12:57.132 [HISTORY-FETCH] (T039P7U66) Fetching history for message pane: C039P7U6E oldest: 1541584650.167600 latest: null
+info: Nov-7 17:12:57.133 [API-Q] (T039P7U66) 785d4439-1541607177.133 conversations.history called with reason: message-pane/requestHistory
+info: Nov-7 17:12:57.133 [API-Q] (T039P7U66) 785d4439-1541607177.133 conversations.history is ENQUEUED
+info: Nov-7 17:12:57.134 [API-Q] (T039P7U66) 785d4439-1541607177.133 conversations.history is ACTIVE
+info: Nov-7 17:12:57.135 [CHECK-UNREADS] (T039P7U66) unreadLineVisible updated: true -> false
+info: Nov-7 17:12:57.225 [API-Q] (T039P7U66) 785d4439-1541607176.799 apps.list is RESOLVED
+info: Nov-7 17:12:57.286 [TIMING] ufm_members_fetch|count: 1 (count) 
+info: Nov-7 17:12:57.286 [UNKNOWN-FETCH-MANAGER] (T039P7U66) requesting U1XKPSVTK (1)
+info: Nov-7 17:12:57.289 [API-Q] (T039P7U66) 785d4439-1541607177.044 help.issues.list is RESOLVED
+info: Nov-7 17:12:57.292 [API-Q] (T039P7U66) 785d4439-1541607177.047 dnd.teamInfo is RESOLVED
+info: Nov-7 17:12:57.299 [MESSAGE-LIST] (T039P7U66) componentWillReceiveProps isLoading: true isLoadingOlder: null timestamps: 49
+info: Nov-7 17:12:57.350 [UNKNOWN-FETCH-MANAGER] (T039P7U66) received U1XKPSVTK (1)
+info: Nov-7 17:12:57.468 [API-Q] (T039P7U66) 785d4439-1541607177.083 users.counts is RESOLVED
+info: Nov-7 17:12:57.483 [COUNTS] (T039P7U66) Completed counts processing
+info: Nov-7 17:12:57.525 [API-Q] (T039P7U66) 785d4439-1541607177.133 conversations.history is RESOLVED
+info: Nov-7 17:12:57.531 [UNREAD-COUNTS] (T039P7U66) Counting unreads in C039P7U6E because (1) timestamps added
+info: Nov-7 17:12:57.535 [MESSAGE-LIST] (T039P7U66) componentWillReceiveProps isLoading: false isLoadingOlder: false timestamps: 49
+info: Nov-7 17:12:57.539 [CHECK-UNREADS] (T039P7U66) unreadLineVisible updated: false -> true
